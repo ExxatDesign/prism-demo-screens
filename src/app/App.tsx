@@ -1,3 +1,4 @@
+import * as React from "react";
 import { Navigate, Route, Routes, useSearchParams } from "react-router";
 import DemoNav from "@/app/DemoNav";
 import CaasFacultyHomeByGroup from "@/imports/StepsExxatComAdminCaasFacultyHomeBygroup1440WDefault";
@@ -22,6 +23,21 @@ export default function App() {
   const [searchParams] = useSearchParams();
   const embed = searchParams.get("embed") === "1";
   const embedNav = searchParams.get("embedNav") === "sidebar" ? "sidebar" : "tabs";
+
+  React.useEffect(() => {
+    const root = document.documentElement;
+    if (!embed) {
+      root.removeAttribute("data-embed");
+      root.removeAttribute("data-embed-nav");
+      return;
+    }
+    root.setAttribute("data-embed", "1");
+    root.setAttribute("data-embed-nav", embedNav);
+    return () => {
+      root.removeAttribute("data-embed");
+      root.removeAttribute("data-embed-nav");
+    };
+  }, [embed, embedNav]);
 
   return (
     <div className="min-h-dvh w-full bg-[#f8f8f8]">
