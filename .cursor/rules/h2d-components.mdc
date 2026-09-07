@@ -1,0 +1,18 @@
+---
+description: Reuse shared H2D tab/table/header CSS instead of per-screen layout patches
+alwaysApply: true
+---
+
+# Shared H2D components
+
+Layout for **tabs**, **tables**, and **column headers** lives in `src/styles/h2d-components.css` and applies to every `.h2d-screen`.
+
+When a new H2D screen has:
+
+- tabs not sized to their labels (or stretched across the row)
+- a table that does not fill its card
+- column headers that are too tall, too short, or uneven
+
+**Fix `h2d-components.css`**, not a one-off rule for that route.
+
+Keep `h2d-render-fixes.css` for page-shell issues only (overflow, sidebars, banners, charts, Pendo).

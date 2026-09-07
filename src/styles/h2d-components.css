@@ -1,0 +1,337 @@
+/**
+ * Shared H2D UI primitives — apply to every demo screen.
+ * Prefer changing this file over adding per-route layout CSS.
+ *
+ * Covers:
+ *  1. Tabs — hug label text, left-aligned, no stretch
+ *  2. Tables — fill the card; headers a consistent 48px
+ *  3. Table cards / search — full-width wrappers
+ */
+
+.h2d-screen {
+  --h2d-header-height: 48px;
+  --h2d-tab-height: 40px;
+  --h2d-tab-pad-x: 16px;
+}
+
+/* ── Tabs (pill nav + underline groups) ── */
+
+.h2d-screen nav.mat-mdc-tab-nav-bar,
+.h2d-screen .mat-mdc-tab-nav-bar,
+.h2d-screen .mat-mdc-tab-header,
+.h2d-screen mat-tab-header,
+.h2d-screen .mat-mdc-tab-group,
+.h2d-screen mat-tab-group {
+  width: fit-content !important;
+  max-width: 100% !important;
+}
+
+.h2d-screen .mat-mdc-tab-link-container,
+.h2d-screen .mat-mdc-tab-label-container,
+.h2d-screen .mat-mdc-tab-list,
+.h2d-screen .mat-mdc-tab-links,
+.h2d-screen .mat-mdc-tab-labels {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  width: max-content !important;
+  max-width: 100% !important;
+  flex-grow: 0 !important;
+  gap: 0 !important;
+}
+
+.h2d-screen .mdc-tab,
+.h2d-screen .mat-mdc-tab,
+.h2d-screen .mat-mdc-tab-link,
+.h2d-screen .mat-mdc-tab-nav-bar-stretch-tabs .mdc-tab,
+.h2d-screen .mat-mdc-tab-nav-bar-stretch-tabs .mat-mdc-tab-link,
+.h2d-screen .mat-mdc-tab-group-stretch-tabs .mdc-tab,
+.h2d-screen .mat-mdc-tab-group-stretch-tabs .mat-mdc-tab {
+  flex: 0 0 auto !important;
+  width: auto !important;
+  min-width: 0 !important;
+  height: var(--h2d-tab-height) !important;
+  padding-left: var(--h2d-tab-pad-x) !important;
+  padding-right: var(--h2d-tab-pad-x) !important;
+}
+
+.h2d-screen .mdc-tab__content,
+.h2d-screen .mdc-tab__text-label {
+  width: auto !important;
+  white-space: nowrap !important;
+}
+
+/* ── Table cards fill the page content ── */
+
+.h2d-screen .dashboard-content,
+.h2d-screen .dashboard-inner,
+.h2d-screen .table-rounded-border,
+.h2d-screen .student-search-report,
+.h2d-screen .white-background.fusePerfectScrollbar,
+.h2d-screen .content.overflow-auto,
+.h2d-screen .content.exxat-sticky-table,
+.h2d-screen .by_cohort_grid_container,
+.h2d-screen #sticky-column-table,
+.h2d-screen #stickyColumnTable {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* ── Search + filter + actions: one compact toolbar row ── */
+/* Tables also use .w-100-p — only target DIV toolbars that contain search. */
+
+.h2d-screen .table-rounded-border div.w-100-p:has(.search-wrapper),
+.h2d-screen .student-search-report div.w-100-p:has(.search-wrapper) {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 0 !important;
+  width: 100% !important;
+  min-height: 48px !important;
+}
+
+.h2d-screen .table-rounded-border div.w-100-p:has(.search-wrapper) > div,
+.h2d-screen .student-search-report div.w-100-p:has(.search-wrapper) > div {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  width: auto !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  border-bottom: none !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.h2d-screen .search-wrapper {
+  flex: 0 0 280px !important;
+  width: 280px !important;
+  max-width: 280px !important;
+  min-width: 200px !important;
+}
+
+.h2d-screen .search.table-search {
+  width: 280px !important;
+  max-width: 280px !important;
+  min-width: 200px !important;
+  height: 48px !important;
+  flex: 0 0 280px !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.h2d-screen .search.table-search input {
+  min-width: 0 !important;
+  flex: 1 1 auto !important;
+  height: 24px !important;
+}
+
+.h2d-screen .search.table-search input::placeholder {
+  color: rgba(0, 0, 0, 0.38);
+}
+
+.h2d-screen .student-search-report > .white-background > div > div > .w-100-p:first-child > div:first-child {
+  flex: 1 1 auto !important;
+  min-width: 0 !important;
+}
+
+.h2d-screen .student-search-report > .white-background > div > div > .w-100-p:first-child > div:last-child {
+  flex: 0 0 auto !important;
+  flex-shrink: 0 !important;
+  width: auto !important;
+  max-width: none !important;
+}
+
+.h2d-screen .px-16.w-100-p {
+  flex: 1 1 auto !important;
+  width: auto !important;
+  min-width: 0 !important;
+  align-items: center !important;
+}
+
+.h2d-screen .mdc-evolution-chip-set__chips {
+  min-width: 0 !important;
+  width: auto !important;
+}
+
+.h2d-screen .mat-mdc-chip-remove mat-icon span {
+  font-size: 0 !important;
+}
+
+.h2d-screen .border-right.h-48 {
+  height: 48px !important;
+  min-height: 48px !important;
+  max-height: 48px !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  padding: 0 8px !important;
+}
+
+.h2d-screen .table-header-chips,
+.h2d-screen .mdc-evolution-chip-set,
+.h2d-screen .mdc-evolution-chip-set__chips {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  white-space: nowrap !important;
+  min-width: 0 !important;
+}
+
+/* ── Tables fill the card (never flex — H2D + .w-100-p was splitting head/body) ── */
+
+.h2d-screen table.mat-mdc-table,
+.h2d-screen table.exxat-table,
+.h2d-screen table.mdc-data-table__table,
+.h2d-screen table.mat-mdc-table.w-100-p {
+  display: table !important;
+  width: 100% !important;
+  min-width: 100% !important;
+  table-layout: fixed !important;
+  box-sizing: border-box !important;
+  flex: none !important;
+}
+
+.h2d-screen .mat-mdc-table > thead {
+  display: table-header-group !important;
+}
+
+.h2d-screen .mat-mdc-table > tbody {
+  display: table-row-group !important;
+}
+
+.h2d-screen .mat-mdc-table > tfoot {
+  display: table-footer-group !important;
+}
+
+.h2d-screen .mat-mdc-header-row,
+.h2d-screen .mat-mdc-row,
+.h2d-screen .mdc-data-table__header-row,
+.h2d-screen .mdc-data-table__row {
+  display: table-row !important;
+}
+
+.h2d-screen .mat-mdc-header-cell,
+.h2d-screen .mat-mdc-cell,
+.h2d-screen .mdc-data-table__header-cell,
+.h2d-screen .mdc-data-table__cell {
+  display: table-cell !important;
+}
+
+.h2d-screen .mat-mdc-header-cell,
+.h2d-screen .mat-mdc-cell,
+.h2d-screen .mdc-data-table__header-cell,
+.h2d-screen .mdc-data-table__cell {
+  min-width: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* ── Column headers ── */
+
+.h2d-screen .mat-mdc-header-row,
+.h2d-screen .mdc-data-table__header-row {
+  height: var(--h2d-header-height) !important;
+}
+
+.h2d-screen .mat-mdc-header-cell,
+.h2d-screen .mdc-data-table__header-cell,
+.h2d-screen th.mat-mdc-header-cell {
+  height: var(--h2d-header-height) !important;
+  max-height: var(--h2d-header-height) !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  vertical-align: middle !important;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+}
+
+.h2d-screen .mat-mdc-header-cell .mat-sort-header-container,
+.h2d-screen .mat-mdc-header-cell .mat-sort-header-content {
+  height: 100% !important;
+  max-height: var(--h2d-header-height) !important;
+  align-items: center !important;
+}
+
+.h2d-screen .mat-mdc-header-cell img {
+  max-height: 24px !important;
+  max-width: 72px !important;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain !important;
+  vertical-align: middle !important;
+}
+
+@media (max-width: 1023px) {
+  .h2d-screen table.mat-mdc-table,
+  .h2d-screen .mat-mdc-table,
+  .h2d-screen table.exxat-table {
+    width: max-content !important;
+    min-width: 720px !important;
+    table-layout: auto !important;
+  }
+
+  .h2d-screen .table-rounded-border,
+  .h2d-screen .content.overflow-auto,
+  .h2d-screen .by_cohort_grid_container,
+  .h2d-screen #sticky-column-table,
+  .h2d-screen #stickyColumnTable {
+    overflow-x: auto !important;
+  }
+}
+
+/* Wide grids (students, curriculum): readable columns + scroll, do not squash headers */
+.h2d-screen profile-admin .mat-mdc-table,
+.h2d-screen .student-search-grid-with-filter .mat-mdc-table,
+.h2d-screen .curriculum-second-grid-height .mat-mdc-table,
+.h2d-screen course-offering .mat-mdc-table {
+  width: max-content !important;
+  min-width: 100% !important;
+  table-layout: auto !important;
+}
+
+.h2d-screen profile-admin .mat-mdc-header-cell,
+.h2d-screen profile-admin .mat-mdc-cell,
+.h2d-screen .curriculum-second-grid-height .mat-mdc-header-cell,
+.h2d-screen .curriculum-second-grid-height .mat-mdc-cell,
+.h2d-screen course-offering .mat-mdc-header-cell,
+.h2d-screen course-offering .mat-mdc-cell {
+  min-width: 120px !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+.h2d-screen profile-admin .mat-mdc-cell span,
+.h2d-screen profile-admin .mat-mdc-header-cell span,
+.h2d-screen course-offering .mat-mdc-header-cell span {
+  white-space: nowrap !important;
+}
+
+.h2d-screen profile-admin .mat-mdc-header-cell:first-child,
+.h2d-screen profile-admin .mat-mdc-cell:first-child {
+  min-width: 48px !important;
+  max-width: 56px !important;
+  width: 48px !important;
+}
+
+.h2d-screen profile-admin .mat-column-lastName,
+.h2d-screen profile-admin .cdk-column-lastName {
+  max-width: 260px !important;
+}
+
+.h2d-screen profile-admin .mat-column-email,
+.h2d-screen profile-admin .cdk-column-email {
+  max-width: 220px !important;
+}
+
+.h2d-screen profile-admin .content.exxat-sticky-table,
+.h2d-screen .curriculum-second-grid-height,
+.h2d-screen course-offering .table-rounded-border {
+  overflow-x: auto !important;
+}

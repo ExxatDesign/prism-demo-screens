@@ -1,0 +1,58 @@
+/* Generated from h2d font assets */
+@font-face {
+  font-family: 'material-outline-icons';
+  src: url('/assets/asset_c46055fd.woff2') format('woff2'),
+       url('/assets/font_c46055fd.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('/assets/font_cffb60a0.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Font Awesome 6 Pro';
+  src: url('/assets/font_3c8907aa.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Alias used by H2D inner glyph spans */
+@font-face {
+  font-family: 'Font Awesome 6 Pro Light';
+  src: url('/assets/font_3c8907aa.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Font Awesome 6 Pro';
+  src: url('/assets/font_9785a156.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Font Awesome 5 Pro';
+  src: url('/assets/font_9785a156.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('/assets/font_9785a156.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

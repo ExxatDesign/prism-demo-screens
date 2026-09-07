@@ -1,0 +1,63 @@
+/* H2D icon rendering fixes — duplicate glyph spans + missing FA CSS */
+
+/* Hide duplicate PUA glyph spans captured inside <i> icons */
+.h2d-screen i[class*="fa-"] > .__h2d-remove-before,
+.h2d-screen i[class*="fa-"] > .__h2d-remove-after,
+.h2d-screen i[class*="fa-"] > span[class*="__h2d-remove"] {
+  display: none !important;
+}
+
+/* Font Awesome icons via ::before (no FA stylesheet in demo) */
+.h2d-screen i[class*="fa-"]::before {
+  font-family: "Font Awesome 6 Pro", "Font Awesome 6 Pro Light", "Font Awesome 5 Pro", FontAwesome, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+.h2d-screen i.fa-solid::before,
+.h2d-screen i.fas::before {
+  font-weight: 900;
+}
+
+.h2d-screen .fa-magnifying-glass::before { content: "\f002"; }
+.h2d-screen .fa-chevron-down::before { content: "\f078"; }
+.h2d-screen .fa-pen::before { content: "\f304"; }
+.h2d-screen .fa-file-export::before { content: "\f56e"; }
+.h2d-screen .fa-wrench::before { content: "\f0ad"; }
+.h2d-screen .fa-filter::before { content: "\f0b0"; }
+.h2d-screen .fa-tag::before { content: "\f02b"; }
+.h2d-screen .fa-info-circle::before { content: "\f05a"; }
+.h2d-screen .fa-plus::before { content: "\f067"; }
+.h2d-screen .fa-location-dot::before { content: "\f3c5"; }
+.h2d-screen .fa-trash-alt::before { content: "\f2ed"; }
+.h2d-screen .fa-copy::before { content: "\f0c5"; }
+.h2d-screen .fa-books::before { content: "\f5db"; }
+.h2d-screen .fa-square-list::before { content: "\e489"; }
+
+/* Material outline icons — replace ligature spans with FA fallbacks */
+.h2d-screen mat-icon.mat-ligature-font > span {
+  display: none !important;
+}
+
+.h2d-screen mat-icon.mat-ligature-font::before {
+  font-family: "Font Awesome 6 Pro", "Font Awesome 6 Pro Light", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+}
+
+.h2d-screen .mat-mdc-chip-remove mat-icon.mat-ligature-font::before {
+  content: "\f00d";
+}
+
+.h2d-screen .mdc-icon-button mat-icon.mat-ligature-font::before {
+  content: "\f078";
+}

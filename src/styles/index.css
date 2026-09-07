@@ -1,0 +1,50 @@
+@import "./h2d-fonts.css";
+@import "./tailwind.css";
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background: rgb(248, 248, 248);
+}
+
+/*
+ * h2d exports nest placeholder glyph spans inside <i class="fa-*">.
+ * Hide them so the Font Awesome kit renders the real icon on the <i>.
+ */
+i[class*="fa-"] > * {
+  display: none !important;
+}
+
+i[class*="fa-"]::before {
+  font-style: normal;
+}
+
+/*
+ * Embed mode — iframe inside Exxat Home shell. Legacy STEPS exports use fixed
+ * heights and overflow:hidden; relax those so tables and legends are not clipped.
+ */
+html[data-embed="1"],
+html[data-embed="1"] body,
+html[data-embed="1"] #root,
+html[data-embed="1"] .embed-root {
+  height: auto;
+  min-height: 100%;
+  overflow: auto;
+}
+
+html[data-embed="1"] #compliance,
+html[data-embed="1"] .page-layout.carded.fullwidth,
+html[data-embed="1"] .page-layout.simple.fullwidth,
+html[data-embed="1"] #container-3,
+html[data-embed="1"] content#app_main_content,
+html[data-embed="1"] .inner-scroll {
+  overflow: visible !important;
+  height: auto !important;
+  max-height: none !important;
+}

@@ -1,0 +1,1236 @@
+/* Minimal rendering fixes for h2d-generated screens — layout only, preserves captured styles. */
+
+.fa-light,
+.fa-regular,
+.fa-solid,
+.fa-thin,
+.fa-duotone,
+[class*="fa-"] {
+  font-family: "Font Awesome 6 Pro", "Font Awesome 5 Pro", FontAwesome, sans-serif !important;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.fa-light {
+  font-weight: 300 !important;
+}
+
+.fa-regular {
+  font-weight: 400 !important;
+}
+
+.fa-solid {
+  font-weight: 900 !important;
+}
+
+.material-icons,
+.material-icons-outlined,
+[class*="material-icons"] {
+  font-family: "material-outline-icons", "Material Icons", sans-serif !important;
+}
+
+.__h2d-remove-before,
+.__h2d-remove-after {
+  font-family: "Font Awesome 6 Pro", "Font Awesome 5 Pro", FontAwesome, sans-serif !important;
+  font-weight: 300 !important;
+}
+
+/* Let captured pages expand vertically instead of clipping */
+.h2d-screen vertical-layout-1,
+.h2d-screen #main,
+.h2d-screen #container-1,
+.h2d-screen #container-2,
+.h2d-screen #container-3,
+.h2d-screen v4-app-root,
+.h2d-screen compliance-dashboard,
+.h2d-screen caas-dashboard,
+.h2d-screen #compliance,
+.h2d-screen #caas,
+.h2d-screen .page-layout.carded,
+.h2d-screen .page-layout.simple.fullwidth.inner-scroll,
+.h2d-screen .page-layout.simple.left-sidebar.inner-sidebar.inner-scroll,
+.h2d-screen .page-layout.carded.fullwidth.inner-scroll,
+.h2d-screen .page-layout.carded.fullwidth.full-width-page.inner-scroll,
+.h2d-screen .page-layout.simple.fullwidth.inner-scroll.full-width-page,
+.h2d-screen .page-layout.simple.tabbed.secondary-mat-tab-group-container,
+.h2d-screen .inner-scroll,
+.h2d-screen content#app_main_content,
+.h2d-screen .center.p-0,
+.h2d-screen .exxat-new-grid,
+.h2d-screen .content-card {
+  height: auto !important;
+  max-height: none !important;
+  min-height: 0 !important;
+  overflow: visible !important;
+  flex-shrink: 1 !important;
+}
+
+/* Table body scrolls inside its box like the live app */
+.h2d-screen .by_cohort_grid_container {
+  height: auto !important;
+  max-height: 450px !important;
+  overflow-y: auto !important;
+  overflow-x: auto !important;
+}
+
+.h2d-screen .table-rounded-border.with-sticky-header-table {
+  margin-bottom: 16px !important;
+}
+
+/* Pie chart cards: chart + legend side-by-side */
+.h2d-screen mat-card.mat-mdc-card:has([id$="-chart-container"]),
+.h2d-screen .mat-mdc-card.mdc-card:has([id$="-chart-container"]) {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  align-items: stretch !important;
+}
+
+.h2d-screen mat-card.mat-mdc-card:has([id$="-chart-container"]) > div:first-of-type,
+.h2d-screen .mat-mdc-card.mdc-card:has([id$="-chart-container"]) > div:first-of-type {
+  flex: 0 0 65% !important;
+  max-width: 65% !important;
+  width: 65% !important;
+}
+
+.h2d-screen mat-card.mat-mdc-card:has([id$="-chart-container"]) > div:last-of-type,
+.h2d-screen .mat-mdc-card.mdc-card:has([id$="-chart-container"]) > div:last-of-type {
+  flex: 0 0 35% !important;
+  max-width: 35% !important;
+  width: 35% !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+/* Full-width bar chart cards stay column layout */
+.h2d-screen mat-card.mat-mdc-card.p-0:has(.bar-chart),
+.h2d-screen .mat-mdc-card.mdc-card.p-0:has(.bar-chart) {
+  flex-direction: column !important;
+}
+
+.h2d-screen mat-card.mat-mdc-card.p-0 .p-16,
+.h2d-screen .mat-mdc-card.mdc-card.p-0 .p-16 {
+  width: 100% !important;
+  max-width: 100% !important;
+  flex-wrap: wrap !important;
+}
+
+/* Chart rows: two cards side-by-side */
+.h2d-screen .mt-16 {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: stretch !important;
+  gap: 16px !important;
+  width: 100% !important;
+  clear: both !important;
+}
+
+.h2d-screen .mt-16 > .mr-16,
+.h2d-screen .mt-16 > div[style*="flexBasis: '49%'"] {
+  flex: 1 1 calc(50% - 16px) !important;
+  max-width: calc(50% - 8px) !important;
+  min-width: 0 !important;
+  margin-right: 0 !important;
+}
+
+.h2d-screen .mt-16 > div[style*="flexBasis: '100%'"] {
+  flex: 1 1 100% !important;
+  max-width: 100% !important;
+}
+
+/* ngx-charts containers */
+.h2d-screen .ngx-charts-outer {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.h2d-screen [id$="-chart-container"] .ngx-charts-outer {
+  height: 280px !important;
+  max-height: 280px !important;
+}
+
+.h2d-screen div.ngx-charts,
+.h2d-screen div.ngx-charts > svg,
+.h2d-screen .ngx-charts-outer > div.ngx-charts > svg {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 280px !important;
+  display: block !important;
+  float: none !important;
+  overflow: visible !important;
+}
+
+/* Tall bar charts scroll inside the card */
+.h2d-screen .ngx-charts-outer[style*="3000px"],
+.h2d-screen mat-card:has(.bar-chart) .ngx-charts-outer {
+  height: auto !important;
+  max-height: 520px !important;
+  overflow-y: auto !important;
+  overflow-x: auto !important;
+}
+
+.h2d-screen mat-card:has(.bar-chart) div.ngx-charts > svg,
+.h2d-screen mat-card:has(.bar-chart) .ngx-charts-outer svg {
+  height: auto !important;
+  max-height: none !important;
+  min-height: 400px !important;
+}
+
+.h2d-screen .graph_legend {
+  width: 100% !important;
+  max-height: none !important;
+}
+
+.h2d-screen [id$="-chart-container"] {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/* Pagination stays below table, not over charts */
+.h2d-screen mat-paginator,
+.h2d-screen .mat-mdc-paginator {
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+.h2d-screen #caas-by-group-paginator {
+  position: relative !important;
+}
+
+/* ── Responsive: fluid page width ── */
+.h2d-screen,
+.h2d-screen-root {
+  background-color: rgb(248, 248, 248) !important;
+}
+
+.h2d-screen-root {
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+.h2d-screen-inner {
+  width: 100% !important;
+  max-width: 1440px !important;
+  min-width: 0 !important;
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+  box-sizing: border-box !important;
+}
+
+/* Flex chain must shrink — prevents wide tables from expanding the page */
+.h2d-screen vertical-layout-1,
+.h2d-screen #main,
+.h2d-screen #container-1,
+.h2d-screen #container-2,
+.h2d-screen #container-3,
+.h2d-screen content#app_main_content,
+.h2d-screen profile-admin,
+.h2d-screen program,
+.h2d-screen compliance-dashboard,
+.h2d-screen caas-dashboard,
+.h2d-screen .page-layout,
+.h2d-screen .page-layout.carded,
+.h2d-screen .page-layout > *,
+.h2d-screen .center,
+.h2d-screen .content-card,
+.h2d-screen .exxat-new-grid,
+.h2d-screen .table-rounded-border,
+.h2d-screen .white-background,
+.h2d-screen .content.exxat-sticky-table,
+.h2d-screen .by_cohort_grid_container,
+.h2d-screen #sticky-column-table {
+  min-width: 0 !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.h2d-screen .mat-mdc-table,
+.h2d-screen table.exxat-table,
+.h2d-screen table.mat-mdc-table {
+  width: 100% !important;
+  min-width: 100% !important;
+  table-layout: fixed !important;
+}
+
+/* Prevent captured overflow:hidden from clipping responsive content */
+.h2d-screen .table-rounded-border,
+.h2d-screen .student-search-report,
+.h2d-screen .white-background,
+.h2d-screen .page-layout.carded.fullwidth.full-width-page.inner-scroll.exxat-new-grid,
+.h2d-screen .page-layout.carded.fullwidth,
+.h2d-screen .page-layout.carded.fullwidth .center,
+.h2d-screen .content-card {
+  overflow-x: auto !important;
+  overflow-y: visible !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+}
+
+/* Contain wide tables inside scroll wrappers — never expand the page */
+.h2d-screen .by_cohort_grid_container,
+.h2d-screen #sticky-column-table,
+.h2d-screen #stickyColumnTable,
+.h2d-screen .table-rounded-border.white-background.fusePerfectScrollbar,
+.h2d-screen .table-rounded-border.fusePerfectScrollbar {
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch;
+}
+
+.h2d-screen .by_cohort_grid_container .mat-mdc-table,
+.h2d-screen #sticky-column-table .mat-mdc-table,
+.h2d-screen #stickyColumnTable .mat-mdc-table,
+.h2d-screen .content.exxat-sticky-table .mat-mdc-table {
+  width: 100% !important;
+  min-width: 100% !important;
+}
+
+.h2d-screen .curriculum-second-grid-height .mat-mdc-table {
+  width: 100% !important;
+  min-width: 100% !important;
+}
+
+@media (max-width: 1023px) {
+  .h2d-screen .by_cohort_grid_container .mat-mdc-table,
+  .h2d-screen #sticky-column-table .mat-mdc-table,
+  .h2d-screen #stickyColumnTable .mat-mdc-table,
+  .h2d-screen .content.exxat-sticky-table .mat-mdc-table,
+  .h2d-screen .curriculum-second-grid-height .mat-mdc-table {
+    width: max-content !important;
+    min-width: 900px !important;
+  }
+}
+
+/* Competency review controls + tab header */
+.h2d-screen #competency-tracking-competency-tracking-review-control,
+.h2d-screen mat-tab-header {
+  max-width: 100% !important;
+  overflow-x: auto !important;
+}
+
+/* Chart legend rows wrap instead of clipping */
+.h2d-screen mat-card .w-100-p,
+.h2d-screen .graph_legend,
+.h2d-screen [id$="-chart-container"] .w-100-p {
+  flex-wrap: wrap !important;
+  min-width: 0 !important;
+  gap: 4px 8px !important;
+}
+
+.h2d-screen [id$="-chart-container"] .w-100-p > * {
+  flex: 0 1 auto !important;
+  min-width: 0 !important;
+}
+
+/* Tab bars size to labels; scroll if the row overflows */
+.h2d-screen .tab-nav-item {
+  display: flex !important;
+  align-items: center !important;
+  position: relative !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-height: 44px !important;
+  height: 44px !important;
+}
+
+.h2d-screen .tab-nav-item [id^="pendo-base-"],
+.h2d-screen .tab-nav-item [id^="pendo-g-"],
+.h2d-screen .tab-nav-item [id^="pendo-guide-container-"] {
+  position: absolute !important;
+  right: 0 !important;
+  top: 2px !important;
+  width: auto !important;
+  max-width: none !important;
+  margin: 0 !important;
+}
+
+.h2d-screen .tab-nav-item .help-icon {
+  width: 24px !important;
+  height: 24px !important;
+}
+
+.h2d-screen .tab-nav-item #contextualHelpAddStudent {
+  padding: 4px !important;
+}
+
+.h2d-screen .mat-mdc-tab-nav-bar,
+.h2d-screen nav.mat-mdc-tab-nav-bar {
+  width: fit-content !important;
+  max-width: 100% !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  -webkit-overflow-scrolling: touch;
+}
+
+.h2d-screen .mat-mdc-tab-nav-bar-stretch-tabs .mat-mdc-tab-link,
+.h2d-screen .mat-mdc-tab-nav-bar-stretch-tabs .mdc-tab {
+  flex: 0 0 auto !important;
+  width: auto !important;
+  min-width: 0 !important;
+}
+
+.h2d-screen .mat-mdc-tab-link-container,
+.h2d-screen .mat-mdc-tab-links {
+  flex-wrap: nowrap !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+}
+
+.h2d-screen .mat-mdc-tab-list {
+  overflow-x: auto !important;
+  max-width: 100% !important;
+}
+
+/* Uniform table header height across all screens */
+.h2d-screen .mat-mdc-header-row {
+  height: 48px !important;
+}
+
+.h2d-screen .mat-mdc-header-cell {
+  height: 48px !important;
+  max-height: 48px !important;
+  box-sizing: border-box !important;
+  vertical-align: middle !important;
+  overflow: hidden !important;
+}
+
+.h2d-screen .mat-mdc-header-cell .mat-sort-header-container,
+.h2d-screen .mat-mdc-header-cell .mat-sort-header-content {
+  height: auto !important;
+  max-height: 40px !important;
+  align-items: center !important;
+}
+
+.h2d-screen .mat-mdc-header-cell img {
+  max-height: 24px !important;
+  max-width: 72px !important;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain !important;
+}
+
+/* Global search inputs — fluid width */
+.h2d-screen .search-wrapper {
+  flex: 1 1 180px !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+}
+
+.h2d-screen .search.table-search {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  flex: 1 1 auto !important;
+}
+
+.h2d-screen .search.table-search input {
+  min-width: 0 !important;
+  width: 100% !important;
+}
+
+/* Table toolbar rows — keep one line; wrapping is handled in h2d-components.css */
+.h2d-screen .table-rounded-border .w-100-p,
+.h2d-screen .white-background .w-100-p {
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+}
+
+.h2d-screen .table-rounded-border .w-100-p > div,
+.h2d-screen .white-background .w-100-p > div {
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  min-width: 0 !important;
+}
+
+.h2d-screen .table-rounded-border .border-right.h-48,
+.h2d-screen .white-background .border-right.h-48 {
+  flex-wrap: nowrap !important;
+  height: 48px !important;
+  min-height: 48px !important;
+  max-height: 48px !important;
+}
+
+.h2d-screen .table-header-chips,
+.h2d-screen .mdc-evolution-chip-set__chips {
+  white-space: nowrap !important;
+  flex-wrap: nowrap !important;
+}
+
+.h2d-screen .px-16.w-100-p {
+  width: auto !important;
+  flex: 1 1 180px !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+}
+
+/* Scrollable table bodies */
+.h2d-screen .content.exxat-sticky-table,
+.h2d-screen .exxat-sticky-table,
+.h2d-screen .student-search-grid-with-filter,
+.h2d-screen .by_cohort_grid_container,
+.h2d-screen .content.overflow-auto {
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+  max-width: 100% !important;
+  -webkit-overflow-scrolling: touch;
+}
+
+.h2d-screen .content.exxat-sticky-table,
+.h2d-screen .student-search-grid-with-filter {
+  height: auto !important;
+  max-height: min(70vh, 720px) !important;
+}
+
+.h2d-screen #stickyColumnTable,
+.h2d-screen #sticky-column-table {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  overflow-x: auto !important;
+}
+
+.h2d-screen #compliance .by_cohort_grid_container .mat-mdc-table,
+.h2d-screen compliance-by-cohort .mat-mdc-table {
+  min-width: 1200px;
+}
+
+.h2d-screen html,
+.h2d-screen body,
+.h2d-screen vertical-layout-1,
+.h2d-screen #main,
+.h2d-screen compliance-dashboard,
+.h2d-screen caas-dashboard {
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  background-color: rgb(248, 248, 248) !important;
+}
+
+.h2d-screen #compliance,
+.h2d-screen #caas {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Tables scroll horizontally on narrow viewports */
+.h2d-screen .table-rounded-border.with-sticky-header-table,
+.h2d-screen #sticky-column-table,
+.h2d-screen .exxat-new-grid {
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch;
+  max-width: 100% !important;
+}
+
+.h2d-screen .mat-mdc-table,
+.h2d-screen .exxat-table {
+  display: table !important;
+  min-width: 640px;
+}
+
+/* Filter / tab rows wrap on small screens */
+.h2d-screen .mt-16.mb-12,
+.h2d-screen .page-layout .mt-16.mb-12 {
+  flex-wrap: wrap !important;
+  gap: 12px !important;
+}
+
+.h2d-screen .mat-mdc-tab-nav-bar,
+.h2d-screen .mat-button-toggle-group {
+  max-width: 100% !important;
+}
+
+.h2d-screen .approve_faculty_banner {
+  max-width: 100% !important;
+}
+
+/* Faculty Exxat Approve banner — undo Pendo fixed overlay capture */
+.h2d-screen [id^="pendo-guide-container-"] {
+  position: relative !important;
+  left: auto !important;
+  top: auto !important;
+  right: auto !important;
+  transform: none !important;
+  z-index: auto !important;
+}
+
+.h2d-screen [id^="pendo-guide-container-"]:has(.approve_faculty_banner),
+.h2d-screen [id^="pendo-base-"]:has(.approve_faculty_banner),
+.h2d-screen [id^="pendo-g-"]:has(.approve_faculty_banner),
+.h2d-screen ._pendo-step-container:has(.approve_faculty_banner),
+.h2d-screen ._pendo-step-container-size:has(.approve_faculty_banner),
+.h2d-screen ._pendo-step-container-styles:has(.approve_faculty_banner) {
+  width: auto !important;
+  max-width: min(674px, 100%) !important;
+  height: auto !important;
+  max-height: none !important;
+  border-width: 0 !important;
+  margin: 0 !important;
+  display: block !important;
+}
+
+.h2d-screen .pendo-code-block:has(.approve_faculty_banner) {
+  width: auto !important;
+  max-width: min(674px, 100%) !important;
+  margin-left: 0 !important;
+}
+
+/* Faculty CAAS — toolbar row with inline banner */
+.h2d-screen #caas .caas-faculty-toolbar-row {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 8px 16px !important;
+  margin-top: 8px !important;
+  margin-bottom: 0 !important;
+  padding-right: 0 !important;
+  max-width: 100% !important;
+}
+
+.h2d-screen #caas .caas-faculty-view-by {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  flex-shrink: 0 !important;
+}
+
+.h2d-screen #caas .caas-faculty-view-by .mat-button-toggle-group {
+  flex-wrap: nowrap !important;
+  overflow: visible !important;
+}
+
+.h2d-screen #caas .caas-faculty-view-by .mat-button-toggle {
+  height: auto !important;
+  min-height: 32px !important;
+  flex-shrink: 0 !important;
+}
+
+.h2d-screen #caas .caas-faculty-view-by .mat-button-toggle-label-content,
+.h2d-screen #caas .caas-faculty-view-by .mat-button-toggle-label-content span {
+  white-space: nowrap !important;
+}
+
+.h2d-screen #caas .caas-faculty-banner-slot {
+  flex: 0 1 min(674px, 48%) !important;
+  min-width: 280px !important;
+  max-width: 100% !important;
+}
+
+.h2d-screen #caas .caas-faculty-banner-slot .approve_faculty_banner {
+  width: 100% !important;
+}
+
+.h2d-screen #caas .caas-faculty-hide-groups {
+  display: flex !important;
+  align-items: center !important;
+  flex-wrap: nowrap !important;
+  width: 100% !important;
+  margin-top: 8px !important;
+  margin-bottom: 12px !important;
+  min-width: 0 !important;
+}
+
+/* Faculty by-group — full-width table card, natural page scroll */
+.h2d-screen #caas app-caas-by-group > .content.overflow-auto {
+  height: auto !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+.h2d-screen #caas .table-rounded-border.with-sticky-header-table {
+  width: 100% !important;
+}
+
+.h2d-screen #caas .table-rounded-border .w-100-p > div:first-child {
+  width: auto !important;
+  flex: 0 1 auto !important;
+}
+
+.h2d-screen #caas .table-rounded-border .search-wrapper,
+.h2d-screen #caas .table-rounded-border .search.table-search {
+  width: 280px !important;
+  max-width: 280px !important;
+  flex: 0 0 280px !important;
+}
+
+.h2d-screen #caas #sticky-column-table .mat-mdc-table,
+.h2d-screen #caas .by_cohort_grid_container .mat-mdc-table {
+  width: 100% !important;
+  min-width: 100% !important;
+  table-layout: fixed !important;
+}
+
+.h2d-screen #caas .by_cohort_grid_container {
+  width: 100% !important;
+  max-height: min(60vh, 450px) !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+}
+
+@media (max-width: 1023px) {
+  .h2d-screen #caas #sticky-column-table .mat-mdc-table,
+  .h2d-screen #caas .by_cohort_grid_container .mat-mdc-table {
+    width: max-content !important;
+    min-width: 900px !important;
+    table-layout: auto !important;
+  }
+
+  .h2d-screen #caas .by_cohort_grid_container {
+    overflow-x: auto !important;
+  }
+}
+
+/* Compliance cohort — same full-width table treatment as faculty */
+.h2d-screen #compliance compliance-by-cohort > .content.overflow-auto {
+  height: auto !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+.h2d-screen #compliance compliance-by-cohort .table-rounded-border.with-sticky-header-table {
+  width: 100% !important;
+}
+
+.h2d-screen #compliance compliance-by-cohort .table-rounded-border .w-100-p > div:first-child {
+  width: auto !important;
+  flex: 0 1 auto !important;
+}
+
+.h2d-screen #compliance compliance-by-cohort .table-rounded-border .search-wrapper,
+.h2d-screen #compliance compliance-by-cohort .table-rounded-border .search.table-search {
+  width: 280px !important;
+  max-width: 280px !important;
+  flex: 0 0 280px !important;
+}
+
+.h2d-screen #compliance compliance-by-cohort #sticky-column-table .mat-mdc-table,
+.h2d-screen #compliance compliance-by-cohort .by_cohort_grid_container .mat-mdc-table {
+  width: 100% !important;
+  min-width: 100% !important;
+  table-layout: fixed !important;
+}
+
+.h2d-screen #compliance compliance-by-cohort .by_cohort_grid_container {
+  width: 100% !important;
+  max-height: min(60vh, 450px) !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+}
+
+@media (max-width: 1023px) {
+  .h2d-screen #compliance compliance-by-cohort #sticky-column-table .mat-mdc-table,
+  .h2d-screen #compliance compliance-by-cohort .by_cohort_grid_container .mat-mdc-table {
+    width: max-content !important;
+    min-width: 900px !important;
+    table-layout: auto !important;
+  }
+
+  .h2d-screen #compliance compliance-by-cohort .by_cohort_grid_container {
+    overflow-x: auto !important;
+  }
+}
+
+/* Sub-nav tabs (Setup / Dashboard / Compliance) — size to label, don't stretch */
+.h2d-screen #caas .center.p-0 > .ng-star-inserted > div:first-child,
+.h2d-screen #compliance .center.p-0 > .ng-star-inserted > div:first-child {
+  flex: 0 0 auto !important;
+  flex-basis: auto !important;
+  max-width: none !important;
+  width: auto !important;
+}
+
+.h2d-screen #caas .center.p-0 > .ng-star-inserted > div:first-child > div,
+.h2d-screen #compliance .center.p-0 > .ng-star-inserted > div:first-child > div {
+  flex: 0 0 auto !important;
+  flex-basis: auto !important;
+  max-width: none !important;
+  width: auto !important;
+}
+
+.h2d-screen #caas .center.p-0 nav.mat-mdc-tab-nav-bar,
+.h2d-screen #compliance .center.p-0 nav.mat-mdc-tab-nav-bar {
+  width: fit-content !important;
+  max-width: 100% !important;
+}
+
+.h2d-screen #caas .mat-mdc-tab-nav-bar-stretch-tabs .mat-mdc-tab-link,
+.h2d-screen #compliance .mat-mdc-tab-nav-bar-stretch-tabs .mat-mdc-tab-link,
+.h2d-screen #caas .mat-mdc-tab-nav-bar-stretch-tabs .mdc-tab,
+.h2d-screen #compliance .mat-mdc-tab-nav-bar-stretch-tabs .mdc-tab {
+  flex: 0 0 auto !important;
+  min-width: 0 !important;
+}
+
+.h2d-screen #caas .center.p-0 .mat-mdc-tab-link-container,
+.h2d-screen #compliance .center.p-0 .mat-mdc-tab-link-container {
+  flex: 0 1 auto !important;
+  width: auto !important;
+}
+
+/* Cohort/group table headers — uniform height, constrain powered-by logo */
+.h2d-screen #caas .with-sticky-header-table .mat-mdc-header-row,
+.h2d-screen #compliance compliance-by-cohort .with-sticky-header-table .mat-mdc-header-row {
+  height: 48px !important;
+}
+
+.h2d-screen #caas .with-sticky-header-table .mat-mdc-header-cell,
+.h2d-screen #compliance compliance-by-cohort .with-sticky-header-table .mat-mdc-header-cell {
+  height: 48px !important;
+  max-height: 48px !important;
+  vertical-align: middle !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+}
+
+.h2d-screen #caas .with-sticky-header-table .mat-mdc-header-cell .mat-sort-header-container,
+.h2d-screen #compliance compliance-by-cohort .with-sticky-header-table .mat-mdc-header-cell .mat-sort-header-container {
+  height: 100% !important;
+  max-height: 40px !important;
+  align-items: center !important;
+}
+
+.h2d-screen #caas .with-sticky-header-table .mat-mdc-header-cell img,
+.h2d-screen #compliance compliance-by-cohort .with-sticky-header-table .mat-mdc-header-cell img {
+  max-height: 24px !important;
+  max-width: 72px !important;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain !important;
+  vertical-align: middle !important;
+}
+
+.h2d-screen #compliance compliance-by-cohort .with-sticky-header-table #servedByApprove .mat-sort-header-content {
+  flex-wrap: nowrap !important;
+  gap: 4px !important;
+  align-items: center !important;
+}
+
+.h2d-screen #compliance compliance-by-cohort .with-sticky-header-table #servedByApprove .description {
+  font-size: 10px !important;
+  line-height: 1.1 !important;
+  white-space: nowrap !important;
+}
+
+/* Inline Pendo help/tooltip widgets (e.g. Profile Search) */
+.h2d-screen [id^="pendo-base-"]:has(.tooltip),
+.h2d-screen [id^="pendo-g-"]:has(.tooltip),
+.h2d-screen [id^="pendo-guide-container-"]:has(.tooltip) {
+  width: auto !important;
+  max-width: none !important;
+  display: inline-block !important;
+  margin: 0 !important;
+  text-align: right !important;
+}
+
+.h2d-screen ._pendo-row,
+.h2d-screen .pendo-mock-flexbox-row,
+.h2d-screen .pendo-mock-flexbox-element,
+.h2d-screen [id^="pendo-button-"] {
+  display: none !important;
+}
+
+.h2d-screen .approve_faculty_banner {
+  width: auto !important;
+  max-width: min(674px, 100%) !important;
+  margin-left: auto !important;
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) 140px !important;
+  overflow: visible !important;
+  border-radius: 4px !important;
+}
+
+.h2d-screen #approve-faculty-banner-title {
+  font-size: 14px !important;
+  line-height: 1.2 !important;
+}
+
+.h2d-screen #approve-faculty-banner-description {
+  font-size: 12px !important;
+  line-height: 1.3 !important;
+}
+
+.h2d-screen .banner_left {
+  padding: 8px 12px !important;
+}
+
+.h2d-screen .banner_right {
+  padding: 6px 8px !important;
+}
+
+.h2d-screen .banner_left,
+.h2d-screen .banner_right {
+  overflow: visible !important;
+  min-width: 0 !important;
+}
+
+.h2d-screen #approve-faculty-banner-title,
+.h2d-screen #approve-faculty-banner-description,
+.h2d-screen .approve_logo {
+  white-space: normal !important;
+  overflow: visible !important;
+  text-overflow: unset !important;
+}
+
+/* Profile Search — keep overflow contained; toolbar is defined in h2d-components.css */
+.h2d-screen .student-search-report,
+.h2d-screen .table-rounded-border.student-search-report {
+  height: auto !important;
+  max-height: none !important;
+  overflow-x: auto !important;
+  max-width: 100% !important;
+}
+
+.h2d-screen .content.exxat-sticky-table.student-search-grid-with-filter {
+  height: auto !important;
+  max-height: min(70vh, 720px) !important;
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+  -webkit-overflow-scrolling: touch;
+  width: 100% !important;
+}
+
+.h2d-screen profile-admin .student-search-report,
+.h2d-screen profile-admin .table-rounded-border,
+.h2d-screen profile-admin #stickyColumnTable,
+.h2d-screen profile-admin .content.exxat-sticky-table {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.h2d-screen profile-admin .mat-mdc-table {
+  width: max-content !important;
+  min-width: 100% !important;
+  table-layout: auto !important;
+}
+
+.h2d-screen profile-admin .mat-mdc-header-cell,
+.h2d-screen profile-admin .mat-mdc-cell {
+  min-width: 120px !important;
+  width: auto !important;
+  white-space: nowrap !important;
+}
+
+.h2d-screen profile-admin .mat-mdc-header-cell:first-child,
+.h2d-screen profile-admin .mat-mdc-cell:first-child {
+  min-width: 48px !important;
+  width: 48px !important;
+}
+
+.h2d-screen #stickyColumnTable {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  overflow-x: auto !important;
+}
+
+/* Empty Angular overlay shell should not block clicks */
+.h2d-screen .cdk-overlay-container:empty,
+.h2d-screen .cdk-overlay-container:not(:has(.cdk-overlay-pane)) {
+  pointer-events: none !important;
+}
+
+/* Program details: tabs on top, sidebar + content in one row (no empty left column) */
+.h2d-screen .page-layout.left-sidebar {
+  display: flex !important;
+  flex-direction: column !important;
+  flex-wrap: nowrap !important;
+  gap: 16px !important;
+  width: 100% !important;
+}
+
+.h2d-screen .page-layout.left-sidebar > .mb-16 {
+  flex: 0 0 auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.h2d-screen .page-layout.left-sidebar > .content {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: stretch !important;
+  flex: 1 1 auto !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  flex-basis: auto !important;
+}
+
+.h2d-screen .page-layout.left-sidebar fuse-sidebar.sidebar,
+.h2d-screen .page-layout.left-sidebar .sidebar.left-positioned {
+  flex: 0 0 240px !important;
+  width: 240px !important;
+  max-width: 240px !important;
+  min-width: 200px !important;
+  flex-basis: 240px !important;
+}
+
+.h2d-screen .page-layout.left-sidebar #main_content.center,
+.h2d-screen .page-layout.left-sidebar > .content > .center,
+.h2d-screen .page-layout.left-sidebar #content_main.center {
+  flex: 1 1 0 !important;
+  width: auto !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  flex-basis: 0 !important;
+  margin-left: 16px !important;
+}
+
+/* Curriculum Mapping: sidebar + details are siblings (no .content wrapper) */
+.h2d-screen cmap,
+.h2d-screen cmap .page-layout.left-sidebar {
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+}
+
+.h2d-screen .page-layout.left-sidebar.page-without-header {
+  flex-direction: row !important;
+  align-items: stretch !important;
+  gap: 0 !important;
+}
+
+.h2d-screen .page-layout.left-sidebar.page-without-header fuse-sidebar.sidebar {
+  flex: 0 0 240px !important;
+  width: 240px !important;
+  max-width: 240px !important;
+  min-width: 200px !important;
+  height: auto !important;
+  max-height: none !important;
+  overflow: hidden !important;
+}
+
+.h2d-screen cmap fuse-sidebar,
+.h2d-screen .page-layout.left-sidebar.page-without-header > fuse-sidebar {
+  flex: 0 0 240px !important;
+  width: 240px !important;
+  max-width: 240px !important;
+  min-width: 200px !important;
+  flex-basis: 240px !important;
+  flex-grow: 0 !important;
+  flex-shrink: 0 !important;
+  overflow: hidden !important;
+}
+
+.h2d-screen .page-layout.left-sidebar.page-without-header #content_main.center {
+  margin-left: 0 !important;
+}
+
+.h2d-screen #curriculum_details_page {
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  overflow: visible !important;
+  flex: 1 1 auto !important;
+}
+
+.h2d-screen cmap fuse-sidebar.sidebar .content.overflow-y-auto {
+  height: auto !important;
+  max-height: min(70vh, 720px) !important;
+  overflow-y: auto !important;
+}
+
+.h2d-screen .page-layout.left-sidebar .word-break-all {
+  white-space: nowrap !important;
+}
+
+.h2d-screen a.skip-tab-link {
+  display: none !important;
+}
+
+.h2d-screen[data-embed="1"]:not([data-embed-nav="tabs"]) nav.mat-mdc-tab-nav-bar.mat-mdc-tab-header {
+  display: none !important;
+}
+
+.h2d-screen[data-embed="1"][data-embed-nav="tabs"] .page-layout.left-sidebar > .mb-16 nav.mat-mdc-tab-nav-bar {
+  display: flex !important;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.h2d-screen[data-embed="1"][data-embed-nav="tabs"] fuse-sidebar.sidebar,
+.h2d-screen[data-embed="1"][data-embed-nav="tabs"] .page-layout.left-sidebar fuse-sidebar,
+.h2d-screen[data-embed="1"][data-embed-nav="tabs"] .page-layout.left-sidebar .sidebar.left-positioned {
+  display: none !important;
+}
+
+.h2d-screen[data-embed="1"][data-embed-nav="tabs"] .page-layout.left-sidebar #main_content.center,
+.h2d-screen[data-embed="1"][data-embed-nav="tabs"] .page-layout.left-sidebar > .content > .center {
+  flex: 1 1 auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-left: 0 !important;
+}
+
+@media (max-width: 1023px) {
+  .h2d-screen .page-layout.left-sidebar > .content {
+    flex-direction: column !important;
+  }
+
+  .h2d-screen .page-layout.left-sidebar fuse-sidebar.sidebar,
+  .h2d-screen .page-layout.left-sidebar .sidebar.left-positioned {
+    flex: 1 1 auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .h2d-screen .page-layout.left-sidebar #main_content.center {
+    margin-left: 0 !important;
+  }
+}
+
+@media (max-width: 1023px) {
+  .h2d-screen-inner {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+
+  .h2d-screen .page-layout.left-sidebar {
+    flex-direction: column !important;
+  }
+
+  /* Stack chart cards vertically */
+  .h2d-screen .mt-16 > .mr-16,
+  .h2d-screen .mt-16 > div[style*="flexBasis: '49%'"] {
+    flex: 1 1 100% !important;
+    max-width: 100% !important;
+  }
+
+  .h2d-screen #caas .caas-faculty-toolbar-row {
+    flex-wrap: wrap !important;
+    padding-right: 0 !important;
+  }
+
+  .h2d-screen #caas .center.p-0 [id^="pendo-base-"]:has(.approve_faculty_banner) {
+    position: static !important;
+    top: auto !important;
+    right: auto !important;
+    max-width: 100% !important;
+    margin-top: 8px !important;
+  }
+
+  .h2d-screen .approve_faculty_banner {
+    max-width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    grid-template-columns: none !important;
+  }
+
+  .h2d-screen .pendo-code-block:has(.approve_faculty_banner) {
+    max-width: 100% !important;
+  }
+
+  .h2d-screen .banner_left,
+  .h2d-screen .banner_right {
+    width: 100% !important;
+    grid-area: auto !important;
+  }
+
+  .h2d-screen .banner_left {
+    border-bottom-right-radius: 0 !important;
+  }
+
+  /* Compliance / curriculum filter toolbars */
+  .h2d-screen .mt-16.mb-12 {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+
+  .h2d-screen .mat-button-toggle-group {
+    flex-wrap: wrap !important;
+    max-width: 100% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .h2d-screen-inner {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+
+  .h2d-screen .tab-nav-item {
+    margin-left: 8px !important;
+    margin-right: 8px !important;
+  }
+
+  .h2d-screen .page-layout.carded.fullwidth.full-width-page.inner-scroll.exxat-new-grid,
+  .h2d-screen .page-layout.carded.fullwidth.inner-scroll {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+
+  /* Pie chart above legend on phones */
+  .h2d-screen mat-card.mat-mdc-card:has([id$="-chart-container"]),
+  .h2d-screen .mat-mdc-card.mdc-card:has([id$="-chart-container"]) {
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+  }
+
+  .h2d-screen mat-card.mat-mdc-card:has([id$="-chart-container"]) > div:first-of-type,
+  .h2d-screen mat-card.mat-mdc-card:has([id$="-chart-container"]) > div:last-of-type,
+  .h2d-screen .mat-mdc-card.mdc-card:has([id$="-chart-container"]) > div:first-of-type,
+  .h2d-screen .mat-mdc-card.mdc-card:has([id$="-chart-container"]) > div:last-of-type {
+    flex: 1 1 auto !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  .h2d-screen [id$="-chart-container"] .ngx-charts-outer,
+  .h2d-screen div.ngx-charts,
+  .h2d-screen div.ngx-charts > svg {
+    height: 220px !important;
+    max-height: 220px !important;
+  }
+
+  .h2d-screen .search.table-search {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .h2d-screen .mat-mdc-paginator-container {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 8px !important;
+  }
+
+  .h2d-screen mat-card.p-0 .p-16 .graph_legend {
+    max-width: 100% !important;
+    flex-basis: 100% !important;
+  }
+
+  .h2d-screen mat-card.p-0 .p-16 > div[style*="maxWidth: '75%'"] {
+    max-width: 100% !important;
+    flex-basis: 100% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .h2d-screen #caas .caas-faculty-toolbar-row {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    padding-right: 0 !important;
+    gap: 8px !important;
+  }
+
+  .h2d-screen #caas .caas-faculty-banner-slot {
+    flex: 1 1 100% !important;
+    min-width: 0 !important;
+    width: 100% !important;
+  }
+
+  /* Stack chart cards vertically */
+  .h2d-screen .mat-mdc-tab-link,
+  .h2d-screen .mat-button-toggle-button {
+    font-size: 12px !important;
+  }
+
+  .h2d-screen .font-24 {
+    font-size: 18px !important;
+  }
+}
