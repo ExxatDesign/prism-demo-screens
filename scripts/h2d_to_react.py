@@ -5,15 +5,29 @@ from __future__ import annotations
 
 import argparse
 import base64
+import hashlib
 import json
 import re
 import zlib
 from pathlib import Path
 from typing import Any
 
-SKIP_NODE_IDS = {"top_main_header"}
-SKIP_CUSTOM_TAGS = {"fuse-progress-bar"}
+SKIP_NODE_IDS = {
+    "top_main_header",
+    "awebChromeHelper",
+    "awebShadowBody",
+    "cdk-overlay-0",
+    "leo-window-host",
+}
+SKIP_CUSTOM_TAGS = {
+    "fuse-progress-bar",
+    "leo-window",
+    "leo-entry",
+    "leo-entry-host",
+    "simple-notifications",
+}
 SKIP_TAGS = {"script", "style", "meta", "link", "noscript", "head", "pseudo"}
+ASSET_BASE = "/prism-demo-screens/assets/"
 VOID_TAGS = {"img", "input", "br", "hr", "area", "base", "col", "embed", "source", "track", "wbr"}
 INVALID_STYLE_KEYS = {"transform2", "transformOrigin2", "content", "appearance"}
 CSS_SKIP_VALUES = {
@@ -113,16 +127,22 @@ def render_children(
     children: list[dict[str, Any]],
     doc: dict[str, Any],
     indent: int,
+    asset_map: dict[str, str],
 ) -> list[str]:
     lines: list[str] = []
     for child in children:
-        rendered = render_node(child, doc, indent)
+        rendered = render_node(child, doc, indent, asset_map)
         if rendered:
             lines.append(rendered)
     return lines
 
 
-def render_node(node: dict[str, Any], doc: dict[str, Any], indent: int) -> str:
+def render_node(
+    node: dict[str, Any],
+    doc: dict[str, Any],
+    indent: int,
+    asset_map: dict[str, str],
+) -> str:
     if should_skip_node(node):
         return ""
 
@@ -153,7 +173,7 @@ def render_node(node: dict[str, Any], doc: dict[str, Any], indent: int) -> str:
         children = node.get("children") or []
         if tag == "head":
             return ""
-        child_lines = render_children(children, doc, indent)
+        child_lines = render_children(children, doc, indent, asset_map)
         return "\n".join(child_lines)
 
     children = node.get("children") or []
@@ -162,6 +182,13 @@ def render_node(node: dict[str, Any], doc: dict[str, Any], indent: int) -> str:
     attr = node.get("attr") or {}
     if attr.get("id"):
         attrs.append(f'id="{attr["id"]}"')
+    if attr.get("alt"):
+        attrs.append(f'alt="{escape_js_string(str(attr["alt"]))}"')
+    img_url = node.get("$url") or attr.get("src")
+    if tag == "img" and img_url:
+        filename = asset_map.get(str(img_url))
+        if filename:
+            attrs.append(f'src="{ASSET_BASE}{filename}"')
 
     class_list = node.get("classList") or []
     if class_list:
@@ -202,7 +229,7 @@ def render_node(node: dict[str, Any], doc: dict[str, Any], indent: int) -> str:
     if tag in VOID_TAGS:
         return f"{pad}<{tag}{attr_text} />"
 
-    child_lines = render_children(children, doc, indent + 1)
+    child_lines = render_children(children, doc, indent + 1, asset_map)
 
     if not child_lines:
         return f"{pad}<{tag}{attr_text} />"
@@ -211,29 +238,47 @@ def render_node(node: dict[str, Any], doc: dict[str, Any], indent: int) -> str:
     return f"{pad}<{tag}{attr_text}>\n{inner}\n{pad}</{tag}>"
 
 
-def write_assets(data: dict[str, Any], assets_dir: Path) -> None:
+def asset_ext(url: str, mime: str) -> str:
+    mime = mime or ""
+    lower = url.lower()
+    if "png" in mime or lower.endswith(".png"):
+        return ".png"
+    if "svg" in mime or lower.endswith(".svg"):
+        return ".svg"
+    if "jpeg" in mime or "jpg" in mime or lower.endswith(".jpg") or lower.endswith(".jpeg"):
+        return ".jpg"
+    if "ttf" in mime or lower.endswith(".ttf"):
+        return ".ttf"
+    return ".woff2"
+
+
+def asset_filename(url: str, mime: str) -> str:
+    digest = hashlib.md5(url.encode("utf-8")).hexdigest()[:8]
+    return f"asset_{digest}{asset_ext(url, mime)}"
+
+
+def write_assets(data: dict[str, Any], assets_dir: Path) -> dict[str, str]:
     assets_dir.mkdir(parents=True, exist_ok=True)
+    mapping: dict[str, str] = {}
     for url, asset in (data.get("assets") or {}).items():
         content = asset.get("content")
         if not content:
             continue
-        ext = ".woff2"
-        mime = asset.get("mimeType") or ""
-        if "png" in mime:
-            ext = ".png"
-        elif "svg" in mime:
-            ext = ".svg"
-        elif "ttf" in mime or url.endswith(".ttf"):
-            ext = ".ttf"
-        filename = f"asset_{abs(hash(url)) & 0xFFFFFFFF:x}{ext}"
+        filename = asset_filename(url, asset.get("mimeType") or "")
+        mapping[url] = filename
         target = assets_dir / filename
+        if target.exists():
+            continue
         if asset.get("base64Encoded"):
             target.write_bytes(base64.b64decode(content))
         else:
             target.write_text(content)
+    return mapping
 
 
 def write_font_css(data: dict[str, Any], assets_dir: Path, css_path: Path) -> None:
+    if css_path.exists():
+        return
     lines = ["/* Generated from h2d font assets */"]
     seen: set[str] = set()
     for index, font in enumerate(data.get("fonts") or []):
@@ -249,7 +294,7 @@ def write_font_css(data: dict[str, Any], assets_dir: Path, css_path: Path) -> No
         if not content:
             continue
         ext = ".woff2" if "woff2" in src else ".ttf"
-        filename = f"font_{abs(hash(src)) & 0xFFFFFFFF:x}{ext}"
+        filename = f"font_{hashlib.md5(src.encode('utf-8')).hexdigest()[:8]}{ext}"
         target = assets_dir / filename
         if assets[src].get("base64Encoded"):
             target.write_bytes(base64.b64decode(content))
@@ -290,16 +335,20 @@ def post_process_layout_jsx(body: str) -> str:
     )
 
 
-def generate_component(data: dict[str, Any], component_name: str) -> str:
+def generate_component(
+    data: dict[str, Any],
+    component_name: str,
+    asset_map: dict[str, str],
+) -> str:
     doc = data.get("doc") or {}
     frame = data["frame"]
-    body = post_process_layout_jsx(render_node(frame, doc, 3))
+    body = post_process_layout_jsx(render_node(frame, doc, 3, asset_map))
     title = doc.get("title") or data.get("name") or component_name
     return f"""import React from "react";
 
 export default function {component_name}() {{
   return (
-    <div className="min-h-dvh w-full overflow-x-hidden bg-white h2d-screen-root" {WRAPPER_STYLE}>
+    <div className="min-h-dvh w-full overflow-x-hidden bg-[#f8f8f8] h2d-screen-root" {WRAPPER_STYLE}>
       <div className="mx-auto w-full max-w-[1440px] h2d-screen-inner" {WRAPPER_STYLE}>
 {body}
       </div>
@@ -315,14 +364,14 @@ def convert(h2d_path: Path, out_dir: Path) -> tuple[Path, str]:
     data = h2d_to_json(h2d_path)
     component_name = safe_component_name(h2d_path.stem)
     assets_dir = out_dir / "public" / "assets"
-    write_assets(data, assets_dir)
+    asset_map = write_assets(data, assets_dir)
     fonts_css = out_dir / "src" / "styles" / "h2d-fonts.css"
     write_font_css(data, assets_dir, fonts_css)
 
     imports_dir = out_dir / "src" / "imports"
     imports_dir.mkdir(parents=True, exist_ok=True)
     target = imports_dir / f"{component_name}.tsx"
-    target.write_text(generate_component(data, component_name))
+    target.write_text(generate_component(data, component_name, asset_map))
     return target, component_name
 
 

@@ -1496,6 +1496,31 @@ html[data-embed="1"][data-embed-nav="sidebar"]
   min-height: 0 !important;
 }
 
+/* Dashboard rows that open another Exxat product — external link mark */
+.h2d-screen #dashboard-screen-container a[id="dashboard-navigationitem-navigate-link-program.information"],
+.h2d-screen #dashboard-screen-container a[id="dashboard-navigationitem-navigate-link-admin.profile"],
+.h2d-screen #dashboard-screen-container a[id="dashboard-navigationitem-navigate-link-faculty.information"],
+.h2d-screen #dashboard-screen-container a[id="dashboard-navigationitem-navigate-link-admin.course"],
+.h2d-screen #dashboard-screen-container a[id="dashboard-navigationitem-navigate-link-curriculum.management"],
+.h2d-screen #dashboard-screen-container a[id="dashboard-navigationitem-navigate-link-competency.management"] {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 0.375rem;
+}
+
+.h2d-screen #dashboard-screen-container a[id="dashboard-navigationitem-navigate-link-program.information"]::after,
+.h2d-screen #dashboard-screen-container a[id="dashboard-navigationitem-navigate-link-admin.profile"]::after,
+.h2d-screen #dashboard-screen-container a[id="dashboard-navigationitem-navigate-link-faculty.information"]::after,
+.h2d-screen #dashboard-screen-container a[id="dashboard-navigationitem-navigate-link-admin.course"]::after,
+.h2d-screen #dashboard-screen-container a[id="dashboard-navigationitem-navigate-link-competency.management"]::after {
+  font-family: "Font Awesome 6 Pro";
+  font-weight: 300;
+  content: "\f35d";
+  font-size: 12px;
+  opacity: 0.65;
+  margin-left: 0.25rem;
+}
+
 .h2d-screen #dashboard-screen-container .ng-star-inserted:has(> .dashboard_nav_item [id="dashboard-navigationitem-navigate-link-admin.compliance"]),
 .h2d-screen #dashboard-screen-container .ng-star-inserted:has(> .dashboard_nav_item [id="dashboard-navigationitem-navigate-link-admin.caas"]),
 .h2d-screen #dashboard-screen-container .ng-star-inserted:has(> .dashboard_nav_item [id="dashboard-navigationitem-navigate-link-curriculum.management"]),
@@ -1622,5 +1647,57 @@ html[data-embed="1"] .student-dashboard-embed {
   height: calc(100% + var(--student-chrome-offset));
   margin-top: calc(var(--student-chrome-offset) * -1);
   border: 0;
+}
+
+/* Faculty home (new-faculty-dashboard) — H2D clipped the page at 836px */
+.h2d-screen .nfd-layout {
+  width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  overflow: visible !important;
+}
+
+.h2d-screen .new-faculty-dashboard-component,
+.h2d-screen .nfd-main,
+.h2d-screen .nfd-content-grid,
+.h2d-screen app-caas-user,
+.h2d-screen app-caas-user .page-layout {
+  width: 100% !important;
+  height: auto !important;
+  overflow: visible !important;
+}
+
+.h2d-screen .help-resources-grid {
+  display: grid !important;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  gap: 12px !important;
+  width: 100% !important;
+}
+
+.h2d-screen .help-resource-card {
+  min-width: 0 !important;
+}
+
+.h2d-screen #awebChromeHelper,
+.h2d-screen #awebShadowBody,
+.h2d-screen #cdk-overlay-0,
+.h2d-screen #leo-window-host {
+  display: none !important;
+}
+
+@media (max-width: 1023px) {
+  .h2d-screen .help-resources-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+@media (max-width: 639px) {
+  .h2d-screen .help-resources-grid {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+
+  .h2d-screen .nfd-main {
+    padding: 16px !important;
+  }
 }
 

@@ -6,6 +6,8 @@ const HEIGHT = 900;
 
 const PAGES = [
   { name: "Dashboard", path: "/dashboard" },
+  { name: "Faculty Home", path: "/faculty/dashboard" },
+  { name: "Faculty CAAS", path: "/faculty/caas" },
   { name: "Faculty Compliance (By Group)", path: "/caas/faculty/home/bygroup" },
   { name: "Student Compliance (Cohort)", path: "/compliance/home/cohort" },
   { name: "Compliance Student", path: "/profile/search" },

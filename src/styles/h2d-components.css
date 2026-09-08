@@ -335,3 +335,17 @@
 .h2d-screen course-offering .table-rounded-border {
   overflow-x: auto !important;
 }
+
+/* Faculty CAAS requirement tables — many columns, keep readable headers */
+.h2d-screen table.compliance-requirement-table {
+  width: max-content !important;
+  min-width: 100% !important;
+  table-layout: auto !important;
+}
+
+.h2d-screen app-caas-user .overflow-auto,
+.h2d-screen app-caas-user .table-rounded-border {
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow-x: auto !important;
+}

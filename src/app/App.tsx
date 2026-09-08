@@ -8,12 +8,16 @@ import ProfileSearch from "@/imports/StepsExxatComAdminProfileSearch1440WDefault
 import ProgramProgramDetailsScreen from "@/screens/program-program-details-screen";
 import CompetencyReview from "@/imports/StepsExxatComAdminCompetencyReview1440WDefault";
 import CmapCurriculum from "@/imports/StepsExxatComAdminCmapCurriculum1440WDefault";
-import DashboardHome from "@/imports/StepsExxatComDashboard1440WDefault";
+import DashboardHome from "@/screens/dashboard-home-screen";
+import FacultyDashboard from "@/imports/StepsExxatComFacultyDashboard1440WDefault";
+import FacultyCaas from "@/imports/StepsExxatComFacultyCaas1440WDefault";
 import StudentDashboardScreen from "@/screens/student-dashboard-screen";
 import StudentComplianceDashboardScreen from "@/screens/student-compliance-dashboard-screen";
 
 const screens = [
   { path: "/dashboard", component: DashboardHome },
+  { path: "/faculty/dashboard", component: FacultyDashboard },
+  { path: "/faculty/caas", component: FacultyCaas },
   { path: "/caas/faculty/home/bygroup", component: CaasFacultyHomeByGroup },
   { path: "/compliance/home/cohort", component: ComplianceHomeCohort },
   { path: "/curriculum/courseofferings", component: CurriculumCourseOfferings },
