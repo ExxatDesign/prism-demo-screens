@@ -1,6 +1,7 @@
 import { NavLink } from "react-router";
 
 const pages = [
+  { path: "/dashboard", label: "Dashboard" },
   { path: "/caas/faculty/home/bygroup", label: "Faculty" },
   { path: "/compliance/home/cohort", label: "Compliance" },
   { path: "/profile/search", label: "Compliance Student" },
@@ -8,6 +9,8 @@ const pages = [
   { path: "/program/programdetails", label: "Program" },
   { path: "/competency/review", label: "Competency" },
   { path: "/cmap/curriculum", label: "Curriculum Mapping" },
+  { path: "/student", label: "Student" },
+  { path: "/student/compliance", label: "Student Compliance" },
 ] as const;
 
 export default function DemoNav() {
@@ -24,6 +27,7 @@ export default function DemoNav() {
           <NavLink
             key={page.path}
             to={page.path}
+            end
             className={({ isActive }) =>
               [
                 "shrink-0 rounded px-3 py-1.5 text-sm font-medium whitespace-nowrap transition-colors",

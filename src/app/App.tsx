@@ -8,8 +8,12 @@ import ProfileSearch from "@/imports/StepsExxatComAdminProfileSearch1440WDefault
 import ProgramProgramDetailsScreen from "@/screens/program-program-details-screen";
 import CompetencyReview from "@/imports/StepsExxatComAdminCompetencyReview1440WDefault";
 import CmapCurriculum from "@/imports/StepsExxatComAdminCmapCurriculum1440WDefault";
+import DashboardHome from "@/imports/StepsExxatComDashboard1440WDefault";
+import StudentDashboardScreen from "@/screens/student-dashboard-screen";
+import StudentComplianceDashboardScreen from "@/screens/student-compliance-dashboard-screen";
 
 const screens = [
+  { path: "/dashboard", component: DashboardHome },
   { path: "/caas/faculty/home/bygroup", component: CaasFacultyHomeByGroup },
   { path: "/compliance/home/cohort", component: ComplianceHomeCohort },
   { path: "/curriculum/courseofferings", component: CurriculumCourseOfferings },
@@ -17,6 +21,8 @@ const screens = [
   { path: "/program/programdetails", component: ProgramProgramDetailsScreen },
   { path: "/competency/review", component: CompetencyReview },
   { path: "/cmap/curriculum", component: CmapCurriculum },
+  { path: "/student", component: StudentDashboardScreen },
+  { path: "/student/compliance", component: StudentComplianceDashboardScreen },
 ] as const;
 
 export default function App() {
@@ -43,7 +49,7 @@ export default function App() {
     <div className="min-h-dvh w-full bg-[#f8f8f8]">
       {!embed ? <DemoNav /> : null}
       <Routes>
-        <Route path="/" element={<Navigate to="/caas/faculty/home/bygroup" replace />} />
+        <Route path="/" element={<Navigate to="/dashboard" replace />} />
         {screens.map((screen) => (
           <Route
             key={screen.path}

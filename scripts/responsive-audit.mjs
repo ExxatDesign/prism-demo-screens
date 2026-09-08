@@ -5,6 +5,7 @@ const WIDTHS = [1440, 1024, 768, 480];
 const HEIGHT = 900;
 
 const PAGES = [
+  { name: "Dashboard", path: "/dashboard" },
   { name: "Faculty Compliance (By Group)", path: "/caas/faculty/home/bygroup" },
   { name: "Student Compliance (Cohort)", path: "/compliance/home/cohort" },
   { name: "Compliance Student", path: "/profile/search" },
@@ -12,6 +13,8 @@ const PAGES = [
   { name: "Program Details", path: "/program/programdetails" },
   { name: "Competency Review", path: "/competency/review" },
   { name: "Curriculum Mapping", path: "/cmap/curriculum" },
+  { name: "Student Dashboard", path: "/student" },
+  { name: "Student Compliance Dashboard", path: "/student/compliance" },
 ];
 
 const AUDIT_JS = () => {
