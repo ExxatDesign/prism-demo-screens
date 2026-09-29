@@ -1649,7 +1649,86 @@ html[data-embed="1"] .student-dashboard-embed {
   border: 0;
 }
 
+/* Tenant Apps — drop logo + Prism announcement strip; fill viewport below demo nav */
+.h2d-screen:has(tenant-navigations) {
+  min-height: calc(100dvh - 3.25rem);
+}
+
+.h2d-screen:has(tenant-navigations) .h2d-screen-root,
+.h2d-screen:has(tenant-navigations) .h2d-screen-inner {
+  flex: 1 1 auto;
+  min-height: calc(100dvh - 3.25rem);
+  display: flex;
+  flex-direction: column;
+}
+
+.h2d-screen tenant-navigations {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex !important;
+  flex-direction: column !important;
+  width: 100% !important;
+}
+
+.h2d-screen tenant-navigations #dashboard-screen-container > .mt-xs-12 {
+  display: none !important;
+}
+
+.h2d-screen tenant-navigations #dashboard-screen-container {
+  flex: 1 1 auto;
+  min-height: calc(100dvh - 3.25rem - 32px) !important;
+  height: auto !important;
+  display: flex !important;
+  flex-direction: column !important;
+  overflow: visible !important;
+}
+
+.h2d-screen tenant-navigations #dashboard-screen-container > .center.h-100-p {
+  flex: 1 1 auto;
+  min-height: 0 !important;
+  height: 100% !important;
+  display: flex !important;
+}
+
+.h2d-screen tenant-navigations #dashboard-screen-container .content.h-100-p {
+  flex: 1 1 auto;
+  min-height: 0 !important;
+  height: 100% !important;
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  align-items: stretch !important;
+}
+
+.h2d-screen tenant-navigations #dashboard-screen-container .dashboard-screen-card-height {
+  flex: 1 1 33.333% !important;
+  min-height: 100% !important;
+  max-width: 33.3333% !important;
+  display: flex !important;
+  align-self: stretch !important;
+}
+
+.h2d-screen tenant-navigations #dashboard-screen-container mat-card.dashboard_card,
+.h2d-screen tenant-navigations #dashboard-screen-container mat-card.dashboard-screen-card-height,
+.h2d-screen tenant-navigations #dashboard-screen-container mat-card.pink-border,
+.h2d-screen tenant-navigations #dashboard-screen-container mat-card.orange-border,
+.h2d-screen tenant-navigations #dashboard-screen-container mat-card.teal-border {
+  flex: 1 1 auto !important;
+  min-height: 100% !important;
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.h2d-screen tenant-navigations #dashboard-screen-container mat-card .card_content {
+  flex: 1 1 auto;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
 /* Faculty home (new-faculty-dashboard) — H2D clipped the page at 836px */
+.h2d-screen header.nfd-header {
+  display: none !important;
+}
+
 .h2d-screen .nfd-layout {
   width: 100% !important;
   height: auto !important;

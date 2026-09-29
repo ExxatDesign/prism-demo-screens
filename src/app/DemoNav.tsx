@@ -2,6 +2,7 @@ import { NavLink } from "react-router";
 
 const pages = [
   { path: "/dashboard", label: "Dashboard" },
+  { path: "/admin/tenant-apps", label: "Tenant Apps" },
   { path: "/faculty/dashboard", label: "Faculty Home" },
   { path: "/faculty/caas", label: "Faculty CAAS" },
   { path: "/caas/faculty/home/bygroup", label: "Faculty" },
