@@ -288,6 +288,7 @@
 /* Wide grids (students, curriculum): readable columns + scroll, do not squash headers */
 .h2d-screen profile-admin .mat-mdc-table,
 .h2d-screen .student-search-grid-with-filter .mat-mdc-table,
+.h2d-screen .faculty-staff-search-grid-with-filter .mat-mdc-table,
 .h2d-screen .curriculum-second-grid-height .mat-mdc-table,
 .h2d-screen course-offering .mat-mdc-table {
   width: max-content !important;
@@ -331,6 +332,7 @@
 }
 
 .h2d-screen profile-admin .content.exxat-sticky-table,
+.h2d-screen .faculty-staff-search-grid-with-filter.content.exxat-sticky-table,
 .h2d-screen .curriculum-second-grid-height,
 .h2d-screen course-offering .table-rounded-border {
   overflow-x: auto !important;

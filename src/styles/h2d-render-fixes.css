@@ -473,6 +473,7 @@
 .h2d-screen .content.exxat-sticky-table,
 .h2d-screen .exxat-sticky-table,
 .h2d-screen .student-search-grid-with-filter,
+.h2d-screen .faculty-staff-search-grid-with-filter,
 .h2d-screen .by_cohort_grid_container,
 .h2d-screen .content.overflow-auto {
   overflow-x: auto !important;
@@ -482,7 +483,8 @@
 }
 
 .h2d-screen .content.exxat-sticky-table,
-.h2d-screen .student-search-grid-with-filter {
+.h2d-screen .student-search-grid-with-filter,
+.h2d-screen .faculty-staff-search-grid-with-filter {
   height: auto !important;
   max-height: min(70vh, 720px) !important;
 }
@@ -887,7 +889,8 @@
   max-width: 100% !important;
 }
 
-.h2d-screen .content.exxat-sticky-table.student-search-grid-with-filter {
+.h2d-screen .content.exxat-sticky-table.student-search-grid-with-filter,
+.h2d-screen .content.exxat-sticky-table.faculty-staff-search-grid-with-filter {
   height: auto !important;
   max-height: min(70vh, 720px) !important;
   overflow-x: auto !important;
@@ -1788,13 +1791,25 @@ html[data-embed="1"] .student-dashboard-embed {
 
 .h2d-screen:has(main#region) {
   min-height: calc(100dvh - 3.25rem);
+  width: 100% !important;
+  background-color: rgb(248, 246, 255) !important;
+  background-image: linear-gradient(
+    rgb(238, 232, 251) 0%,
+    rgb(242, 240, 251) 35%,
+    rgb(246, 244, 253) 70%,
+    rgb(248, 246, 255) 100%
+  ) !important;
 }
 
 .h2d-screen:has(main#region) .h2d-screen-root,
-.h2d-screen:has(main#region) .h2d-screen-inner {
+.h2d-screen:has(main#region) .h2d-screen-inner,
+.h2d-screen:has(main#region) .mx-auto.max-w-\[1440px\].h2d-screen-inner {
   flex: 1 1 auto;
   min-height: calc(100dvh - 3.25rem);
+  width: 100% !important;
   max-width: none !important;
+  margin-inline: 0 !important;
+  background: transparent !important;
   display: flex;
   flex-direction: column;
 }
@@ -1844,6 +1859,9 @@ html[data-embed="1"] .student-dashboard-embed {
 
 .h2d-screen:has(main#region) main#region .min-h-full.w-full.px-6 {
   min-height: calc(100dvh - 3.25rem) !important;
+  width: 100% !important;
+  max-width: none !important;
+  background: transparent !important;
 }
 
 .h2d-screen:has(main#region) main#region span[style*="ExtraLight"] {
