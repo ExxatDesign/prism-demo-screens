@@ -3,6 +3,7 @@ import { NavLink } from "react-router";
 const pages = [
   { path: "/dashboard", label: "Dashboard" },
   { path: "/admin/tenant-apps", label: "Tenant Apps" },
+  { path: "/one/school/dashboard", label: "Exxat One" },
   { path: "/faculty/dashboard", label: "Faculty Home" },
   { path: "/faculty/caas", label: "Faculty CAAS" },
   { path: "/caas/faculty/home/bygroup", label: "Faculty" },

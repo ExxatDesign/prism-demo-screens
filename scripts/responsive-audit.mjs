@@ -7,6 +7,7 @@ const HEIGHT = 900;
 const PAGES = [
   { name: "Dashboard", path: "/dashboard" },
   { name: "Tenant Apps", path: "/admin/tenant-apps" },
+  { name: "Exxat One Dashboard", path: "/one/school/dashboard" },
   { name: "Faculty Home", path: "/faculty/dashboard" },
   { name: "Faculty CAAS", path: "/faculty/caas" },
   { name: "Faculty Compliance (By Group)", path: "/caas/faculty/home/bygroup" },

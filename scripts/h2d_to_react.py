@@ -25,7 +25,9 @@ SKIP_CUSTOM_TAGS = {
     "leo-entry",
     "leo-entry-host",
     "simple-notifications",
+    "next-route-announcer",
 }
+PASSTHROUGH_TAGS = {"slot"}
 SKIP_TAGS = {"script", "style", "meta", "link", "noscript", "head", "pseudo"}
 ASSET_BASE = "/prism-demo-screens/assets/"
 VOID_TAGS = {"img", "input", "br", "hr", "area", "base", "col", "embed", "source", "track", "wbr"}
@@ -103,13 +105,14 @@ def style_object(styles: dict[str, Any] | None) -> str:
 
 
 def text_style(node: dict[str, Any], doc: dict[str, Any]) -> str:
-    styles: dict[str, str] = {}
+    styles: dict[str, str] = {"whiteSpace": "pre-wrap"}
     font = node.get("platformFont") or {}
     family = font.get("familyName") or node.get("font")
-    if family:
+    if family and "extralight" not in family.lower():
         styles["fontFamily"] = f"'{family}', sans-serif"
-    styles["fontSize"] = f"{doc.get('fontSize', 14)}px"
-    styles["whiteSpace"] = "pre-wrap"
+    size = font.get("size") or node.get("fontSize")
+    if size:
+        styles["fontSize"] = f"{size}px"
     return style_object(styles)
 
 
@@ -177,6 +180,9 @@ def render_node(
         return "\n".join(child_lines)
 
     children = node.get("children") or []
+    if tag in PASSTHROUGH_TAGS:
+        return "\n".join(render_children(children, doc, indent, asset_map))
+
     attrs: list[str] = []
 
     attr = node.get("attr") or {}
@@ -247,6 +253,8 @@ def asset_ext(url: str, mime: str) -> str:
         return ".svg"
     if "jpeg" in mime or "jpg" in mime or lower.endswith(".jpg") or lower.endswith(".jpeg"):
         return ".jpg"
+    if "webp" in mime or lower.endswith(".webp"):
+        return ".webp"
     if "ttf" in mime or lower.endswith(".ttf"):
         return ".ttf"
     return ".woff2"

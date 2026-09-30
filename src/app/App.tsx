@@ -12,12 +12,14 @@ import DashboardHome from "@/screens/dashboard-home-screen";
 import FacultyDashboard from "@/imports/StepsExxatComFacultyDashboard1440WDefault";
 import FacultyCaas from "@/imports/StepsExxatComFacultyCaas1440WDefault";
 import TenantApps from "@/imports/StepsExxatComAdminTenantApps1440WDefault";
+import OneSchoolDashboardScreen from "@/screens/one-school-dashboard-screen";
 import StudentDashboardScreen from "@/screens/student-dashboard-screen";
 import StudentComplianceDashboardScreen from "@/screens/student-compliance-dashboard-screen";
 
 const screens = [
   { path: "/dashboard", component: DashboardHome },
   { path: "/admin/tenant-apps", component: TenantApps },
+  { path: "/one/school/dashboard", component: OneSchoolDashboardScreen },
   { path: "/faculty/dashboard", component: FacultyDashboard },
   { path: "/faculty/caas", component: FacultyCaas },
   { path: "/caas/faculty/home/bygroup", component: CaasFacultyHomeByGroup },

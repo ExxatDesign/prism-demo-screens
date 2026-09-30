@@ -24,6 +24,7 @@ export function useEmbedScope(): PrismEmbedScope {
         programName: event.data.programName ?? "",
         schoolName: event.data.schoolName ?? "",
         schoolLogo: event.data.schoolLogo ?? "",
+        userName: event.data.userName ?? event.data.name ?? "",
         description: event.data.description ?? "",
         programType: event.data.programType ?? "",
         degreeOffered: event.data.degreeOffered ?? "",

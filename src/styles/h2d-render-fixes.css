@@ -1780,3 +1780,112 @@ html[data-embed="1"] .student-dashboard-embed {
   }
 }
 
+/* Exxat One school dashboard — content only (no app header / left nav) */
+.h2d-screen:has(main#region),
+.h2d-screen:has(main#region) * {
+  font-family: "Source Sans 3", "Source Sans Pro", sans-serif !important;
+}
+
+.h2d-screen:has(main#region) {
+  min-height: calc(100dvh - 3.25rem);
+}
+
+.h2d-screen:has(main#region) .h2d-screen-root,
+.h2d-screen:has(main#region) .h2d-screen-inner {
+  flex: 1 1 auto;
+  min-height: calc(100dvh - 3.25rem);
+  max-width: none !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.h2d-screen:has(main#region) .h2d-screen-inner > html,
+.h2d-screen:has(main#region) .h2d-screen-inner > html > body,
+.h2d-screen:has(main#region) .h-full.w-full,
+.h2d-screen:has(main#region) .h-full.w-full > .flex.flex-1.flex-col.overflow-hidden,
+.h2d-screen:has(main#region) .h-\[calc\(100vh_-_48px\)\].w-full.overflow-x-hidden.overflow-y-hidden,
+.h2d-screen:has(main#region) .flex.h-screen.overflow-hidden.bg-\[\#f5f5f5\],
+.h2d-screen:has(main#region) .flex.flex-1.overflow-hidden:has(main#region) {
+  flex: 1 1 auto;
+  min-height: calc(100dvh - 3.25rem) !important;
+  width: 100% !important;
+  height: auto !important;
+  display: flex !important;
+  flex-direction: column !important;
+  overflow: visible !important;
+}
+
+.h2d-screen:has(main#region) header.bg-header {
+  display: none !important;
+}
+
+.h2d-screen:has(main#region) .grid.min-h-screen.grid-cols-sidebar-collapsed {
+  display: none !important;
+}
+
+.h2d-screen:has(main#region) .flex.flex-1.overflow-hidden:has(main#region) {
+  flex-direction: row !important;
+}
+
+.h2d-screen:has(main#region) .flex.h-screen.overflow-hidden.bg-\[\#f5f5f5\] {
+  background-color: transparent !important;
+}
+
+.h2d-screen:has(main#region) main#region {
+  width: 100% !important;
+  max-width: none !important;
+  height: auto !important;
+  min-height: calc(100dvh - 3.25rem) !important;
+  max-height: none !important;
+  flex: 1 1 auto !important;
+  overflow-x: hidden !important;
+  overflow-y: visible !important;
+}
+
+.h2d-screen:has(main#region) main#region .min-h-full.w-full.px-6 {
+  min-height: calc(100dvh - 3.25rem) !important;
+}
+
+.h2d-screen:has(main#region) main#region span[style*="ExtraLight"] {
+  font-family: "Source Sans 3", sans-serif !important;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+
+.h2d-screen:has(main#region) main#region h2.text-lg {
+  font-size: 1.125rem !important;
+  line-height: 1.75rem !important;
+  font-weight: 600 !important;
+}
+
+.h2d-screen:has(main#region) main#region h3.text-base {
+  font-size: 1rem !important;
+  line-height: 1.5rem !important;
+  font-weight: 600 !important;
+}
+
+.h2d-screen:has(main#region) .highcharts-container,
+.h2d-screen:has(main#region) .highcharts-root {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-height: 500px !important;
+  height: auto !important;
+  overflow: visible !important;
+}
+
+.h2d-screen:has(main#region) .highcharts-root svg.h2d-d507bedf,
+.h2d-screen:has(main#region) .highcharts-root > svg {
+  width: 100% !important;
+  height: auto !important;
+  max-width: 100% !important;
+}
+
+.h2d-screen:has(main#region) details > summary {
+  list-style: none;
+}
+
+.h2d-screen:has(main#region) details > summary::-webkit-details-marker {
+  display: none;
+}
+

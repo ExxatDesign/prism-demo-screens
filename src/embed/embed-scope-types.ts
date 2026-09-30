@@ -3,6 +3,7 @@ export type PrismEmbedScope = {
   programName: string
   schoolName: string
   schoolLogo: string
+  userName: string
   description: string
   programType: string
   degreeOffered: string
@@ -23,6 +24,11 @@ export function prismEmbedScopeFromSearchParams(
     programName: params.get("programName") ?? "",
     schoolName: params.get("schoolName") ?? "",
     schoolLogo: params.get("schoolLogo") ?? "",
+    userName:
+      params.get("userName") ??
+      params.get("name") ??
+      params.get("firstName") ??
+      "",
     description: params.get("description") ?? "",
     programType: params.get("programType") ?? "",
     degreeOffered: params.get("degreeOffered") ?? "",
@@ -35,6 +41,7 @@ export function emptyEmbedScope(): PrismEmbedScope {
     programName: "",
     schoolName: "",
     schoolLogo: "",
+    userName: "",
     description: "",
     programType: "",
     degreeOffered: "",

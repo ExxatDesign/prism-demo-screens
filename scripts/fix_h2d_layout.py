@@ -11,6 +11,21 @@ NGX_CHARTS_PATTERN = re.compile(
     r'(<div dangerouslySetInnerHTML=\{\{ __html: \'[\s\S]*?\' \}\} />)\s*</svg>'
 )
 
+HIGHCHARTS_PATTERN = re.compile(
+    r'<svg className="highcharts-root" style=\{\{([^}]*(?:\{[^}]*\}[^}]*)*)\}\}>\s*'
+    r'(<div dangerouslySetInnerHTML=\{\{ __html: \'[\s\S]*?\' \}\} />)\s*</svg>'
+)
+
+
+def fix_details_slots(text: str) -> tuple[str, int]:
+    text, n1 = re.subn(r'<slot id="details-summary"[^>]*>\s*', "", text)
+    text, n2 = re.subn(
+        r"</slot>\s*<slot id=\"details-content\"[^>]*/>\s*",
+        "",
+        text,
+    )
+    return text, n1 + n2
+
 
 def fix_pendo_banners(text: str) -> tuple[str, int]:
     count = 0
@@ -167,6 +182,16 @@ def fix_file(path: Path) -> dict[str, int]:
     )
     counts["ngx_charts"] = n
     text = new_text
+
+    new_text, n = HIGHCHARTS_PATTERN.subn(
+        r'<div className="highcharts-root" style={{\1}}>\n\2\n</div>',
+        text,
+    )
+    counts["highcharts"] = n
+    text = new_text
+
+    text, slots = fix_details_slots(text)
+    counts["details_slots"] = slots
 
     text, pendo = fix_pendo_banners(text)
     counts["pendo"] = pendo

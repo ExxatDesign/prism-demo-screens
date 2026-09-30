@@ -60,5 +60,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  assetsInclude: ["**/*.svg", "**/*.woff2", "**/*.ttf"],
+  assetsInclude: ["**/*.svg", "**/*.webp", "**/*.woff2", "**/*.ttf"],
 });
