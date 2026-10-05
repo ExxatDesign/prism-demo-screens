@@ -993,13 +993,16 @@
   max-width: 100% !important;
 }
 
-.h2d-screen .page-layout.left-sidebar.page-without-header {
+/* Curriculum mapping only — Student 360 nests fuse-sidebar under .content */
+.h2d-screen .page-layout.left-sidebar.page-without-header:has(> fuse-sidebar),
+.h2d-screen cmap .page-layout.left-sidebar.page-without-header {
   flex-direction: row !important;
   align-items: stretch !important;
   gap: 0 !important;
 }
 
-.h2d-screen .page-layout.left-sidebar.page-without-header fuse-sidebar.sidebar {
+.h2d-screen .page-layout.left-sidebar.page-without-header:has(> fuse-sidebar) > fuse-sidebar.sidebar,
+.h2d-screen cmap .page-layout.left-sidebar.page-without-header fuse-sidebar.sidebar {
   flex: 0 0 240px !important;
   width: 240px !important;
   max-width: 240px !important;
@@ -1023,6 +1026,112 @@
 
 .h2d-screen .page-layout.left-sidebar.page-without-header #content_main.center {
   margin-left: 0 !important;
+}
+
+/* Student 360 profile — header row on top; student rail + detail in .content (not a flat row) */
+.h2d-screen .page-layout.left-sidebar.page-without-header:has(> .content fuse-sidebar.sidebar) {
+  flex-direction: column !important;
+  align-items: stretch !important;
+  width: 100% !important;
+  min-width: 0 !important;
+}
+
+.h2d-screen
+  .page-layout.left-sidebar.page-without-header:has(> .content fuse-sidebar.sidebar)
+  > .white-background.border-bottom {
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.h2d-screen
+  .page-layout.left-sidebar.page-without-header:has(> .content fuse-sidebar.sidebar)
+  > .content {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: stretch !important;
+  flex: 1 1 auto !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  flex-basis: auto !important;
+}
+
+.h2d-screen
+  .page-layout.left-sidebar.page-without-header:has(> .content fuse-sidebar.sidebar)
+  .content
+  fuse-sidebar.sidebar {
+  flex: 0 0 72px !important;
+  width: 72px !important;
+  max-width: 72px !important;
+  min-width: 72px !important;
+  flex-grow: 0 !important;
+  flex-shrink: 0 !important;
+  flex-basis: 72px !important;
+  z-index: 1 !important;
+  overflow-x: hidden !important;
+}
+
+.h2d-screen
+  .page-layout.left-sidebar.page-without-header:has(> .content fuse-sidebar.sidebar)
+  #student_detail_content.center,
+.h2d-screen
+  .page-layout.left-sidebar.page-without-header:has(> .content fuse-sidebar.sidebar)
+  .content
+  > .center {
+  flex: 1 1 0 !important;
+  min-width: 0 !important;
+  width: auto !important;
+  max-width: none !important;
+  margin-left: 0 !important;
+  overflow-x: auto !important;
+}
+
+.h2d-screen profile-admin-student-list .student-list,
+.h2d-screen profile-admin-student-list .cdk-virtual-scroll-viewport {
+  height: auto !important;
+  max-height: min(70vh, 720px) !important;
+}
+
+.h2d-screen profile-admin-student-list .mat-mdc-list-item-unscoped-content {
+  overflow: hidden !important;
+  text-overflow: clip !important;
+}
+
+.h2d-screen .student-profile-screen .h2d-screen-inner,
+.h2d-screen .student-profile-screen .mx-auto.max-w-\[1440px\].h2d-screen-inner {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+.h2d-screen .student-profile-screen profile-admin-details .page-layout.left-sidebar.page-without-header {
+  flex-direction: column !important;
+  width: 100% !important;
+}
+
+.h2d-screen .student-profile-screen profile-admin-details .page-layout.left-sidebar.page-without-header > .content {
+  display: flex !important;
+  flex-direction: row !important;
+  flex: 1 1 auto !important;
+  width: 100% !important;
+  min-width: 0 !important;
+}
+
+.h2d-screen .student-profile-screen profile-admin-details fuse-sidebar.sidebar {
+  flex: 0 0 72px !important;
+  width: 72px !important;
+  max-width: 72px !important;
+  min-width: 72px !important;
+  flex-grow: 0 !important;
+  flex-shrink: 0 !important;
+  z-index: 1 !important;
+}
+
+.h2d-screen .student-profile-screen #student_detail_content.center {
+  flex: 1 1 0 !important;
+  min-width: 0 !important;
+  width: auto !important;
+  max-width: none !important;
+  display: block !important;
 }
 
 .h2d-screen #curriculum_details_page {

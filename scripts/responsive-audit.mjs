@@ -13,6 +13,7 @@ const PAGES = [
   { name: "Faculty Compliance (By Group)", path: "/caas/faculty/home/bygroup" },
   { name: "Student Compliance (Cohort)", path: "/compliance/home/cohort" },
   { name: "Compliance Student", path: "/profile/search" },
+  { name: "Student Profile", path: "/profile/details?tab=overview" },
   { name: "Faculty Search", path: "/admin/faculty/search" },
   { name: "Curriculum Course Offerings", path: "/curriculum/courseofferings" },
   { name: "Program Details", path: "/program/programdetails" },

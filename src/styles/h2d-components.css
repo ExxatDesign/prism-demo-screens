@@ -53,6 +53,18 @@
   min-width: 0 !important;
   height: var(--h2d-tab-height) !important;
   padding-left: var(--h2d-tab-pad-x) !important;
+}
+
+.h2d-screen nav.secondary-tab-nav-bar.mat-mdc-tab-nav-bar,
+.h2d-screen .secondary-tab-nav-bar.mat-mdc-tab-nav-bar {
+  width: fit-content !important;
+  max-width: 100% !important;
+}
+
+.h2d-screen nav.secondary-tab-nav-bar .mat-mdc-tab-link,
+.h2d-screen .secondary-tab-nav-bar .mat-mdc-tab-link {
+  height: 36px !important;
+  padding-left: var(--h2d-tab-pad-x) !important;
   padding-right: var(--h2d-tab-pad-x) !important;
 }
 

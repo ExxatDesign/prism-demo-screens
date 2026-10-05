@@ -4,7 +4,8 @@ import DemoNav from "@/app/DemoNav";
 import CaasFacultyHomeByGroup from "@/imports/StepsExxatComAdminCaasFacultyHomeBygroup1440WDefault";
 import ComplianceHomeCohort from "@/imports/StepsExxatComAdminComplianceHomeCohort1440WDefault";
 import CurriculumCourseOfferings from "@/imports/StepsExxatComAdminCurriculumCourseofferings1440WDefault";
-import ProfileSearch from "@/imports/StepsExxatComAdminProfileSearch1440WDefault";
+import ProfileSearchScreen from "@/screens/profile-search-screen";
+import StudentProfileScreen from "@/screens/student-profile-screen";
 import FacultySearch from "@/imports/StepsExxatComAdminFacultySearch1440WDefault";
 import ProgramProgramDetailsScreen from "@/screens/program-program-details-screen";
 import CompetencyReview from "@/imports/StepsExxatComAdminCompetencyReview1440WDefault";
@@ -26,7 +27,8 @@ const screens = [
   { path: "/caas/faculty/home/bygroup", component: CaasFacultyHomeByGroup },
   { path: "/compliance/home/cohort", component: ComplianceHomeCohort },
   { path: "/curriculum/courseofferings", component: CurriculumCourseOfferings },
-  { path: "/profile/search", component: ProfileSearch },
+  { path: "/profile/search", component: ProfileSearchScreen },
+  { path: "/profile/details", component: StudentProfileScreen },
   { path: "/admin/faculty/search", component: FacultySearch },
   { path: "/program/programdetails", component: ProgramProgramDetailsScreen },
   { path: "/competency/review", component: CompetencyReview },

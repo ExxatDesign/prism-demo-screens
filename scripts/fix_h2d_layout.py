@@ -81,6 +81,22 @@ def fix_pendo_banners(text: str) -> tuple[str, int]:
     return new_text, count
 
 
+def fix_profile_student_fuse_sidebar(text: str) -> tuple[str, int]:
+    if "student_detail_content" not in text:
+        return text, 0
+    count = 0
+    replacements = [
+        (r"flexBasis: '100%', flexDirection: 'column',", "flexBasis: 'auto', flexDirection: 'column',"),
+        (r"maxWidth: '4%',", "maxWidth: '72px',"),
+        (r"flexGrow: '1', flexShrink: '1', opacity: '1'\}\}>\s*\n\s*<profile-admin-student-list", "flexGrow: '0', flexShrink: '0', opacity: '1'}}>\n                                    <profile-admin-student-list"),
+        (r"zIndex: '9999',", "zIndex: '1',"),
+    ]
+    for pattern, repl in replacements:
+        text, n = re.subn(pattern, repl, text, count=1)
+        count += n
+    return text, count
+
+
 def fix_page_layout_overflow(text: str) -> tuple[str, int]:
     count = 0
     new_text, n = re.subn(
@@ -198,6 +214,9 @@ def fix_file(path: Path) -> dict[str, int]:
 
     text, page_layout = fix_page_layout_overflow(text)
     counts["page_layout"] = page_layout
+
+    text, profile_sidebar = fix_profile_student_fuse_sidebar(text)
+    counts["profile_sidebar"] = profile_sidebar
 
     text, table_heights = fix_table_heights(text)
     counts["table_heights"] = table_heights
