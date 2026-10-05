@@ -15,6 +15,16 @@ Open [http://localhost:4010/prism-demo-screens/](http://localhost:4010/prism-dem
 
 GitHub Pages: [https://exxatdesign.github.io/prism-demo-screens/](https://exxatdesign.github.io/prism-demo-screens/)
 
+## Deploy (project-level push)
+
+Pushes use **this repo’s** `isomorphic-git` helper and your GitHub CLI login—not system `git`:
+
+```bash
+npm run push -- "Your commit message"
+```
+
+That commits all project changes (excluding `node_modules`, `.claude/`, `__pycache__`) and pushes `main`, which triggers the GitHub Pages workflow.
+
 ## Realistic demo data
 
 The screens in `src/imports/` are generated from `.h2d` captures and contain test data. After every

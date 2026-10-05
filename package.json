@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "push": "node scripts/git-push-via-gh.mjs"
   },
   "dependencies": {
     "react": "18.3.1",
@@ -21,6 +22,7 @@
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react": "4.7.0",
+    "isomorphic-git": "^1.36.1",
     "playwright": "^1.49.0",
     "tailwindcss": "4.1.12",
     "typescript": "^5.7.3",

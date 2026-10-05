@@ -1,44 +1,69 @@
+/**
+ * Commit and push using project deps (isomorphic-git + gh token).
+ * Use when system git is unavailable; run from repo root via npm run push.
+ */
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { execSync } from "node:child_process";
 import git from "isomorphic-git";
 import http from "isomorphic-git/http/node";
-import { execSync } from "node:child_process";
 
 const dir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const token = execSync("gh auth token", { encoding: "utf8" }).trim();
 
-const paths = [
-  "src/app/App.tsx",
-  "src/app/DemoNav.tsx",
-  "scripts/responsive-audit.mjs",
-  "src/styles/h2d-render-fixes.css",
-  "src/imports/StepsExxatComAdminTenantApps1440WDefault.tsx",
-  "public/assets/asset_956cce07.png",
-  "public/assets/asset_1d6b58d2.svg",
-];
+const DEFAULT_AUTHOR = {
+  name: "ExxatDesign",
+  email: "41898282+ExxatDesign@users.noreply.github.com",
+};
 
-for (const filepath of paths) {
-  const full = path.join(dir, filepath);
-  if (!fs.existsSync(full)) {
-    console.error(`Missing: ${filepath}`);
-    process.exit(1);
-  }
-  await git.add({ fs, dir, filepath });
+function usage() {
+  console.error(`Usage: npm run push -- "<commit message>"
+
+Stages all changed tracked/untracked files (except node_modules, __pycache__, .claude/)
+and pushes origin/main using \`gh auth token\`.`);
+  process.exit(1);
 }
 
-const sha = await git.commit({
-  fs,
-  dir,
-  message:
-    "Add Tenant Apps demo screen and tune layout for full-height tiles.",
-  author: {
-    name: "ExxatDesign",
-    email: "41898282+ExxatDesign@users.noreply.github.com",
-  },
-});
+const argv = process.argv.slice(2);
+const dashIdx = argv.indexOf("--");
+const messageParts = dashIdx >= 0 ? argv.slice(dashIdx + 1) : argv;
+const message = messageParts.join(" ").trim();
+if (!message) usage();
 
-console.log("Committed:", sha);
+const token = execSync("gh auth token", { encoding: "utf8", cwd: dir }).trim();
+
+function shouldSkip(filepath) {
+  return (
+    filepath.includes("__pycache__") ||
+    filepath.startsWith(".claude/") ||
+    filepath === "node_modules" ||
+    filepath.startsWith("node_modules/")
+  );
+}
+
+const matrix = await git.statusMatrix({ fs, dir });
+const paths = matrix
+  .filter(
+    ([fp, head, workdir, stage]) =>
+      !shouldSkip(fp) && (head !== workdir || head !== stage || workdir !== stage),
+  )
+  .map(([fp]) => fp);
+
+if (paths.length === 0) {
+  console.log("Nothing to commit; checking push…");
+} else {
+  for (const filepath of paths) {
+    await git.add({ fs, dir, filepath });
+  }
+
+  const sha = await git.commit({
+    fs,
+    dir,
+    message,
+    author: DEFAULT_AUTHOR,
+  });
+  console.log(`Committed ${paths.length} path(s):`, sha);
+}
 
 await git.push({
   fs,
@@ -49,4 +74,4 @@ await git.push({
   onAuth: () => ({ username: token, password: "x-oauth-basic" }),
 });
 
-console.log("Pushed main to origin");
+console.log("Pushed main → origin (GitHub Pages deploy runs on push to main).");
