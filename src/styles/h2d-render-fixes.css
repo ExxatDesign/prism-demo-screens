@@ -1029,7 +1029,7 @@
 }
 
 /* Student 360 profile — header row on top; student rail + detail in .content (not a flat row) */
-.h2d-screen .page-layout.left-sidebar.page-without-header:has(> .content fuse-sidebar.sidebar) {
+.h2d-screen .page-layout.left-sidebar.page-without-header:has(> .content fuse-sidebar) {
   flex-direction: column !important;
   align-items: stretch !important;
   width: 100% !important;
@@ -1037,14 +1037,14 @@
 }
 
 .h2d-screen
-  .page-layout.left-sidebar.page-without-header:has(> .content fuse-sidebar.sidebar)
+  .page-layout.left-sidebar.page-without-header:has(> .content fuse-sidebar)
   > .white-background.border-bottom {
   flex: 0 0 auto !important;
   width: 100% !important;
 }
 
 .h2d-screen
-  .page-layout.left-sidebar.page-without-header:has(> .content fuse-sidebar.sidebar)
+  .page-layout.left-sidebar.page-without-header:has(> .content fuse-sidebar)
   > .content {
   display: flex !important;
   flex-direction: row !important;
@@ -1057,9 +1057,9 @@
 }
 
 .h2d-screen
-  .page-layout.left-sidebar.page-without-header:has(> .content fuse-sidebar.sidebar)
+  .page-layout.left-sidebar.page-without-header:has(> .content fuse-sidebar)
   .content
-  fuse-sidebar.sidebar {
+  > fuse-sidebar {
   flex: 0 0 72px !important;
   width: 72px !important;
   max-width: 72px !important;
@@ -1072,10 +1072,10 @@
 }
 
 .h2d-screen
-  .page-layout.left-sidebar.page-without-header:has(> .content fuse-sidebar.sidebar)
+  .page-layout.left-sidebar.page-without-header:has(> .content fuse-sidebar)
   #student_detail_content.center,
 .h2d-screen
-  .page-layout.left-sidebar.page-without-header:has(> .content fuse-sidebar.sidebar)
+  .page-layout.left-sidebar.page-without-header:has(> .content fuse-sidebar)
   .content
   > .center {
   flex: 1 1 0 !important;
@@ -1090,6 +1090,25 @@
 .h2d-screen profile-admin-student-list .cdk-virtual-scroll-viewport {
   height: auto !important;
   max-height: min(70vh, 720px) !important;
+}
+
+.h2d-screen profile-admin-student-list .cdk-virtual-scroll-spacer {
+  display: none !important;
+  height: 0 !important;
+}
+
+.h2d-screen profile-admin-student-list .cdk-virtual-scroll-content-wrapper {
+  position: relative !important;
+  transform: none !important;
+}
+
+.h2d-screen profile-admin-student-list mat-list-item .mat-mdc-list-item-unscoped-content {
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+.h2d-screen .student-profile-screen .progress-container circle.progress-background {
+  stroke: rgb(224, 224, 224) !important;
 }
 
 .h2d-screen profile-admin-student-list .mat-mdc-list-item-unscoped-content {
@@ -1116,14 +1135,54 @@
   min-width: 0 !important;
 }
 
-.h2d-screen .student-profile-screen profile-admin-details fuse-sidebar.sidebar {
+.h2d-screen .student-profile-screen profile-admin-details fuse-sidebar,
+.h2d-screen .student-profile-screen fuse-sidebar {
   flex: 0 0 72px !important;
   width: 72px !important;
   max-width: 72px !important;
   min-width: 72px !important;
   flex-grow: 0 !important;
   flex-shrink: 0 !important;
+  flex-basis: 72px !important;
   z-index: 1 !important;
+}
+
+.h2d-screen .student-profile-screen profile-overview {
+  display: block !important;
+  width: 100% !important;
+}
+
+.h2d-screen .student-profile-screen profile-overview .overview-screen-height {
+  height: auto !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+.h2d-screen .student-profile-screen profile-overview .overview-screen-height > div:nth-child(2) {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  align-items: flex-start !important;
+  width: 100% !important;
+  min-width: 0 !important;
+}
+
+.h2d-screen .student-profile-screen profile-overview .overview-screen-height > div:nth-child(2) > div:first-child {
+  flex: 1 1 0 !important;
+  min-width: 0 !important;
+  max-width: none !important;
+}
+
+.h2d-screen .student-profile-screen profile-overview .pl-md-16 {
+  flex: 0 0 25% !important;
+  width: 25% !important;
+  max-width: 25% !important;
+  min-width: 240px !important;
+  position: static !important;
+}
+
+.h2d-screen .student-profile-screen profile-needs-attention,
+.h2d-screen .student-profile-screen profile-needs-attention mat-card {
+  position: static !important;
 }
 
 .h2d-screen .student-profile-screen #student_detail_content.center {
@@ -2016,3 +2075,138 @@ html[data-embed="1"] .student-dashboard-embed {
   display: none;
 }
 
+
+/* Student 360: undo student-search grid rules (profile-admin) that squash the placements/course tables */
+.h2d-screen .student-profile-screen profile-admin .table-rounded-border,
+.h2d-screen .student-profile-screen profile-admin .content.exxat-sticky-table {
+  overflow-x: auto !important;
+}
+
+.h2d-screen .student-profile-screen profile-admin table.mat-mdc-table {
+  width: 100% !important;
+  min-width: 0 !important;
+  table-layout: fixed !important;
+}
+
+.h2d-screen .student-profile-screen profile-admin .mat-mdc-header-cell,
+.h2d-screen .student-profile-screen profile-admin .mat-mdc-cell,
+.h2d-screen .student-profile-screen profile-admin .mat-mdc-header-cell:first-child,
+.h2d-screen .student-profile-screen profile-admin .mat-mdc-cell:first-child {
+  min-width: 0 !important;
+  max-width: none !important;
+  width: auto !important;
+}
+
+.h2d-screen .student-profile-screen profile-admin .mat-column-courseDetails,
+.h2d-screen .student-profile-screen profile-admin .mat-column-placementDetails,
+.h2d-screen .student-profile-screen profile-admin .mat-column-locationDetails {
+  width: 26% !important;
+}
+
+.h2d-screen .student-profile-screen profile-admin .mat-mdc-header-cell.status-column,
+.h2d-screen .student-profile-screen profile-admin .mat-mdc-cell.status-column {
+  width: 11% !important;
+}
+
+/* Student 360: student rail stays in view and never shows a second scrollbar */
+.h2d-screen .student-profile-screen fuse-sidebar {
+  position: sticky !important;
+  top: 0 !important;
+  align-self: flex-start !important;
+  height: 100vh !important;
+  max-height: 100vh !important;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+  scrollbar-width: none !important;
+}
+
+.h2d-screen .student-profile-screen fuse-sidebar::-webkit-scrollbar {
+  display: none !important;
+}
+
+/* overflow-x:hidden makes the root a scroll container and breaks the sticky rail; clip does not */
+.student-profile-screen .h2d-screen-root {
+  overflow-x: clip !important;
+  overflow-y: visible !important;
+}
+
+/* Captured Pendo "Updated" badge was positioned ~390px past the right edge, making the page scroll sideways */
+.student-profile-screen button._pendo-badge,
+body > button._pendo-badge {
+  position: absolute !important;
+  left: auto !important;
+  right: 16px !important;
+  top: 86px !important;
+  z-index: 40 !important;
+}
+
+/* Overview summary cards wrap instead of overflowing into the right column */
+.h2d-screen .student-profile-screen profile-academics-overview > div {
+  flex-wrap: wrap !important;
+  gap: 16px !important;
+}
+
+.h2d-screen .student-profile-screen profile-academics-overview > div > mat-card {
+  margin-right: 0 !important;
+  min-width: 0 !important;
+  flex: 1 1 190px !important;
+}
+
+.h2d-screen .student-profile-screen profile-academics-overview > div > mat-card:last-child {
+  flex: 1.4 1 270px !important;
+}
+
+/* Equal-width summary cards, as in the captured design */
+.h2d-screen .student-profile-screen profile-academics-overview > div > mat-card,
+.h2d-screen .student-profile-screen profile-academics-overview > div > mat-card:last-child {
+  flex: 1 1 220px !important;
+}
+
+/* Student 360: no outer gutter or row gap — header bar, student header and rail sit flush like the live app */
+.h2d-screen .student-profile-screen .h2d-screen-inner,
+.h2d-screen .student-profile-screen .mx-auto.max-w-\[1440px\].h2d-screen-inner {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.h2d-screen .student-profile-screen profile-admin-details .page-layout.left-sidebar {
+  gap: 0 !important;
+}
+
+/* Student 360: no "Updated" Pendo badge; divider under the header tabs */
+.student-profile-screen button._pendo-badge,
+body > button._pendo-badge,
+body > ._pendo-badge {
+  display: none !important;
+}
+
+.h2d-screen .student-profile-screen profile-admin-student-header .mat-mdc-tab-nav-bar {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12) !important;
+}
+
+/* Divider spans the whole header, not just the tab bar */
+.h2d-screen .student-profile-screen profile-admin-student-header .mat-mdc-tab-nav-bar {
+  border-bottom: 0 !important;
+}
+
+.h2d-screen .student-profile-screen profile-admin-student-header .white-background.pt-8.px-16 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12) !important;
+}
+
+/* Student 360: tabs and other clickable items show a pointer, not the text cursor */
+.h2d-screen .student-profile-screen a,
+.h2d-screen .student-profile-screen a *,
+.h2d-screen .student-profile-screen button,
+.h2d-screen .student-profile-screen button *,
+.h2d-screen .student-profile-screen [role="tab"],
+.h2d-screen .student-profile-screen [role="tab"] *,
+.h2d-screen .student-profile-screen .mat-mdc-tab-link,
+.h2d-screen .student-profile-screen .mat-mdc-tab-link * {
+  cursor: pointer !important;
+  user-select: none;
+}
+
+/* Overview summary cards: same top and same height */
+.h2d-screen .student-profile-screen profile-academics-overview > div {
+  align-items: stretch !important;
+}

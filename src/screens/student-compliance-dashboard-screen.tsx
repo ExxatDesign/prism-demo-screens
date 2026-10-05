@@ -26,37 +26,37 @@ const REQUIREMENTS: Requirement[] = [
   {
     title: "COVID-19 Vaccination",
     category: "Health & Immunization",
-    due: "Due on 05/01/2026",
-    alert: "Expiring on 05/01/2026",
+    due: "Due on 11/01/2026",
+    alert: "Expiring on 11/01/2026",
     status: "expiring",
     statusLabel: "Expiring",
   },
   {
     title: "CPR/BLS",
     category: "Certifications & trainings",
-    due: "Due on 05/01/2026",
-    alert: "Expired on 04/01/2026",
+    due: "Due on 11/01/2026",
+    alert: "Expired on 09/01/2026",
     status: "progress",
     statusLabel: "In Progress",
   },
   {
     title: "Flu (Influenza)",
     category: "Health & Immunization",
-    due: "Due on 05/01/2026",
+    due: "Due on 11/01/2026",
     status: "start",
     statusLabel: "Get Started",
   },
   {
     title: "Tetanus, Diphtheria and Pertussis (Tdap)",
     category: "Health & Immunization",
-    due: "Due on 05/01/2026",
+    due: "Due on 11/01/2026",
     status: "start",
     statusLabel: "Get Started",
   },
   {
     title: "Hepatitis B (HepB)",
     category: "Health & Immunization",
-    due: "Due on 05/01/2026",
+    due: "Due on 11/01/2026",
     status: "start",
     statusLabel: "Get Started",
   },
@@ -87,7 +87,7 @@ function ProfileCard() {
           />
           <div className="min-w-0">
             <p className="text-base font-semibold text-[rgba(0,0,0,0.87)]">Bailey, Teri</p>
-            <p className="truncate text-[13px] text-[rgba(0,0,0,0.54)]">bailey.teri@umes.edu</p>
+            <p className="truncate text-[13px] text-[rgba(0,0,0,0.54)]">bailey.teri@centralcity.edu</p>
           </div>
         </div>
         <button type="button" aria-label="Edit profile" className="rounded-lg p-1.5 hover:bg-black/5">

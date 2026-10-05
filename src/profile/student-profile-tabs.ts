@@ -16,6 +16,8 @@ export const STUDENT_PROFILE_TAB_IDS = {
   compliance: "profile-studentheader-compliance-link",
   clinical: "profile-studentheader-ClinicalCoursework-link",
   learning: "profile-studentheader-admin.profile.learningActivities-link",
+  exam: "profile-studentheader-exam-link",
+  survey: "profile-studentheader-survey-link",
 } as const;
 
 export type StudentProfileTabId = keyof typeof STUDENT_PROFILE_TAB_IDS;
@@ -31,6 +33,15 @@ export const STUDENT_PROFILE_TABS: {
   { id: "compliance", label: "Compliance", component: ProfileCompliance },
   { id: "clinical", label: "Coursework", component: ProfileClinical },
   { id: "learning", label: "Learning Activities", component: ProfileLearning },
+  // Exam and Survey reuse the Overview header; useStudentProfileExtraTabs swaps in their body.
+  { id: "exam", label: "Exam", component: ProfileOverview },
+  { id: "survey", label: "Survey", component: ProfileOverview },
+];
+
+/** Tabs appended to the captured header by useStudentProfileExtraTabs. */
+export const STUDENT_PROFILE_EXTRA_TABS: { id: StudentProfileTabId; label: string }[] = [
+  { id: "exam", label: "Exam" },
+  { id: "survey", label: "Survey" },
 ];
 
 const TAB_ID_BY_LINK = Object.fromEntries(

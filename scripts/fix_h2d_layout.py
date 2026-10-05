@@ -88,12 +88,43 @@ def fix_profile_student_fuse_sidebar(text: str) -> tuple[str, int]:
     replacements = [
         (r"flexBasis: '100%', flexDirection: 'column',", "flexBasis: 'auto', flexDirection: 'column',"),
         (r"maxWidth: '4%',", "maxWidth: '72px',"),
+        (
+            r"(<fuse-sidebar className=\"sidebar[^\"]*\" style=\{\{[^}]*?)maxWidth: '240px',",
+            r"\1maxWidth: '72px',",
+        ),
         (r"flexGrow: '1', flexShrink: '1', opacity: '1'\}\}>\s*\n\s*<profile-admin-student-list", "flexGrow: '0', flexShrink: '0', opacity: '1'}}>\n                                    <profile-admin-student-list"),
         (r"zIndex: '9999',", "zIndex: '1',"),
     ]
     for pattern, repl in replacements:
         text, n = re.subn(pattern, repl, text, count=1)
         count += n
+    return text, count
+
+
+def fix_profile_virtual_scroll(text: str) -> tuple[str, int]:
+    if "student_detail_content" not in text:
+        return text, 0
+    count = 0
+    text, n = re.subn(
+        r'className="cdk-virtual-scroll-spacer" style=\{\{height: \'2000px\'',
+        'className="cdk-virtual-scroll-spacer" style={{height: \'1px\'',
+        text,
+    )
+    count += n
+    text, n = re.subn(
+        r"(className=\"cdk-virtual-scroll-content-wrapper\" style=\{\{[^}]*?)position: 'absolute', ",
+        r"\1position: 'relative', ",
+        text,
+        count=1,
+    )
+    count += n
+    text, n = re.subn(
+        r"(cdk-virtual-scroll-viewport[^>]*style=\{\{)height: '733px', ",
+        r"\1",
+        text,
+        count=1,
+    )
+    count += n
     return text, count
 
 
@@ -217,6 +248,9 @@ def fix_file(path: Path) -> dict[str, int]:
 
     text, profile_sidebar = fix_profile_student_fuse_sidebar(text)
     counts["profile_sidebar"] = profile_sidebar
+
+    text, profile_scroll = fix_profile_virtual_scroll(text)
+    counts["profile_scroll"] = profile_scroll
 
     text, table_heights = fix_table_heights(text)
     counts["table_heights"] = table_heights

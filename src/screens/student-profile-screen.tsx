@@ -1,5 +1,7 @@
 import * as React from "react";
 import { useNavigate, useSearchParams } from "react-router";
+import { useStudentProfileEnhancements } from "@/embed/use-student-profile-enhancements";
+import { useStudentProfileExtraTabs } from "@/embed/use-student-profile-extra-tabs";
 import { useStudentProfileTabNavCapture } from "@/embed/use-student-profile-tab-nav";
 import { parseStudentProfileTab, STUDENT_PROFILE_TABS } from "@/profile/student-profile-tabs";
 
@@ -8,6 +10,8 @@ export default function StudentProfileScreen() {
   const [searchParams, setSearchParams] = useSearchParams();
   const tab = parseStudentProfileTab(searchParams.get("tab"));
   const onTabCapture = useStudentProfileTabNavCapture(setSearchParams);
+  useStudentProfileEnhancements(tab);
+  const extraPanel = useStudentProfileExtraTabs(tab);
 
   const onScreenCapture = React.useCallback(
     (event: React.MouseEvent) => {
@@ -32,7 +36,8 @@ export default function StudentProfileScreen() {
       data-student-profile-tab={tab}
       onClickCapture={onScreenCapture}
     >
-      <Panel />
+      <Panel key={tab} />
+      {extraPanel}
     </div>
   );
 }
