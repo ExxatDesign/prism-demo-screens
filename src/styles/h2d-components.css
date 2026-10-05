@@ -74,6 +74,13 @@
   white-space: nowrap !important;
 }
 
+/* Compliance Student Setup/Students/Reports — captured <a> tabs have no href */
+.h2d-screen profile-admin a.mat-mdc-tab-link,
+.h2d-screen profile-admin a.mat-mdc-tab-link * {
+  cursor: pointer !important;
+  user-select: none;
+}
+
 /* ── Table cards fill the page content ── */
 
 .h2d-screen .dashboard-content,
@@ -343,11 +350,389 @@
   max-width: 220px !important;
 }
 
+.h2d-screen profile-admin .mat-column-cohortName,
+.h2d-screen profile-admin .cdk-column-cohortName {
+  max-width: 220px !important;
+}
+
 .h2d-screen profile-admin .content.exxat-sticky-table,
 .h2d-screen .faculty-staff-search-grid-with-filter.content.exxat-sticky-table,
+.h2d-screen settings-admin plugin-invite-student .student-search-grid-with-filter,
+.h2d-screen settings-admin plugin-manage-licenses .student-search-grid-with-filter,
 .h2d-screen .curriculum-second-grid-height,
 .h2d-screen course-offering .table-rounded-border {
   overflow-x: auto !important;
+}
+
+/* Invite Student grid — same wide-table behavior as Compliance Student search */
+.h2d-screen settings-admin plugin-invite-student .student-search-grid-with-filter .mat-mdc-table,
+.h2d-screen settings-admin plugin-invite-student table#stickyColumnTable {
+  width: max-content !important;
+  min-width: 100% !important;
+  table-layout: auto !important;
+}
+
+.h2d-screen settings-admin plugin-invite-student .student-search-grid-with-filter {
+  overflow-y: auto !important;
+  height: auto !important;
+  max-height: min(70vh, 720px) !important;
+}
+
+.h2d-screen settings-admin plugin-invite-student .mat-column-lastName,
+.h2d-screen settings-admin plugin-invite-student .cdk-column-lastName {
+  min-width: 200px !important;
+  max-width: 280px !important;
+}
+
+.h2d-screen settings-admin plugin-invite-student .mat-column-email,
+.h2d-screen settings-admin plugin-invite-student .cdk-column-email {
+  min-width: 220px !important;
+  max-width: 280px !important;
+}
+
+.h2d-screen settings-admin plugin-invite-student .mat-column-cohortName,
+.h2d-screen settings-admin plugin-invite-student .cdk-column-cohortName {
+  min-width: 140px !important;
+  max-width: 220px !important;
+}
+
+.h2d-screen settings-admin plugin-invite-student .mat-column-cohortName > div,
+.h2d-screen settings-admin plugin-invite-student .mat-column-cohortName span {
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  max-width: 100% !important;
+}
+
+.h2d-screen settings-admin plugin-invite-student .mat-column-inviteStatus,
+.h2d-screen settings-admin plugin-invite-student .cdk-column-inviteStatus {
+  min-width: 216px !important;
+}
+
+/* Invite Student: no pinned/sticky columns — scroll the whole grid */
+.h2d-screen settings-admin plugin-invite-student #stickyColumnTable .mat-mdc-table-sticky,
+.h2d-screen settings-admin plugin-invite-student #stickyColumnTable .mat-mdc-header-cell,
+.h2d-screen settings-admin plugin-invite-student #stickyColumnTable .mat-mdc-cell {
+  position: static !important;
+  left: auto !important;
+  right: auto !important;
+  z-index: auto !important;
+}
+
+.h2d-screen settings-admin plugin-invite-student #stickyColumnTable thead .mat-mdc-header-cell {
+  top: auto !important;
+}
+
+/* Manage Licenses — same grid behavior as Invite Student */
+.h2d-screen settings-admin plugin-manage-licenses .student-search-grid-with-filter,
+.h2d-screen settings-admin plugin-manage-licenses .student-search-grid-with-filter .mat-mdc-table,
+.h2d-screen settings-admin plugin-manage-licenses table#stickyColumnTable {
+  width: max-content !important;
+  min-width: 100% !important;
+  table-layout: auto !important;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses .student-search-grid-with-filter {
+  overflow-y: auto !important;
+  height: auto !important;
+  max-height: min(70vh, 720px) !important;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses .mat-column-lastName,
+.h2d-screen settings-admin plugin-manage-licenses .cdk-column-lastName {
+  min-width: 200px !important;
+  max-width: 280px !important;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses .mat-column-email,
+.h2d-screen settings-admin plugin-manage-licenses .cdk-column-email,
+.h2d-screen settings-admin plugin-manage-licenses #email,
+.h2d-screen
+  settings-admin
+  plugin-manage-licenses
+  #stickyColumnTable
+  th.mat-column-email,
+.h2d-screen
+  settings-admin
+  plugin-manage-licenses
+  #stickyColumnTable
+  td.mat-column-email {
+  display: table-cell !important;
+  min-width: 220px !important;
+  max-width: 320px !important;
+  vertical-align: middle !important;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses .mat-column-cohortName,
+.h2d-screen settings-admin plugin-manage-licenses .cdk-column-cohortName {
+  min-width: 128px !important;
+  max-width: 160px !important;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses #stickyColumnTable .mat-mdc-table-sticky,
+.h2d-screen settings-admin plugin-manage-licenses #stickyColumnTable .mat-mdc-header-cell,
+.h2d-screen settings-admin plugin-manage-licenses #stickyColumnTable .mat-mdc-cell {
+  position: static !important;
+  left: auto !important;
+  right: auto !important;
+  z-index: auto !important;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses #stickyColumnTable thead .mat-mdc-header-cell {
+  top: auto !important;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses .manage-licenses-page-header {
+  width: 100% !important;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses .page-layout.carded.fullwidth {
+  flex: 1 1 auto !important;
+  min-height: 0 !important;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses .manage-licenses-toolbar-actions,
+.h2d-screen settings-admin plugin-manage-licenses .border-right.h-48.pr-16:has(.manage-licenses-toolbar-actions) {
+  display: none !important;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses .mat-column-lastName exxat-tag-showcase {
+  display: none !important;
+}
+
+/* Profile Setup sidebar — clickable nav affordance */
+.h2d-screen settings-admin fuse-sidebar button[id^="SetUp"],
+.h2d-screen settings-admin fuse-sidebar button.parent[id^="SetUp"],
+.h2d-screen settings-admin fuse-sidebar button[id^="SetUp"] mat-list-item {
+  cursor: pointer !important;
+}
+
+.profile-manage-licenses-screen settings-admin fuse-sidebar button#SetUpmanage-licenses {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  border-left-color: rgb(63, 81, 181) !important;
+}
+
+.profile-manage-licenses-screen settings-admin fuse-sidebar button#SetUpinvite-student {
+  background-color: transparent !important;
+  border-left-color: rgb(255, 255, 255) !important;
+}
+
+.profile-setup-screen settings-admin fuse-sidebar button#SetUpinvite-student {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  border-left-color: rgb(63, 81, 181) !important;
+}
+
+.profile-setup-screen settings-admin fuse-sidebar button#SetUpmanage-licenses {
+  background-color: transparent !important;
+  border-left-color: rgb(255, 255, 255) !important;
+}
+
+/* Manage Licenses toolbar — Figma: export + filter only */
+.h2d-screen settings-admin plugin-manage-licenses exxat-edit-columns {
+  display: none !important;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses #filter-button #student\ invite\ filter > span.ng-star-inserted {
+  display: none !important;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses .mat-column-originKey i.fa-circle-info {
+  display: none !important;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses .mat-column-profileStatus,
+.h2d-screen settings-admin plugin-manage-licenses .cdk-column-profileStatus {
+  min-width: 128px !important;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses .mat-column-originKey,
+.h2d-screen settings-admin plugin-manage-licenses .cdk-column-originKey {
+  min-width: 120px !important;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses .mat-column-activationStatus,
+.h2d-screen settings-admin plugin-manage-licenses .cdk-column-activationStatus {
+  min-width: 100px !important;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses .mat-column-inviteStatus,
+.h2d-screen settings-admin plugin-manage-licenses .cdk-column-inviteStatus {
+  min-width: 220px !important;
+  max-width: 320px !important;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses .mat-column-activationStatusTimestamp,
+.h2d-screen settings-admin plugin-manage-licenses .cdk-column-activationStatusTimestamp {
+  min-width: 72px !important;
+  text-align: center !important;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses .ml-table-license-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 2px 0;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses .ml-table-license-cell__title-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  max-width: 100%;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses .ml-table-license-cell__title {
+  font-size: 14px;
+  line-height: 1.35;
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 600;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses .ml-table-license-cell__info {
+  flex-shrink: 0;
+  font-size: 16px;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.87);
+  margin-bottom: 1px;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses .ml-table-license-pill {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 4px 12px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses .ml-table-license-pill--lapsed {
+  background: #d8d8d8;
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 400;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses .ml-table-license-pill--notAvailable {
+  background: #d8d8d8;
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 400;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses .ml-table-license-pill--used {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses .ml-table-license-pill--unused {
+  background: #fff8e1;
+  color: #975b00;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses tr[data-ml-license-row="1"] {
+  height: auto !important;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses tr[data-ml-license-row="1"] .mat-mdc-cell {
+  vertical-align: top !important;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses td.mat-column-email a[href^="mailto:"],
+.h2d-screen settings-admin plugin-manage-licenses td.mat-column-inviteStatus a[href^="mailto:"] {
+  display: none !important;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses .mat-column-activationStatusTimestamp .ng-star-inserted > span {
+  font-size: 0 !important;
+  line-height: 0 !important;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses .mat-column-activationStatusTimestamp .ng-star-inserted > span::before {
+  content: "\f303" !important;
+  font-family: "Font Awesome 6 Pro", "Font Awesome 6 Free" !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 1 !important;
+  color: rgba(0, 0, 0, 0.54) !important;
+  display: inline-block !important;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses .mat-column-lastName > div {
+  flex-direction: column !important;
+  align-items: flex-start !important;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses button[data-manage-licenses-bulk-active="true"],
+.h2d-screen
+  settings-admin
+  plugin-manage-licenses
+  button[data-manage-licenses-bulk-active="true"]
+  .mdc-button__label,
+.h2d-screen
+  settings-admin
+  plugin-manage-licenses
+  button[data-manage-licenses-bulk-active="true"]
+  span {
+  color: #fff !important;
+  -webkit-text-fill-color: #fff !important;
+}
+
+/* Manage Licenses — selectable rows (Figma checked / indeterminate header) */
+.h2d-screen settings-admin plugin-manage-licenses .mat-column-firstName mat-checkbox {
+  cursor: pointer !important;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses mat-checkbox .mdc-checkbox__background {
+  position: relative !important;
+}
+
+.h2d-screen
+  settings-admin
+  plugin-manage-licenses
+  mat-checkbox[data-h2d-checked="true"]
+  .mdc-checkbox__background,
+.h2d-screen
+  settings-admin
+  plugin-manage-licenses
+  mat-checkbox[data-h2d-indeterminate="true"]
+  .mdc-checkbox__background {
+  background-color: rgb(63, 81, 181) !important;
+  border-color: rgb(63, 81, 181) !important;
+}
+
+.h2d-screen
+  settings-admin
+  plugin-manage-licenses
+  mat-checkbox[data-h2d-checked="true"]:not([data-h2d-indeterminate="true"])
+  .mdc-checkbox__background::after {
+  content: "" !important;
+  position: absolute !important;
+  left: 50% !important;
+  top: 45% !important;
+  width: 5px !important;
+  height: 10px !important;
+  border: solid #fff !important;
+  border-width: 0 2px 2px 0 !important;
+  transform: translate(-50%, -50%) rotate(45deg) !important;
+  display: block !important;
+}
+
+.h2d-screen
+  settings-admin
+  plugin-manage-licenses
+  mat-checkbox[data-h2d-indeterminate="true"]
+  .mdc-checkbox__background::after {
+  content: "" !important;
+  position: absolute !important;
+  left: 50% !important;
+  top: 50% !important;
+  width: 10px !important;
+  height: 2px !important;
+  background: #fff !important;
+  transform: translate(-50%, -50%) !important;
+  display: block !important;
 }
 
 /* Faculty CAAS requirement tables — many columns, keep readable headers */

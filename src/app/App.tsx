@@ -5,6 +5,8 @@ import CaasFacultyHomeByGroup from "@/imports/StepsExxatComAdminCaasFacultyHomeB
 import ComplianceHomeCohort from "@/imports/StepsExxatComAdminComplianceHomeCohort1440WDefault";
 import CurriculumCourseOfferings from "@/imports/StepsExxatComAdminCurriculumCourseofferings1440WDefault";
 import ProfileSearchScreen from "@/screens/profile-search-screen";
+import ProfileSetupScreen from "@/screens/profile-setup-screen";
+import ProfileManageLicensesScreen from "@/screens/profile-manage-licenses-screen";
 import StudentProfileScreen from "@/screens/student-profile-screen";
 import FacultySearch from "@/imports/StepsExxatComAdminFacultySearch1440WDefault";
 import ProgramProgramDetailsScreen from "@/screens/program-program-details-screen";
@@ -28,6 +30,8 @@ const screens = [
   { path: "/compliance/home/cohort", component: ComplianceHomeCohort },
   { path: "/curriculum/courseofferings", component: CurriculumCourseOfferings },
   { path: "/profile/search", component: ProfileSearchScreen },
+  { path: "/profile/setup/manage-licenses", component: ProfileManageLicensesScreen },
+  { path: "/profile/setup", component: ProfileSetupScreen },
   { path: "/profile/details", component: StudentProfileScreen },
   { path: "/admin/faculty/search", component: FacultySearch },
   { path: "/program/programdetails", component: ProgramProgramDetailsScreen },
@@ -37,10 +41,51 @@ const screens = [
   { path: "/student/compliance", component: StudentComplianceDashboardScreen },
 ] as const;
 
-export default function App() {
+const EMBED_KEY = "prism-demo:embed";
+const EMBED_NAV_KEY = "prism-demo:embed-nav";
+
+function readStored(key: string): string | null {
+  try {
+    return sessionStorage.getItem(key);
+  } catch {
+    return null;
+  }
+}
+
+function writeStored(key: string, value: string | null) {
+  try {
+    if (value === null) sessionStorage.removeItem(key);
+    else sessionStorage.setItem(key, value);
+  } catch {
+    /* storage can be blocked; embed still works for the first screen */
+  }
+}
+
+/**
+ * Embed mode, remembered for the tab.
+ *
+ * The host passes `?embed=1` once, on the iframe's first load. In-app links (a
+ * student row into Student 360, a tab into another screen) navigate without the
+ * query, so reading only the URL dropped embed mode on the second screen and
+ * brought back the gallery's SCREENS bar inside the host's page. `?embed=0`
+ * clears it for a standalone visit.
+ */
+function useEmbedMode() {
   const [searchParams] = useSearchParams();
-  const embed = searchParams.get("embed") === "1";
-  const embedNav = searchParams.get("embedNav") === "sidebar" ? "sidebar" : "tabs";
+  const param = searchParams.get("embed");
+  const navParam = searchParams.get("embedNav");
+
+  if (param === "1") writeStored(EMBED_KEY, "1");
+  else if (param === "0") writeStored(EMBED_KEY, null);
+  if (navParam === "sidebar" || navParam === "tabs") writeStored(EMBED_NAV_KEY, navParam);
+
+  const embed = param === "1" || (param !== "0" && readStored(EMBED_KEY) === "1");
+  const nav = navParam ?? readStored(EMBED_NAV_KEY);
+  return { embed, embedNav: nav === "sidebar" ? ("sidebar" as const) : ("tabs" as const) };
+}
+
+export default function App() {
+  const { embed, embedNav } = useEmbedMode();
 
   React.useEffect(() => {
     const root = document.documentElement;

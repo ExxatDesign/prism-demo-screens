@@ -9,6 +9,8 @@ const pages = [
   { path: "/caas/faculty/home/bygroup", label: "Faculty" },
   { path: "/compliance/home/cohort", label: "Compliance" },
   { path: "/profile/search", label: "Compliance Student" },
+  { path: "/profile/setup/manage-licenses", label: "Manage Licenses" },
+  { path: "/profile/setup", label: "Invite Student" },
   { path: "/admin/faculty/search", label: "Faculty Search" },
   { path: "/curriculum/courseofferings", label: "Curriculum" },
   { path: "/program/programdetails", label: "Program" },

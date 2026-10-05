@@ -1,0 +1,601 @@
+.ml-assign-drawer-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 10000;
+}
+
+.ml-assign-drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: min(720px, 100vw);
+  z-index: 10001;
+  background: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.25);
+  font-family: "Source Sans Pro", sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.ml-assign-drawer__header {
+  position: relative;
+  height: 48px;
+  flex-shrink: 0;
+  background: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  display: flex;
+  align-items: center;
+  padding: 0 16px 0 48px;
+}
+
+.ml-assign-drawer__close {
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  width: 32px;
+  height: 32px;
+  border: none;
+  background: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.ml-assign-drawer__title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ml-assign-drawer__body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px 0 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Horizontal wizard — Figma 1383-22138 (step 1) / 1383-22520 (step 2) */
+.ml-assign-wizard {
+  padding: 0 16px;
+}
+
+.ml-assign-wizard__track {
+  display: flex;
+  align-items: flex-start;
+  width: fit-content;
+  max-width: 100%;
+}
+
+.ml-assign-wizard__seg {
+  position: relative;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.ml-assign-wizard__seg--first {
+  width: 176px;
+  margin-right: -14px;
+  z-index: 2;
+}
+
+.ml-assign-wizard__seg--second {
+  width: 189px;
+  z-index: 1;
+}
+
+.ml-assign-wizard__bg {
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  left: 1.5px;
+  width: 174.5px;
+  height: calc(100% - 2px);
+  display: block;
+  pointer-events: none;
+}
+
+.ml-assign-wizard__bg--second {
+  left: 0;
+  width: 187.5px;
+}
+
+.ml-assign-wizard__border {
+  position: absolute;
+  top: 0.5px;
+  bottom: 0.5px;
+  left: 1px;
+  right: 14px;
+  display: block;
+  pointer-events: none;
+}
+
+.ml-assign-wizard__border--second {
+  left: 0;
+  right: 1px;
+  width: auto;
+}
+
+.ml-assign-wizard__index {
+  position: absolute;
+  top: calc(50% - 9px);
+  width: 16px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1;
+  transform: translateX(-50%);
+}
+
+.ml-assign-wizard__seg--first .ml-assign-wizard__index {
+  left: 17px;
+}
+
+.ml-assign-wizard__seg--second .ml-assign-wizard__index {
+  left: 32px;
+}
+
+.ml-assign-wizard__label {
+  position: absolute;
+  top: calc(50% - 10px);
+  font-size: 14px;
+  line-height: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ml-assign-wizard__seg--first .ml-assign-wizard__label {
+  left: 33px;
+  right: 23px;
+}
+
+.ml-assign-wizard__seg--second .ml-assign-wizard__label {
+  left: 48px;
+  right: 8px;
+}
+
+.ml-assign-wizard__check {
+  position: absolute;
+  left: 9px;
+  top: 50%;
+  width: 16px;
+  height: 16px;
+  transform: translateY(-50%);
+  display: block;
+  pointer-events: none;
+}
+
+.ml-assign-wizard__seg--first-active .ml-assign-wizard__index,
+.ml-assign-wizard__seg--first-active .ml-assign-wizard__label {
+  color: #fff;
+  font-weight: 600;
+}
+
+.ml-assign-wizard__seg--first-done .ml-assign-wizard__label {
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 400;
+}
+
+.ml-assign-wizard__seg--second-inactive .ml-assign-wizard__index,
+.ml-assign-wizard__seg--second-inactive .ml-assign-wizard__label {
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 400;
+}
+
+.ml-assign-wizard__seg--second-active .ml-assign-wizard__index,
+.ml-assign-wizard__seg--second-active .ml-assign-wizard__label {
+  color: #fff;
+  font-weight: 600;
+}
+
+.ml-assign-step-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 0 16px;
+  flex-wrap: wrap;
+}
+
+.ml-assign-step-toolbar__heading {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+}
+
+.ml-assign-step-toolbar__actions {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.ml-assign-btn {
+  min-width: 80px;
+  padding: 7px 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+}
+
+.ml-assign-btn--outline {
+  background: #fff;
+  border: 1px solid #3f51b5;
+  color: #3f51b5;
+}
+
+.ml-assign-btn--primary {
+  background: #3f51b5;
+  color: #fff !important;
+}
+
+.ml-assign-btn--primary:disabled {
+  background: rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.87) !important;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.ml-assign-step-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0 16px;
+}
+
+.ml-assign-summary-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+
+.ml-assign-summary-card__icon {
+  background: rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.ml-assign-summary-card__title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+}
+
+.ml-assign-summary-card__meta {
+  margin: 2px 0 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.ml-assign-summary-card__meta--sm {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.72);
+}
+
+.ml-assign-license-block {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ml-assign-license-block--compact {
+  gap: 0;
+}
+
+.ml-assign-license-block__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.ml-assign-license-block__options {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.ml-assign-logo {
+  font-size: 16px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Figma LicenseType / Approve (node 1383-22157) */
+.ml-assign-logo-approve {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  width: 80px;
+  height: 20px;
+}
+
+.ml-assign-logo-approve__mark {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18.823px;
+  height: 20px;
+  display: block;
+}
+
+.ml-assign-logo-approve__word {
+  position: absolute;
+  left: 20.39px;
+  top: 3.48px;
+  width: 59.611px;
+  height: 15.177px;
+  display: block;
+}
+
+/* Exxat Home utility-bar lock-up (exxat-prism → Clinical Education) */
+.ml-assign-logo-clinical-ed {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+
+.ml-assign-logo-clinical-ed__mark {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  display: block;
+}
+
+.ml-assign-logo-clinical-ed__label {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: rgba(0, 0, 0, 0.87);
+  white-space: nowrap;
+}
+
+.ml-assign-toggle {
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+
+.ml-assign-toggle__track {
+  display: block;
+  width: 36px;
+  height: 20px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.38);
+  position: relative;
+  transition: background 0.15s ease;
+}
+
+.ml-assign-toggle--on .ml-assign-toggle__track {
+  background: #3f51b5;
+}
+
+.ml-assign-toggle__thumb {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #fff;
+  transition: transform 0.15s ease;
+}
+
+.ml-assign-toggle--on .ml-assign-toggle__thumb {
+  transform: translateX(16px);
+}
+
+.ml-assign-lic-card {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: #fff;
+}
+
+.ml-assign-lic-card + .ml-assign-lic-card {
+  margin-top: 8px;
+}
+
+.ml-assign-lic-card--selected {
+  background: #fbf8ff;
+  border: 2px solid #3f51b5;
+}
+
+.ml-assign-lic-card__row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.ml-assign-lic-card__label {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1;
+  cursor: pointer;
+  min-width: 0;
+}
+
+.ml-assign-lic-card__text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.ml-assign-lic-card__title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.ml-assign-lic-card__desc {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.35;
+  color: rgba(0, 0, 0, 0.72);
+}
+
+.ml-assign-lic-card__label input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.ml-assign-lic-card__radio {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0.54);
+  position: relative;
+}
+
+.ml-assign-lic-card__label input:checked + .ml-assign-lic-card__radio {
+  border-color: #3f51b5;
+}
+
+.ml-assign-lic-card__label input:checked + .ml-assign-lic-card__radio::after {
+  content: "";
+  position: absolute;
+  inset: 3px;
+  border-radius: 50%;
+  background: #3f51b5;
+}
+
+.ml-assign-lic-card__avail {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1e1e1e;
+  white-space: nowrap;
+}
+
+.ml-assign-link-btn {
+  border: none;
+  background: none;
+  padding: 0;
+  color: #3f51b5;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+  align-self: flex-start;
+}
+
+.ml-assign-review-card {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ml-assign-review-card__title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.ml-assign-review-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+@media (max-width: 480px) {
+  .ml-assign-review-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.ml-assign-review-grid__cell {
+  padding: 8px;
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 72px;
+}
+
+.ml-assign-review-grid__cell--last {
+  border-right: none;
+}
+
+.ml-assign-review-grid__label {
+  font-size: 12px;
+  font-weight: 400;
+  color: #1e1e1e;
+}
+
+.ml-assign-review-grid__value {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1e1e1e;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.ml-assign-review-grid__value--lg {
+  font-size: 16px;
+}
+
+.ml-assign-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: #f0efff;
+  border-radius: 16px;
+  padding: 2px 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #344258;
+  width: fit-content;
+}

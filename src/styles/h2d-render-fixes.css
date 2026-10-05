@@ -913,6 +913,16 @@
   table-layout: auto !important;
 }
 
+/* Invite Student: override global fixed-layout table rules (same as profile search grid) */
+.h2d-screen settings-admin plugin-invite-student table#stickyColumnTable.mat-mdc-table,
+.h2d-screen settings-admin plugin-invite-student .student-search-grid-with-filter > table#stickyColumnTable,
+.h2d-screen settings-admin plugin-manage-licenses table#stickyColumnTable.mat-mdc-table,
+.h2d-screen settings-admin plugin-manage-licenses .student-search-grid-with-filter > table#stickyColumnTable {
+  width: max-content !important;
+  min-width: 100% !important;
+  table-layout: auto !important;
+}
+
 .h2d-screen profile-admin .mat-mdc-header-cell,
 .h2d-screen profile-admin .mat-mdc-cell {
   min-width: 120px !important;
@@ -983,6 +993,56 @@
   min-width: 0 !important;
   flex-basis: 0 !important;
   margin-left: 16px !important;
+}
+
+/* Profile Setup (Invite Student): fuse-sidebar + #main_content are direct siblings */
+.h2d-screen settings-admin .page-layout.carded.left-sidebar:has(> fuse-sidebar) {
+  flex-direction: row !important;
+  align-items: stretch !important;
+  flex-wrap: nowrap !important;
+  gap: 16px !important;
+}
+
+.h2d-screen settings-admin .page-layout.page-with-header > .width-x-sm:empty {
+  display: none !important;
+}
+
+.h2d-screen settings-admin .page-layout.carded.left-sidebar > fuse-sidebar.sidebar,
+.h2d-screen settings-admin .page-layout.carded.left-sidebar > fuse-sidebar {
+  flex: 0 0 240px !important;
+  width: 240px !important;
+  max-width: 240px !important;
+  min-width: 200px !important;
+  height: auto !important;
+  max-height: none !important;
+  align-self: stretch !important;
+}
+
+.h2d-screen settings-admin .page-layout.carded.left-sidebar > #main_content.center {
+  flex: 1 1 0 !important;
+  width: auto !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  height: auto !important;
+  max-height: none !important;
+  align-self: stretch !important;
+  overflow: visible !important;
+}
+
+.h2d-screen settings-admin #main_content .student-setup-content {
+  flex: 1 1 auto !important;
+  min-height: 0 !important;
+  height: auto !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.h2d-screen settings-admin plugin-invite-student,
+.h2d-screen settings-admin plugin-manage-licenses {
+  flex: 1 1 auto !important;
+  min-height: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
 }
 
 /* Curriculum Mapping: sidebar + details are siblings (no .content wrapper) */

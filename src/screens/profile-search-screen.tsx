@@ -1,5 +1,6 @@
 import * as React from "react";
 import { useNavigate } from "react-router";
+import { useProfileAdminTabNavCapture } from "@/embed/use-profile-admin-tab-nav";
 import ProfileSearch from "@/imports/StepsExxatComAdminProfileSearch1440WDefault";
 import { DEMO_STUDENT_PROFILE_ID } from "@/profile/student-profile-tabs";
 
@@ -20,6 +21,7 @@ function findStudentNameLink(target: EventTarget | null): HTMLAnchorElement | nu
 
 export default function ProfileSearchScreen() {
   const navigate = useNavigate();
+  const onTabCapture = useProfileAdminTabNavCapture();
 
   const onNavigateToProfile = React.useCallback(
     (event: React.MouseEvent) => {
@@ -38,8 +40,16 @@ export default function ProfileSearchScreen() {
     [navigate],
   );
 
+  const onScreenCapture = React.useCallback(
+    (event: React.MouseEvent) => {
+      onTabCapture(event);
+      onNavigateToProfile(event);
+    },
+    [onNavigateToProfile, onTabCapture],
+  );
+
   return (
-    <div className="profile-search-screen" onClickCapture={onNavigateToProfile}>
+    <div className="profile-admin-screen profile-search-screen" onClickCapture={onScreenCapture}>
       <ProfileSearch />
     </div>
   );
