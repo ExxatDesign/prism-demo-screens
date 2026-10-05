@@ -130,12 +130,14 @@ function Toggle({
   );
 }
 
+const MANAGE_LICENSES_ASSETS = `${import.meta.env.BASE_URL}assets/manage-licenses`;
+
 function ApproveLogo() {
   return (
     <span className="ml-assign-logo-approve" role="img" aria-label="Approve">
       <img
         className="ml-assign-logo-approve__mark"
-        src="/assets/manage-licenses/approve-logo-mark.svg"
+        src={`${MANAGE_LICENSES_ASSETS}/approve-logo-mark.svg`}
         alt=""
         width={19}
         height={20}
@@ -143,7 +145,7 @@ function ApproveLogo() {
       />
       <img
         className="ml-assign-logo-approve__word"
-        src="/assets/manage-licenses/approve-logo-word.svg"
+        src={`${MANAGE_LICENSES_ASSETS}/approve-logo-word.svg`}
         alt=""
         width={60}
         height={15}
@@ -153,7 +155,7 @@ function ApproveLogo() {
   );
 }
 
-const WIZARD_ASSETS = "/assets/manage-licenses/wizard";
+const WIZARD_ASSETS = `${MANAGE_LICENSES_ASSETS}/wizard`;
 
 function AssignLicenseWizard({ step }: { step: 1 | 2 }) {
   return (
