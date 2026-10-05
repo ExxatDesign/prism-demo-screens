@@ -15,12 +15,15 @@ type DemoStudentRow = {
   campus: string;
   clinicalEducation: LicenseCell;
   approve: LicenseCell;
+  examManagement: LicenseCell;
 };
 
 const CE_LICENSE =
   "Clinical Education licenses for class of 2026-2029 - PT";
 const APPROVE_LICENSE =
   "S0023: Approve licenses for class of 2026-2029 - All program";
+const EXAM_LICENSE =
+  "S0041: Exam Management licenses for class of 2026-2029 - PT";
 
 /** Figma 1383-18894 — Ann: CE lapsed; Approve = Not Available only. */
 const DEMO_STUDENTS: DemoStudentRow[] = [
@@ -33,6 +36,7 @@ const DEMO_STUDENTS: DemoStudentRow[] = [
     campus: "East",
     clinicalEducation: { kind: "license", title: CE_LICENSE, pill: "lapsed" },
     approve: { kind: "notAvailable" },
+    examManagement: { kind: "notAvailable" },
   },
   {
     name: "Hanna Stanton",
@@ -43,6 +47,7 @@ const DEMO_STUDENTS: DemoStudentRow[] = [
     campus: "East",
     clinicalEducation: { kind: "license", title: CE_LICENSE, pill: "used" },
     approve: { kind: "license", title: APPROVE_LICENSE, pill: "unused" },
+    examManagement: { kind: "license", title: EXAM_LICENSE, pill: "used" },
   },
   {
     name: "Marcus Madsen",
@@ -53,6 +58,7 @@ const DEMO_STUDENTS: DemoStudentRow[] = [
     campus: "East",
     clinicalEducation: { kind: "license", title: CE_LICENSE, pill: "unused" },
     approve: { kind: "license", title: APPROVE_LICENSE, pill: "unused" },
+    examManagement: { kind: "license", title: EXAM_LICENSE, pill: "unused" },
   },
   {
     name: "Nolan Stanton",
@@ -62,7 +68,8 @@ const DEMO_STUDENTS: DemoStudentRow[] = [
     group: "Group-A",
     campus: "East",
     clinicalEducation: { kind: "license", title: CE_LICENSE, pill: "unused" },
-    approve: { kind: "license", title: APPROVE_LICENSE, pill: "unused" },
+    approve: { kind: "license", title: APPROVE_LICENSE, pill: "lapsed" },
+    examManagement: { kind: "notAvailable" },
   },
 ];
 
@@ -151,10 +158,24 @@ function setStudentCell(cell: Element, name: string, email: string) {
 
 function patchTableHeaders(table: Element) {
   const ceHeader = table.querySelector(
-    "th.mat-column-email .mat-sort-header-content span, th#email span",
+    "th.mat-column-email .mat-sort-header-content span, th#email .mat-sort-header-content span, th#email span",
   );
   if (ceHeader) {
     ceHeader.textContent = "Clinical Education License Details";
+  }
+
+  const approveHeader = table.querySelector(
+    "th#inviteStatus .grid_header_truncate span span, th.mat-column-inviteStatus#inviteStatus span span",
+  );
+  if (approveHeader) {
+    approveHeader.textContent = "Approve License Details";
+  }
+
+  const examHeader = table.querySelector(
+    "th#examManagement .grid_header_truncate span span, th.mat-column-examManagement span span",
+  );
+  if (examHeader) {
+    examHeader.textContent = "Exam Management License Details";
   }
 }
 
@@ -182,23 +203,28 @@ export function applyManageLicensesDemoData(root: ParentNode) {
 
   const rows = Array.from(table.querySelectorAll("tbody tr.mat-mdc-row"));
   rows.forEach((row, index) => {
-    if (row.getAttribute("data-ml-license-row") === "1") return;
-
     const demo = DEMO_STUDENTS[index];
-    const ceCell = row.querySelector(".mat-column-email");
-    const approveCell = row.querySelector(".mat-column-inviteStatus");
+    const ceCell = row.querySelector(":scope > td.mat-column-email");
+    const approveCell = row.querySelector(":scope > td.mat-column-inviteStatus");
+    const examCell = row.querySelector(":scope > td.mat-column-examManagement");
+    const rowPatched = row.getAttribute("data-ml-license-row") === "1";
 
-    if (demo) {
+    if (!rowPatched && demo) {
       setStudentCell(row.querySelector(".mat-column-lastName")!, demo.name, demo.email);
       setCellText(row.querySelector(".mat-column-cohortName"), demo.cohort);
       setCellText(row.querySelector(".mat-column-profileStatus"), demo.category);
       setCellText(row.querySelector(".mat-column-originKey"), demo.group);
       setCellText(row.querySelector(".mat-column-activationStatus"), demo.campus);
-      if (ceCell) renderLicenseColumnCell(ceCell, demo.clinicalEducation);
-      if (approveCell) renderLicenseColumnCell(approveCell, demo.approve);
-    } else {
-      if (ceCell) renderLicenseColumnCell(ceCell, NOT_AVAILABLE);
-      if (approveCell) renderLicenseColumnCell(approveCell, NOT_AVAILABLE);
+    }
+
+    if (ceCell) {
+      renderLicenseColumnCell(ceCell, demo?.clinicalEducation ?? NOT_AVAILABLE);
+    }
+    if (approveCell) {
+      renderLicenseColumnCell(approveCell, demo?.approve ?? NOT_AVAILABLE);
+    }
+    if (examCell) {
+      renderLicenseColumnCell(examCell, demo?.examManagement ?? NOT_AVAILABLE);
     }
 
     row.setAttribute("data-ml-license-row", "1");

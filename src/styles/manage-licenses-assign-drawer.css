@@ -384,6 +384,30 @@
   white-space: nowrap;
 }
 
+.ml-assign-logo-exam-mgmt {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+
+.ml-assign-logo-exam-mgmt__mark {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  display: block;
+}
+
+.ml-assign-logo-exam-mgmt__label {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: rgba(0, 0, 0, 0.87);
+  white-space: nowrap;
+}
+
 .ml-assign-toggle {
   border: none;
   background: transparent;

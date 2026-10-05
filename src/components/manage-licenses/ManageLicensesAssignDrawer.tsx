@@ -1,6 +1,7 @@
 import * as React from "react";
 import { createPortal } from "react-dom";
 import ClinicalEducationProductLogo from "@/components/manage-licenses/ClinicalEducationProductLogo";
+import ExamManagementProductLogo from "@/components/manage-licenses/ExamManagementProductLogo";
 
 const APPROVE_LICENSES = [
   {
@@ -25,6 +26,19 @@ const CLINICAL_EDUCATION_LICENSES = [
     id: "S0023-ALL",
     title: "S0023: Clinical Education licenses for class of 2026-2029 - All program",
     available: "50/100",
+  },
+] as const;
+
+const EXAM_MANAGEMENT_LICENSES = [
+  {
+    id: "S0041-PT",
+    title: "S0041: Exam Management licenses for class of 2026-2029 - PT",
+    available: "88/200",
+  },
+  {
+    id: "S0041-ALL",
+    title: "S0041: Exam Management licenses for class of 2026-2029 - All program",
+    available: "120/250",
   },
 ] as const;
 
@@ -250,20 +264,24 @@ export default function ManageLicensesAssignDrawer({
   const [step, setStep] = React.useState<1 | 2>(1);
   const [approveOn, setApproveOn] = React.useState(false);
   const [prismOn, setPrismOn] = React.useState(false);
+  const [examOn, setExamOn] = React.useState(false);
   const [selectedApproveId, setSelectedApproveId] = React.useState<string | null>(
     null,
   );
   const [selectedClinicalEdId, setSelectedClinicalEdId] = React.useState<
     string | null
   >(null);
+  const [selectedExamId, setSelectedExamId] = React.useState<string | null>(null);
 
   React.useEffect(() => {
     if (!open) return;
     setStep(1);
     setApproveOn(false);
     setPrismOn(false);
+    setExamOn(false);
     setSelectedApproveId(null);
     setSelectedClinicalEdId(null);
+    setSelectedExamId(null);
   }, [open]);
 
   React.useEffect(() => {
@@ -285,14 +303,20 @@ export default function ManageLicensesAssignDrawer({
   const selectedClinicalEdLicense = CLINICAL_EDUCATION_LICENSES.find(
     (l) => l.id === selectedClinicalEdId,
   );
+  const selectedExamLicense = EXAM_MANAGEMENT_LICENSES.find(
+    (l) => l.id === selectedExamId,
+  );
   const canProceed =
     (approveOn && selectedApproveId !== null) ||
-    (prismOn && selectedClinicalEdId !== null);
+    (prismOn && selectedClinicalEdId !== null) ||
+    (examOn && selectedExamId !== null);
 
   const reviewLicense =
     approveOn && selectedApproveLicense
       ? selectedApproveLicense
-      : selectedClinicalEdLicense;
+      : examOn && selectedExamLicense
+        ? selectedExamLicense
+        : selectedClinicalEdLicense;
 
   const handleApproveToggle = (next: boolean) => {
     setApproveOn(next);
@@ -305,6 +329,15 @@ export default function ManageLicensesAssignDrawer({
       setSelectedClinicalEdId(CLINICAL_EDUCATION_LICENSES[0].id);
     } else {
       setSelectedClinicalEdId(null);
+    }
+  };
+
+  const handleExamToggle = (next: boolean) => {
+    setExamOn(next);
+    if (next) {
+      setSelectedExamId(EXAM_MANAGEMENT_LICENSES[0].id);
+    } else {
+      setSelectedExamId(null);
     }
   };
 
@@ -427,6 +460,25 @@ export default function ManageLicensesAssignDrawer({
                   />
                 ) : null}
               </div>
+
+              <div className="ml-assign-license-block">
+                <div className="ml-assign-license-block__head">
+                  <ExamManagementProductLogo />
+                  <Toggle
+                    label="Exam Management licenses"
+                    on={examOn}
+                    onChange={handleExamToggle}
+                  />
+                </div>
+                {examOn ? (
+                  <LicenseOptionCards
+                    licenses={EXAM_MANAGEMENT_LICENSES}
+                    radioName="exam-management-license"
+                    selectedId={selectedExamId}
+                    onSelect={setSelectedExamId}
+                  />
+                ) : null}
+              </div>
             </div>
           ) : (
             <div className="ml-assign-step-content">
@@ -445,6 +497,8 @@ export default function ManageLicensesAssignDrawer({
               <div className="ml-assign-review-card">
                 {approveOn && selectedApproveLicense ? (
                   <ApproveLogo />
+                ) : examOn && selectedExamLicense ? (
+                  <ExamManagementProductLogo />
                 ) : (
                   <ClinicalEducationProductLogo />
                 )}

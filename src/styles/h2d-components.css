@@ -556,7 +556,9 @@
 }
 
 .h2d-screen settings-admin plugin-manage-licenses .mat-column-inviteStatus,
-.h2d-screen settings-admin plugin-manage-licenses .cdk-column-inviteStatus {
+.h2d-screen settings-admin plugin-manage-licenses .cdk-column-inviteStatus,
+.h2d-screen settings-admin plugin-manage-licenses .mat-column-examManagement,
+.h2d-screen settings-admin plugin-manage-licenses .cdk-column-examManagement {
   min-width: 220px !important;
   max-width: 320px !important;
 }
@@ -640,7 +642,8 @@
 }
 
 .h2d-screen settings-admin plugin-manage-licenses td.mat-column-email a[href^="mailto:"],
-.h2d-screen settings-admin plugin-manage-licenses td.mat-column-inviteStatus a[href^="mailto:"] {
+.h2d-screen settings-admin plugin-manage-licenses td.mat-column-inviteStatus a[href^="mailto:"],
+.h2d-screen settings-admin plugin-manage-licenses td.mat-column-examManagement a[href^="mailto:"] {
   display: none !important;
 }
 
