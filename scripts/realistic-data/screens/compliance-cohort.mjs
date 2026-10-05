@@ -86,7 +86,7 @@ const REQ = {
   "E1Bg check": "Registry Check",
   First: "Handbook Receipt",
   G1: "N95 Fit Test",
-  gfgf: "Driver's License",
+  gfgf: "Drivers License",
   "Heath doc-sb": "Health Physical",
   Insurance: "Liability Waiver",
   "Interview Required Documents TCEE Rotation": "Interview Required Documents - Rotation",

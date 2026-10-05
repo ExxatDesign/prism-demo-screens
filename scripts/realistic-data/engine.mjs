@@ -66,7 +66,14 @@ export function transform(source, rules) {
     return undefined;
   };
   let changed = 0;
-  let out = source.replace(TEXT_NODE, (m, a, raw, b) => {
+  // Chart/tooltip HTML lives in single-quoted JS strings (`__html: '...'`); replacements placed there
+  // must have quotes and backslashes escaped or the file stops compiling.
+  const inJsString = (offset) => {
+    const lineStart = source.lastIndexOf("\n", offset) + 1;
+    return /__html:\s*'/.test(source.slice(lineStart, offset));
+  };
+  const escapeJs = (t) => t.replace(/\\/g, "\\\\").replace(/'/g, "\\'");
+  let out = source.replace(TEXT_NODE, (m, a, raw, b, offset) => {
     const lead = raw.match(/^\s*/)[0];
     const trail = raw.match(/\s*$/)[0];
     const text = raw.trim();
@@ -74,7 +81,7 @@ export function transform(source, rules) {
     const to = apply(text);
     if (to === undefined || to === text) return m;
     changed++;
-    return a + lead + to + trail + b;
+    return a + lead + (inJsString(offset) ? escapeJs(to) : to) + trail + b;
   });
   out = out.replace(ATTR, (m, attr, raw) => {
     const to = apply(raw);

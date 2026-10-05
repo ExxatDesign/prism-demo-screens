@@ -27,6 +27,21 @@ const RANKS = new Set(["Associate Lecturer", "Assistant Lecturer", "Full Lecture
 const SENIOR_POS = /Dean|Chair|Director/;
 const DATES = ["10/02/2026", "09/28/2026", "09/23/2026", "09/15/2026", "09/09/2026", "08/31/2026", "08/24/2026", "08/17/2026", "07/29/2026", "07/14/2026", "06/26/2026", "06/12/2026", "05/20/2026"];
 
+// People whose real title fits the position text a row already shows.
+const POSITION_PICKS = [
+  [/Assistant Dean/, ["Thomas Whitfield"]],
+  [/Associate Dean/, ["Angela Torres"]],
+  [/\bDean\b/, ["Jonathan Pierce"]],
+  [/Capstone/, ["Rachel Mendez"]],
+  [/Program (Director|Chair)/, ["Priya Raman", "Kevin O'Brien"]],
+  [/Department (Director|Chair)/, ["Linda Cho", "Fatima Rahman"]],
+  [/Fieldwork/, ["Samuel Brooks"]],
+  [/Clinical/, ["Marcus Ellery", "Mei-Ling Zhao"]],
+  [/Administrator/, ["Robert Haines"]],
+  [/Administrative Assistant/, ["Denise Carlisle"]],
+  [/Site/, ["Gregory Lang"]],
+];
+
 function buildPlan(filename) {
   const raw = [];
   readSource(filename).replace(NODE_RE, (m, a, t) => { if (t.trim()) raw.push(t.trim()); return m; });
@@ -35,6 +50,7 @@ function buildPlan(filename) {
   const end = raw.indexOf("Items per page:");
   if (hdr < 0 || end < 0) return { raw, plan };
   let rowStart = hdr + 1, row = 0, fi = 0, si = 0;
+  const usedNames = new Set();
   const isDate = (t) => /^\d\d\/\d\d\/\d{4}$/.test(t);
   for (let i = hdr + 1; i < end; i++) {
     if (!isDate(raw[i])) continue;
@@ -44,7 +60,16 @@ function buildPlan(filename) {
     const typeIdx = nodes.find((j) => j >= comma + 3 && (raw[j] === "Faculty" || raw[j] === "Staff"));
     const activeIdx = nodes.find((j) => j > typeIdx && raw[j] === "Active");
     const isStaff = raw[typeIdx] === "Staff";
-    const p = isStaff ? staffPeople[si++ % staffPeople.length] : facultyPeople[fi++ % facultyPeople.length];
+    const posText = nodes.filter((j) => j > activeIdx + 1 && j < i).map((j) => raw[j]).join(" ");
+    const people = isStaff ? staffPeople : facultyPeople;
+    const wanted = POSITION_PICKS.find(([re]) => re.test(posText))?.[1] ?? [];
+    let p = people.find((x) => wanted.includes(x.name) && !usedNames.has(x.name));
+    if (!p) {
+      // Fill with the generated extras (no fixed title) so nobody appears twice.
+      const pool = people.filter((x) => !FACULTY.some((f) => f.name === x.name));
+      p = pool.find((x) => !usedNames.has(x.name)) ?? people[(isStaff ? si++ : fi++) % people.length];
+    }
+    usedNames.add(p.name);
     const [first, ...rest] = p.name.split(" ");
     const last = rest.join(" ");
     // last name fragments (before comma)

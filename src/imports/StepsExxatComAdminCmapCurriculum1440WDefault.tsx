@@ -470,7 +470,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}>Health Informatics MS</span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}>DPT Curriculum 2021</span>
                                                 </div>
                                               </div>
                                             </span>
@@ -497,7 +497,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> test clone ssss </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> OTD 2026 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -524,7 +524,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> kiran </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> DPT Cohort 2024 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -550,7 +550,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Clone 2026 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PA 2022 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -577,7 +577,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> 123 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> BSN Cohort 2027 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -604,7 +604,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> non course </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> DPT Curriculum 2025 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -631,7 +631,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Clonelatha </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Class of 2027 Map </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -658,7 +658,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Latha DND 2026 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> SLP Cohort 2023 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -685,7 +685,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Test Sandesh - Clone </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MPH Curriculum 2024 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -711,7 +711,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Test Sandesh </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PharmD 2022 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -738,7 +738,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Test Harshal 2 - Clo... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Doctor of Physic... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -765,7 +765,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Test Harshal 1 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> DPT Cohort 2027 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -792,7 +792,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Test 123 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> RT 2025 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -818,7 +818,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> AttrCheckCurriculum2 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MLS Cohort 2023 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -845,7 +845,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> AttrCheckCurriculum </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> HI Curriculum 2021 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -872,7 +872,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> clone of clone login </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> BSN Cohort 2026 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -899,7 +899,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> clone login </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PA Curriculum 2024 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -926,7 +926,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> blooms </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> DPT 2023 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -953,7 +953,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Additional Identifie... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Occupational The... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -979,7 +979,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> TEST 1 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> OTD Curriculum 2021 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1006,7 +1006,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> clone of new cloner4... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Physician Assist... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1032,7 +1032,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> new clone r43 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> DPT 2026 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1059,7 +1059,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> aasd </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PA Cohort 2024 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1085,7 +1085,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> A </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Class of 2026 Map </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1112,7 +1112,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Mock J CurriculumNam... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Clinical Experie... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1138,7 +1138,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> CM Automation </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> BSN 2022 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1165,7 +1165,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Clone Elastic </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> SLP Curriculum 2025 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1192,7 +1192,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> r42AIMappingSanity </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MSAT Cohort 2023 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1218,7 +1218,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', fontWeight: '600', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> R 42 Curriculum </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MPH 2026 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1245,7 +1245,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Cloning Test date 19... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> DPT Curriculum 2... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1272,7 +1272,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> test data </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> DPT 2022 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1299,7 +1299,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Clone can be deleted </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> RT Cohort 2027 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1325,7 +1325,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Clone Test </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MLS 2025 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1352,7 +1352,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> AfterreleaseR41 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> HI Cohort 2023 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1379,7 +1379,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> cloneforay2 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> BSN Curriculum 2021 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1406,7 +1406,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> cloneforay </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PA Cohort 2026 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1433,7 +1433,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> clone </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> OTD 2023 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1460,7 +1460,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> darshan1 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PA 2026 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1487,7 +1487,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> WER </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> BSN Cohort 2024 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1513,7 +1513,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PP PG </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Fall 2026 Cohort </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1539,7 +1539,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Clone of R37 PP </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> SLP Cohort 2027 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1565,7 +1565,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> R37 PP </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> OTD Cohort 2023 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1591,7 +1591,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Clone - R37 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MPH Curriculum 2021 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1617,7 +1617,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> R37 curriculum </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PharmD 2026 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1643,7 +1643,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> test-123 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> DPT Curriculum 2024 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1669,7 +1669,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Color code </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> RT 2022 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1695,7 +1695,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> R-36 Clone Curriculu... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Bachelor of Scie... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1721,7 +1721,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> R-36 Curriculum </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MLS Cohort 2027 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1747,7 +1747,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Clone 2 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> HI 2025 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1773,7 +1773,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> New Clone </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> BSN Cohort 2023 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1799,7 +1799,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> currToDel </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PA Curriculum 2021 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1825,7 +1825,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> test-plan clone </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> OTD Curriculum 2025 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1851,7 +1851,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> test PLAN-B </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> BSN 2026 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1877,7 +1877,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> test 1001 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> SLP 2022 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1903,7 +1903,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> TEST 6006 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Spring 2026 Cohort </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1929,7 +1929,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Clone physical thera... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Speech-Language ... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1955,7 +1955,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Clone Surgery Practi... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Athletic Trainin... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -1981,7 +1981,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> R35-Release </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MSAT Cohort 2027 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2007,7 +2007,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> &lt;img src="x"&gt; </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MPH Cohort 2023 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2033,7 +2033,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Testng </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> RT Curriculum 2024 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2059,7 +2059,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> CCCCCC </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MLS 2022 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2085,7 +2085,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> TEST D004 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> HI Cohort 2027 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2111,7 +2111,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> TEST CAT 1 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> BSN 2025 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2137,7 +2137,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> yyhjytjt </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PA Cohort 2023 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2163,7 +2163,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> mock </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> DPT Curriculum 2022 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2189,7 +2189,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> spe16_Clone </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> OTD Cohort 2027 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2215,7 +2215,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> clone 131 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PA 2023 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2241,7 +2241,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> RBAC </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> SLP Cohort 2024 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2267,7 +2267,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Mock Course </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MSAT 2022 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2293,7 +2293,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> test clone 303 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MPH Curriculum 2025 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2319,7 +2319,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> smnksdnkjs </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> DPT Clinical Map </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2345,7 +2345,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> 22 Aprl Clone </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PharmD Cohort 2023 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2371,7 +2371,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Test Clone </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> RT 2026 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2397,7 +2397,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> RBAC Curriculum </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MLS Curriculum 2024 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2423,7 +2423,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> CC For 2023 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> HI 2022 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2449,7 +2449,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MappingTags </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PA 2025 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2475,7 +2475,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> SR </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> OTD Curriculum 2022 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2501,7 +2501,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Event Attributes </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PA Curriculum 2025 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2527,7 +2527,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Curriculum Map for S... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Clinical Mental ... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2553,7 +2553,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> R-13-swati -- testin... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Master of Public... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2579,7 +2579,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> cohort 2023 - R </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> BSN 2023 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2605,7 +2605,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> 22 Aprl </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> SLP 2026 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2631,7 +2631,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Clinical Experience ... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Doctor of Pharma... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2657,7 +2657,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MS </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MSAT Cohort 2024 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2683,7 +2683,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MeasureIssueDep </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> OTD 2022 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2709,7 +2709,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> SourceDestination </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MPH Cohort 2027 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2735,7 +2735,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Test add </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> DPT Cohort 2023 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2761,7 +2761,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Test Curriculum PROD </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> OTD Clinical Map </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2787,7 +2787,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PROD GS Curriculum </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> RT Curriculum 2021 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2813,7 +2813,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Physical Therapy 202... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Interprofessiona... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2839,7 +2839,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> spe16 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MLS 2026 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2865,7 +2865,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Cohort-DPT-2021* 17 ... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Academic Year 20... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2891,7 +2891,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Fresh curriculum </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> HI Curriculum 2024 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2917,7 +2917,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> curriculam-mfe </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PA Cohort 2027 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2943,7 +2943,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> The MFE Curriculum </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> OTD Cohort 2024 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2969,7 +2969,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> R26 ka Curriculum </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> BSN Curriculum 2025 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -2995,7 +2995,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> test db </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> SLP Curriculum 2021 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3021,7 +3021,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Test db 2 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MSAT 2026 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3047,7 +3047,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PROD </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MPH 2022 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3073,7 +3073,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Academic Year 2018 -... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Respiratory Ther... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3099,7 +3099,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MeasureIssue </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PharmD Cohort 2027 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3125,7 +3125,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Duplicate Course </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> RT Cohort 2023 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3151,7 +3151,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Clone-II for R23-GS-... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Medical Laborato... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3177,7 +3177,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Prod Curriculum </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MLS Curriculum 2021 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3203,7 +3203,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Test My Curriculum </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> HI 2026 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3229,7 +3229,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PT </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Professional Year </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3255,7 +3255,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Testing Reflection </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> BSN Curriculum 2024 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3281,7 +3281,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MappingIssue </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> DPT Cohort 2021 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3307,7 +3307,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> CurriculumProd </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PA Curriculum 2022 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3333,7 +3333,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> CheckSCO </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> SLP 2023 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3359,7 +3359,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Cohort-DPT-2 0 2 0 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MPH Cohort 2024 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3385,7 +3385,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> clone masters </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> RT Curriculum 2025 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3411,7 +3411,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> GS PROD Curriculum </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> OTD Cohort 2021 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3437,7 +3437,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Test-UUU </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> BSN Curriculum 2022 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3463,7 +3463,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> JM-R21-Curriculum </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MSAT 2023 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3489,7 +3489,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> s </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PharmD Cohort 2024 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3515,7 +3515,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> CourseMeasureAttribu... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Health Informati... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3541,7 +3541,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Academic Year 2021 -... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Doctor of Physic... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3567,7 +3567,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Clinical Studies 202... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Occupational The... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3593,7 +3593,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Student registration... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Physician Assist... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3619,7 +3619,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Testasd </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MLS Curriculum 2025 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3645,7 +3645,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> SharedCourseOffering </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> HI Curriculum 2025 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3671,7 +3671,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> asf </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> DPT 2027 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3697,7 +3697,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> A while back I neede... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Clinical Educati... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3723,7 +3723,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MFE PROD Curriculum </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Summer Intensive </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3749,7 +3749,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Ref Cohort </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PA Cohort 2021 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3775,7 +3775,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> A Student 21s </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> SLP Curriculum 2022 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3801,7 +3801,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> cohort 1st march 1 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MPH 2023 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3827,7 +3827,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Clone of Physical Th... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Academic Year 20... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3853,7 +3853,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> TEST Curriculum-I ed... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Bachelor of Scie... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3879,7 +3879,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MappingSetup </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> RT Cohort 2024 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3905,7 +3905,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> BB Curriculum </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> OTD 2027 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3931,7 +3931,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Cohort !! </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> BSN Cohort 2021 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3957,7 +3957,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MappingSetup </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PharmD 2023 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -3983,7 +3983,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> CurriculumID </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MLS Cohort 2024 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4009,7 +4009,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PT </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> HI Cohort 2024 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4035,7 +4035,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Edit Course Offering </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> DPT Curriculum 2026 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4061,7 +4061,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> ABC123 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PA 2027 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4087,7 +4087,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> R 29 Medicine Studie </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> SLP Cohort 2021 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4113,7 +4113,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> BB Clone </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MPH Curriculum 2022 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4139,7 +4139,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Cohort Jan-2023 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Bridge Program 2026 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4165,7 +4165,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Clone of clone </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> RT 2023 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4191,7 +4191,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Curriculum Map for H... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Speech-Language ... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4217,7 +4217,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Cohort-2023 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> OTD Curriculum 2026 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4243,7 +4243,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Test-111 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> BSN 2027 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4269,7 +4269,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Cohort-DPT-2021* 17 ... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Athletic Trainin... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4295,7 +4295,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PLAN Curriculum Demo </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MSAT Cohort 2021 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4321,7 +4321,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Ivy 40 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MLS 2023 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4347,7 +4347,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Curriculum Map for x... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Clinical Mental ... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4373,7 +4373,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Cohort 2023 - F </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> HI 2023 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4399,7 +4399,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> R26 ka Clone </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> DPT Cohort 2025 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4425,7 +4425,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> R6 clone r27 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PA Curriculum 2026 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4451,7 +4451,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> terms error </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> SLP 2027 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4477,7 +4477,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> K1 Test </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MPH Cohort 2021 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4503,7 +4503,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> asvgasgasfasdasdasda... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Master of Public... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4529,7 +4529,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> asd </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> RT Curriculum 2022 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4555,7 +4555,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Student registration... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Doctor of Pharma... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4581,7 +4581,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Professional Year </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> OTD Cohort 2025 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4607,7 +4607,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> jbl </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> BSN Curriculum 2026 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4633,7 +4633,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> GS Curriculum </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Academic Yr 25-26 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4659,7 +4659,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MappingAttributes </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MSAT 2027 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4685,7 +4685,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Course report unmapp... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Respiratory Ther... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4711,7 +4711,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Class of - 2024 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PharmD Cohort 2021 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4737,7 +4737,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PT </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MLS Curriculum 2022 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4763,7 +4763,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Medicinal Studies 20... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Medical Laborato... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4789,7 +4789,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> marvel curriculum </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> HI Curriculum 2022 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4815,7 +4815,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Therapy curriculum </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> DPT 2024 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4841,7 +4841,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> R 28 Curriculum </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PA Cohort 2025 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4867,7 +4867,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Clinical Studies 202... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Health Informati... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4893,7 +4893,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Parth B Cohort </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> SLP Curriculum 2026 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4919,7 +4919,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PT Testing for Stude... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Doctor of Physic... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4945,7 +4945,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Production_ </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MPH 2027 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4971,7 +4971,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Test Curriculum </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> RT Cohort 2021 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -4997,7 +4997,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Eval cohort </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> OTD 2024 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5023,7 +5023,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PLAN ka Curriculum </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> BSN Cohort 2025 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5049,7 +5049,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> AshishSharedCourseOf... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Occupational The... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5075,7 +5075,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> M-Prod </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PharmD 2027 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5101,7 +5101,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Avengers demo </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MLS Cohort 2021 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5127,7 +5127,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> DR </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> HI Cohort 2021 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5153,7 +5153,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Practical Studies 20... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Physician Assist... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5179,7 +5179,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Clone of 1 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> DPT Curriculum 2023 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5205,7 +5205,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Clone Curriculum </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PA 2024 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5231,7 +5231,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MeasureTag </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> SLP Cohort 2025 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5257,7 +5257,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Summer simple </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MPH Curriculum 2026 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5283,7 +5283,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Student registration... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Bachelor of Scie... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5309,7 +5309,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> tes </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> RT 2027 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5335,7 +5335,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Test-11-08 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> OTD Curriculum 2023 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5361,7 +5361,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> test </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> BSN 2024 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5387,7 +5387,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> A while back I neede... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Speech-Language ... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5413,7 +5413,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> yo 123 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MSAT Cohort 2025 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5439,7 +5439,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> 101c </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MLS 2027 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5465,7 +5465,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> asdasdasd </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> HI 2027 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5491,7 +5491,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Curriculum </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> DPT Cohort 2022 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5517,7 +5517,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> R 28 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PA Curriculum 2023 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5543,7 +5543,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> New curriculum 2 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> SLP 2024 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5569,7 +5569,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> April </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MPH Cohort 2025 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5595,7 +5595,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Cohort-DPT-2 0 2 0 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> RT Curriculum 2026 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5621,7 +5621,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Bank Curriculum </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> OTD Cohort 2022 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5647,7 +5647,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Bulk </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> BSN Curriculum 2023 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5673,7 +5673,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PG ka Course </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MSAT 2024 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5699,7 +5699,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> M-Prod2 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PharmD Cohort 2025 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5725,7 +5725,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Class of 2020 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MLS Curriculum 2026 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5751,7 +5751,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> DT2 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> HI Curriculum 2026 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5777,7 +5777,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Tees Mar Khaan </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> DPT 2021 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5803,7 +5803,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Logout Testing </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PA Cohort 2022 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5829,7 +5829,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> New </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> SLP Curriculum 2023 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5855,7 +5855,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Test curriculum PROD </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MPH 2024 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5881,7 +5881,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> DR13 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> RT Cohort 2025 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5907,7 +5907,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Academic Year 2020 -... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Athletic Trainin... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5933,7 +5933,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Test curriculum </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> OTD 2021 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5959,7 +5959,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Curriculum 1 </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> BSN Cohort 2022 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -5985,7 +5985,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Curriculum for Acade... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Clinical Mental ... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -6011,7 +6011,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> CO Curriculum </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PharmD 2024 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -6037,7 +6037,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Spy Demo Curriculum </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MLS Cohort 2025 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -6063,7 +6063,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> sep16test </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> HI Cohort 2025 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -6089,7 +6089,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PLAN Curriculum </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> DPT Curriculum 2027 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -6115,7 +6115,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Operations Anaethesi... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Master of Public... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -6141,7 +6141,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Mapping attribute </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PA 2021 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -6167,7 +6167,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> R12 integration test... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Doctor of Pharma... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -6193,7 +6193,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Prod Integration Cur... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Respiratory Ther... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -6219,7 +6219,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> R22-JM-JM </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> SLP Cohort 2022 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -6245,7 +6245,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Orthopedics science </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> MPH Curriculum 2023 </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -6271,7 +6271,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> R23-GS-PROD-Curricul... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Medical Laborato... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -6297,7 +6297,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> PowerBI </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> RT 2024 Revised </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -6323,7 +6323,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Clone-I for R23-GS-P... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Health Informati... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -6349,7 +6349,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> 1 clone Physical The... </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Doctor of Physic... </span>
                                                 </div>
                                               </div>
                                             </span>
@@ -6375,7 +6375,7 @@ export default function StepsExxatComAdminCmapCurriculum1440WDefault() {
                                                   </span>
                                                 </i>
                                                 <div id="item.id" className="text-left pl-8 group-name w-100-p" style={{width: '100%', borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '22px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', padding: '0px 0px 0px 8px', textAlign: 'left', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'break-spaces', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
-                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> Cohort 1 - 2U - PT </span>
+                                                  <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}> OTD Curriculum 2027 </span>
                                                 </div>
                                               </div>
                                             </span>

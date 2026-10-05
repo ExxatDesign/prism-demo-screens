@@ -21,7 +21,7 @@ export default {
         const m = t.match(/^\|(\s+)(new|TEST|On going Rotation|feb12rotedited for reports|report testing rota 2)$/);
         if (!m) return undefined;
         const map = {
-          new: "Orthopedic Outpatient Rotation",
+          new: "Cardiopulmonary Outpatient Rotation",
           TEST: "Acute Care Rotation",
           "On going Rotation": "Outpatient Sports Rotation",
           "feb12rotedited for reports": "Inpatient Mixed Rotation",
@@ -37,14 +37,15 @@ export default {
         "Amy Goode": s1.fullName,
         // overview
         "Not Assigned": "Good Standing",
+        "NPTE PT Content Outlines-1": "NPTE PT Content Outline",
         "23 pending attestations": "3 pending attestations",
         "89 overdue": "2 overdue",
         "47 Attestations pending": "3 Attestations pending",
         // courses
         "20 - HDFC": "DPT 701 – Clinical Practicum I",
         "feb12sancourse - feb12sancourse": "DPT 695 – Clinical Practicum Seminar",
-        "R39 - Mohini Report testing": "DPT 640 – Neurological Rehabilitation",
-        "28021993 - Course Tour 21st Dec": "DPT 612 – Orthopedic Management",
+        "R39 - Mohini Report testing": "DPT 612 – Orthopedic Management",
+        "28021993 - Course Tour 21st Dec": "DPT 655 – Cardiopulmonary Physical Therapy",
         "00909 - Prod 2024": "DPT 790 – Licensure Preparation",
         "PLAN 2025": "Fall 2026",
         "Prod-Term-SB": "Summer 2026",
@@ -73,7 +74,7 @@ export default {
         "report testing rota 2": "Inpatient Rehab Rotation",
         "On going Rotation": "Outpatient Sports Rotation",
         "feb12rotedited for reports": "Inpatient Mixed Rotation",
-        "new": "Orthopedic Outpatient Rotation",
+        "new": "Cardiopulmonary Outpatient Rotation",
         "09/16/2025 - 01/03/2027": "08/24/2026 - 12/18/2026",
         "03/01/2024 - 03/27/2024": "06/01/2026 - 07/24/2026",
         "12/01/2024 - 04/30/2025": "03/09/2026 - 04/24/2026",
