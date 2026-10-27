@@ -1,5 +1,4 @@
 import React from "react";
-import { PoweredByApprove } from "@/components/compliance/PoweredByApprove";
 
 export default function StepsExxatComAdminComplianceHomeCohort1440WDefault() {
   return (
@@ -46,7 +45,6 @@ export default function StepsExxatComAdminComplianceHomeCohort1440WDefault() {
                                                 <span style={{borderColor: 'rgb(255, 255, 255)', color: 'rgb(255, 255, 255)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', fontWeight: '600', lineHeight: '14px', outlineColor: 'rgb(255, 255, 255)', outlineWidth: '3px', textAlign: 'center', textTransform: 'capitalize', WebkitTextFillColor: 'rgb(255, 255, 255)', WebkitTextStrokeColor: 'rgb(255, 255, 255)', whiteSpace: 'nowrap', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
                                                   <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}>Compliance</span>
                                                 </span>
-                                                <PoweredByApprove />
                                               </span>
                                             </span>
                                             <span className="mdc-tab-indicator" style={{width: '100%', height: '100%', borderColor: 'rgb(0, 0, 238)', color: 'rgb(0, 0, 238)', display: 'flex', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', fontWeight: '600', justifyContent: 'center', lineHeight: '20px', outlineColor: 'rgb(0, 0, 238)', outlineWidth: '3px', position: 'absolute', textAlign: 'center', textTransform: 'capitalize', WebkitTextFillColor: 'rgb(0, 0, 238)', WebkitTextStrokeColor: 'rgb(0, 0, 238)', whiteSpace: 'nowrap', zIndex: '1', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
@@ -61,7 +59,6 @@ export default function StepsExxatComAdminComplianceHomeCohort1440WDefault() {
                                                 <span style={{borderColor: 'rgba(0, 0, 0, 0.87)', color: 'rgba(0, 0, 0, 0.87)', display: 'block', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', lineHeight: '14px', outlineColor: 'rgba(0, 0, 0, 0.87)', outlineWidth: '3px', textAlign: 'center', textTransform: 'capitalize', WebkitTextFillColor: 'rgba(0, 0, 0, 0.87)', WebkitTextStrokeColor: 'rgba(0, 0, 0, 0.87)', whiteSpace: 'nowrap', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
                                                   <span style={{fontFamily: '\'Source Sans Pro\', sans-serif', fontSize: '14px', whiteSpace: 'pre-wrap'}}>Review Clarifications</span>
                                                 </span>
-                                                <PoweredByApprove />
                                               </span>
                                             </span>
                                             <span className="mdc-tab-indicator" style={{width: '100%', height: '100%', borderColor: 'rgb(0, 0, 238)', color: 'rgb(0, 0, 238)', display: 'flex', fontFamily: '"Source Sans Pro", sans-serif', fontSize: '14px', justifyContent: 'center', lineHeight: '20px', outlineColor: 'rgb(0, 0, 238)', outlineWidth: '3px', position: 'absolute', textAlign: 'center', textTransform: 'capitalize', WebkitTextFillColor: 'rgb(0, 0, 238)', WebkitTextStrokeColor: 'rgb(0, 0, 238)', whiteSpace: 'nowrap', zIndex: '1', order: '0', flexGrow: '0', flexShrink: '1', opacity: '1'}}>
