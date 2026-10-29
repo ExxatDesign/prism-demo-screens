@@ -426,7 +426,8 @@
 /* Manage Licenses — same grid behavior as Invite Student */
 .h2d-screen settings-admin plugin-manage-licenses .student-search-grid-with-filter,
 .h2d-screen settings-admin plugin-manage-licenses .student-search-grid-with-filter .mat-mdc-table,
-.h2d-screen settings-admin plugin-manage-licenses table#stickyColumnTable {
+.h2d-screen settings-admin plugin-manage-licenses table#stickyColumnTable,
+.h2d-screen settings-admin plugin-manage-licenses table#stickyColumnTable.mat-mdc-table {
   width: max-content !important;
   min-width: 100% !important;
   table-layout: auto !important;
@@ -558,9 +559,42 @@
 .h2d-screen settings-admin plugin-manage-licenses .mat-column-inviteStatus,
 .h2d-screen settings-admin plugin-manage-licenses .cdk-column-inviteStatus,
 .h2d-screen settings-admin plugin-manage-licenses .mat-column-examManagement,
-.h2d-screen settings-admin plugin-manage-licenses .cdk-column-examManagement {
+.h2d-screen settings-admin plugin-manage-licenses .cdk-column-examManagement,
+.h2d-screen
+  settings-admin
+  plugin-manage-licenses
+  #stickyColumnTable
+  th.mat-column-inviteStatus,
+.h2d-screen
+  settings-admin
+  plugin-manage-licenses
+  #stickyColumnTable
+  td.mat-column-inviteStatus,
+.h2d-screen
+  settings-admin
+  plugin-manage-licenses
+  #stickyColumnTable
+  th.mat-column-examManagement,
+.h2d-screen
+  settings-admin
+  plugin-manage-licenses
+  #stickyColumnTable
+  td.mat-column-examManagement {
+  display: table-cell !important;
   min-width: 220px !important;
   max-width: 320px !important;
+  width: 220px !important;
+  vertical-align: top !important;
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+}
+
+.h2d-screen settings-admin plugin-manage-licenses td.mat-column-examManagement .ml-table-license-cell,
+.h2d-screen settings-admin plugin-manage-licenses td.mat-column-inviteStatus .ml-table-license-cell,
+.h2d-screen settings-admin plugin-manage-licenses td.mat-column-email .ml-table-license-cell {
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
 }
 
 .h2d-screen settings-admin plugin-manage-licenses .mat-column-activationStatusTimestamp,
@@ -589,6 +623,10 @@
   line-height: 1.35;
   color: rgba(0, 0, 0, 0.87);
   font-weight: 600;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
 }
 
 .h2d-screen settings-admin plugin-manage-licenses .ml-table-license-cell__info {

@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Navigate, Route, Routes, useSearchParams } from "react-router";
 import DemoNav from "@/app/DemoNav";
-import CaasFacultyHomeByGroup from "@/imports/StepsExxatComAdminCaasFacultyHomeBygroup1440WDefault";
+import CaasFacultyByGroupScreen from "@/screens/caas-faculty-by-group-screen";
 import ComplianceHomeCohort from "@/imports/StepsExxatComAdminComplianceHomeCohort1440WDefault";
 import CurriculumCourseOfferings from "@/imports/StepsExxatComAdminCurriculumCourseofferings1440WDefault";
 import ProfileSearchScreen from "@/screens/profile-search-screen";
@@ -26,7 +26,7 @@ const screens = [
   { path: "/one/school/dashboard", component: OneSchoolDashboardScreen },
   { path: "/faculty/dashboard", component: FacultyDashboard },
   { path: "/faculty/caas", component: FacultyCaas },
-  { path: "/caas/faculty/home/bygroup", component: CaasFacultyHomeByGroup },
+  { path: "/caas/faculty/home/bygroup", component: CaasFacultyByGroupScreen },
   { path: "/compliance/home/cohort", component: ComplianceHomeCohort },
   { path: "/curriculum/courseofferings", component: CurriculumCourseOfferings },
   { path: "/profile/search", component: ProfileSearchScreen },

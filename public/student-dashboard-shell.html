@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student dashboard</title>
+    <script>
+      (function () {
+        var key = "exxat-prism-color-theme";
+        var valid = [
+          "theme-blue-light",
+          "theme-blue-dark",
+          "theme-purple-light",
+          "theme-purple-dark",
+          "theme-highcontrast-light",
+          "theme-highcontrast-dark",
+        ];
+        var theme = localStorage.getItem(key);
+        if (valid.indexOf(theme) === -1) theme = "theme-blue-light";
+        document.documentElement.classList.add(theme);
+        if (theme.indexOf("-dark") !== -1) document.documentElement.classList.add("dark");
+      })();
+    </script>
+    <link
+      rel="stylesheet"
+      crossorigin
+      href="https://d5f1cb4b.student-dashboard-v3.pages.dev/assets/index-BYqzxjAY.css"
+    />
+    <link rel="stylesheet" href="./student-dashboard-feature-access.css" />
+    <script src="./student-dashboard-feature-access-inject.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script
+      type="module"
+      crossorigin
+      src="https://d5f1cb4b.student-dashboard-v3.pages.dev/assets/index-DkOZZdwQ.js"
+    ></script>
+  </body>
+</html>

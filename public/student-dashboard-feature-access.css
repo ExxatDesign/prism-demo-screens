@@ -1,0 +1,37 @@
+/* Keep lock visuals aligned with src/styles/feature-access.css */
+.feature-access-lock-inline-host {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: nowrap;
+  flex: 0 0 auto;
+  width: auto;
+  max-width: max-content;
+}
+
+.feature-access-student-tile-lock {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.06);
+  color: rgba(0, 0, 0, 0.56);
+  font-size: 12px;
+  flex-shrink: 0;
+  pointer-events: none;
+}
+
+.feature-access-locked-student-tile {
+  cursor: pointer !important;
+}
+
+.feature-access-locked-student-tile__hidden {
+  display: none !important;
+}
+
+.feature-access-locked-student-tile a {
+  pointer-events: none;
+  cursor: pointer;
+}

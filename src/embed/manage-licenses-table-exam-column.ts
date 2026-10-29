@@ -1,36 +1,32 @@
 const EXAM_HEADER = "Exam Management License Details";
 
-const EXAM_HEADER_CLASSES = [
-  "mat-mdc-header-cell",
-  "mdc-data-table__header-cell",
-  "cdk-header-cell",
-  "exam-management-column",
-  "cdk-column-examManagement",
-  "mat-column-examManagement",
-  "ng-star-inserted",
-].join(" ");
+const EXAM_HEADER_CLASS =
+  "mat-mdc-header-cell mdc-data-table__header-cell cdk-header-cell exam-management-column cdk-column-examManagement mat-column-examManagement ng-star-inserted";
 
-const EXAM_CELL_CLASSES = [
-  "mat-mdc-cell",
-  "mdc-data-table__cell",
-  "cdk-cell",
-  "exam-management-column",
-  "cdk-column-examManagement",
-  "mat-column-examManagement",
-  "ng-star-inserted",
-].join(" ");
+const EXAM_CELL_CLASS =
+  "mat-mdc-cell mdc-data-table__cell cdk-cell exam-management-column cdk-column-examManagement mat-column-examManagement ng-star-inserted";
 
-function createExamHeader(): HTMLTableCellElement {
+function copyTableCellChrome(
+  source: HTMLTableCellElement,
+  target: HTMLTableCellElement,
+  className: string,
+) {
+  target.className = className;
+  const style = source.getAttribute("style");
+  if (style) target.setAttribute("style", style);
+}
+
+function createExamHeader(template: HTMLTableCellElement): HTMLTableCellElement {
   const th = document.createElement("th");
   th.id = "examManagement";
-  th.className = EXAM_HEADER_CLASSES;
+  copyTableCellChrome(template, th, EXAM_HEADER_CLASS);
   th.innerHTML = `<span id="examManagement-header" class="grid_header_truncate"><span>${EXAM_HEADER}</span></span>`;
   return th;
 }
 
-function createExamCell(): HTMLTableCellElement {
+function createExamCell(template: HTMLTableCellElement): HTMLTableCellElement {
   const td = document.createElement("td");
-  td.className = EXAM_CELL_CLASSES;
+  copyTableCellChrome(template, td, EXAM_CELL_CLASS);
   return td;
 }
 
@@ -57,20 +53,40 @@ export function dedupeManageLicensesColumns(table: Element) {
 export function ensureExamManagementColumn(table: Element) {
   dedupeManageLicensesColumns(table);
 
-  if (table.querySelector("thead th.mat-column-examManagement")) {
-    table.setAttribute("data-ml-exam-column", "1");
-    return;
-  }
-
-  const inviteHeader = table.querySelector("thead th#inviteStatus.mat-column-inviteStatus");
+  const inviteHeader = table.querySelector<HTMLTableCellElement>(
+    "thead th#inviteStatus.mat-column-inviteStatus",
+  );
   if (!inviteHeader) return;
 
-  inviteHeader.after(createExamHeader());
+  let examHeader = table.querySelector<HTMLTableCellElement>(
+    "thead th.mat-column-examManagement",
+  );
+  if (!examHeader) {
+    examHeader = createExamHeader(inviteHeader);
+    inviteHeader.after(examHeader);
+  } else {
+    copyTableCellChrome(inviteHeader, examHeader, EXAM_HEADER_CLASS);
+    const label = examHeader.querySelector(
+      "#examManagement-header span span, .grid_header_truncate span span",
+    );
+    if (label) label.textContent = EXAM_HEADER;
+  }
 
   table.querySelectorAll("tbody tr.mat-mdc-row").forEach((row) => {
-    const inviteCell = row.querySelector(":scope > td.mat-column-inviteStatus");
-    if (!inviteCell || row.querySelector(":scope > td.mat-column-examManagement")) return;
-    inviteCell.after(createExamCell());
+    const inviteCell = row.querySelector<HTMLTableCellElement>(
+      ":scope > td.mat-column-inviteStatus",
+    );
+    if (!inviteCell) return;
+
+    let examCell = row.querySelector<HTMLTableCellElement>(
+      ":scope > td.mat-column-examManagement",
+    );
+    if (!examCell) {
+      examCell = createExamCell(inviteCell);
+      inviteCell.after(examCell);
+    } else {
+      copyTableCellChrome(inviteCell, examCell, EXAM_CELL_CLASS);
+    }
   });
 
   table.setAttribute("data-ml-exam-column", "1");

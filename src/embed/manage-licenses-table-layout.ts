@@ -39,6 +39,13 @@ function reorderTableRow(row: Element) {
     const cell = byClass.get(cls);
     if (cell) row.appendChild(cell);
   }
+
+  for (const cell of Array.from(row.children)) {
+    const key = columnClassForCell(cell);
+    if (!key || !MANAGE_LICENSES_COLUMN_CLASSES.includes(key as (typeof MANAGE_LICENSES_COLUMN_CLASSES)[number])) {
+      cell.remove();
+    }
+  }
 }
 
 function stackStudentEmail(row: Element) {

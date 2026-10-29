@@ -272,7 +272,6 @@ export default function ManageLicensesAssignDrawer({
     string | null
   >(null);
   const [selectedExamId, setSelectedExamId] = React.useState<string | null>(null);
-
   React.useEffect(() => {
     if (!open) return;
     setStep(1);
