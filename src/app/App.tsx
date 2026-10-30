@@ -1,6 +1,8 @@
 import * as React from "react";
-import { Navigate, Route, Routes, useSearchParams } from "react-router";
+import { Navigate, Route, Routes, useLocation, useSearchParams } from "react-router";
 import DemoNav from "@/app/DemoNav";
+import EmbedThemeToggle from "@/app/EmbedThemeToggle";
+import { usePrismColorTheme, useSyncH2dThemeOnNavigate } from "@/theme/usePrismColorTheme";
 import CaasFacultyByGroupScreen from "@/screens/caas-faculty-by-group-screen";
 import ComplianceHomeCohort from "@/imports/StepsExxatComAdminComplianceHomeCohort1440WDefault";
 import CurriculumCourseOfferings from "@/imports/StepsExxatComAdminCurriculumCourseofferings1440WDefault";
@@ -86,6 +88,9 @@ function useEmbedMode() {
 
 export default function App() {
   const { embed, embedNav } = useEmbedMode();
+  const location = useLocation();
+  const { isDark, theme } = usePrismColorTheme();
+  useSyncH2dThemeOnNavigate(theme, location.pathname);
 
   React.useEffect(() => {
     const root = document.documentElement;
@@ -103,8 +108,10 @@ export default function App() {
   }, [embed, embedNav]);
 
   return (
-    <div className="min-h-dvh w-full bg-[#f8f8f8]">
-      {!embed ? <DemoNav /> : null}
+    <div
+      className={`min-h-dvh w-full ${isDark ? "bg-[#121212]" : "bg-[#f8f8f8]"}`}
+    >
+      {!embed ? <DemoNav /> : <EmbedThemeToggle />}
       <Routes>
         <Route path="/" element={<Navigate to="/dashboard" replace />} />
         {screens.map((screen) => (

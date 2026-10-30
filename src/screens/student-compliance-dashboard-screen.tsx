@@ -290,7 +290,7 @@ function MyComplianceCard() {
 
 export default function StudentComplianceDashboardScreen() {
   return (
-    <div className="min-h-dvh w-full overflow-x-hidden bg-[#f8f8f8]">
+    <div className="student-compliance-dashboard-screen min-h-dvh w-full overflow-x-hidden bg-[#f8f8f8]">
       <div className="mx-auto min-h-0 w-full min-w-0 max-w-[1600px]">
         <div className="mx-auto w-full min-w-0 max-w-[1440px] px-4 pb-12 pt-4 sm:px-6 xl:px-8">
           <div className="grid min-w-0 grid-cols-1 items-start gap-6 xl:grid-cols-[minmax(0,332px)_minmax(0,1fr)_minmax(0,332px)] xl:gap-6 2xl:gap-8">

@@ -35,3 +35,13 @@
   pointer-events: none;
   cursor: pointer;
 }
+
+html.dark .feature-access-student-tile-lock {
+  background: rgba(255, 255, 255, 0.12) !important;
+  color: rgba(255, 255, 255, 0.72) !important;
+}
+
+html.dark .feature-access-student-tile-lock i {
+  color: rgba(255, 255, 255, 0.72) !important;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.72) !important;
+}

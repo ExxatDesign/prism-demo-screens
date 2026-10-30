@@ -199,9 +199,9 @@
   position: relative !important;
 }
 
-/* ── Responsive: fluid page width ── */
-.h2d-screen,
-.h2d-screen-root {
+/* ── Responsive: fluid page width (light canvas only; dark uses h2d-theme-dark.css) ── */
+html:not(.dark) .h2d-screen,
+html:not(.dark) .h2d-screen-root {
   background-color: rgb(248, 248, 248) !important;
 }
 
@@ -511,6 +511,14 @@
   width: 100% !important;
   min-width: 0 !important;
   max-width: 100% !important;
+}
+
+html:not(.dark) .h2d-screen html,
+html:not(.dark) .h2d-screen body,
+html:not(.dark) .h2d-screen vertical-layout-1,
+html:not(.dark) .h2d-screen #main,
+html:not(.dark) .h2d-screen compliance-dashboard,
+html:not(.dark) .h2d-screen caas-dashboard {
   background-color: rgb(248, 248, 248) !important;
 }
 

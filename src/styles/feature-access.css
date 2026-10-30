@@ -109,17 +109,46 @@
   text-align: center;
 }
 
-.feature-access-dialog__icon {
-  display: inline-flex;
+.feature-access-dialog__illustration {
+  display: flex;
   align-items: center;
   justify-content: center;
-  width: 48px;
-  height: 48px;
-  margin: 0 auto 12px;
-  border-radius: 50%;
-  background: rgba(63, 81, 181, 0.1);
-  color: #3f51b5;
-  font-size: 20px;
+  margin: 0 auto 16px;
+}
+
+.feature-access-dialog__illustration-img {
+  display: block;
+  width: min(260px, 80vw);
+  height: auto;
+  max-height: 220px;
+  object-fit: contain;
+}
+
+.feature-access-dialog__illustration-img--dark {
+  display: none;
+}
+
+html.theme-blue-dark .feature-access-dialog__illustration-img--light {
+  display: none;
+}
+
+html.theme-blue-dark .feature-access-dialog__illustration-img--dark,
+.feature-access-dialog--dark-illustration .feature-access-dialog__illustration-img--dark {
+  display: block;
+}
+
+.feature-access-dialog--dark-illustration .feature-access-dialog__illustration-img--light {
+  display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not(.theme-blue-light) .feature-access-dialog__illustration-img--light {
+    display: none;
+  }
+
+  html:not(.theme-blue-light) .feature-access-dialog__illustration-img--dark {
+    display: block;
+  }
 }
 
 .feature-access-dialog__title {
@@ -182,4 +211,34 @@
 
 .feature-access-locked-student-tile__head .feature-access-student-tile-lock {
   display: inline-flex !important;
+}
+
+/* Dark mode — lock chip (light gray pill on dark surfaces) */
+html.dark .feature-access-locked-tab__lock,
+html.dark .feature-access-dashboard-lock,
+html.dark .feature-access-student-tile-lock,
+html.dark .feature-level-lock {
+  background: rgba(255, 255, 255, 0.12) !important;
+  color: rgba(255, 255, 255, 0.72) !important;
+}
+
+html.dark .h2d-screen a.feature-access-locked-tab .feature-access-locked-tab__lock,
+html.dark .h2d-screen a.feature-access-locked-tab .feature-access-locked-tab__lock i,
+html.dark .h2d-screen .feature-access-dashboard-lock,
+html.dark .h2d-screen .feature-access-dashboard-lock i {
+  color: rgba(255, 255, 255, 0.72) !important;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.72) !important;
+  background-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+html.dark .feature-level-lock:hover {
+  background: rgba(255, 255, 255, 0.18) !important;
+}
+
+html.dark .feature-level-lock:focus-visible {
+  outline-color: rgba(255, 255, 255, 0.45);
+}
+
+html.dark .feature-access-dialog__btn:hover {
+  background: #5c6bc0 !important;
 }

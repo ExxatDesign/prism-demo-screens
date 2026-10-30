@@ -7,6 +7,7 @@ import {
   syncStudentDashboardFeatureAccess,
   wireStudentDashboardFeatureAccess,
 } from "@/embed/wire-student-dashboard-feature-access";
+import { usePrismColorTheme } from "@/theme/usePrismColorTheme";
 
 const STUDENT_DASHBOARD_SHELL = `${import.meta.env.BASE_URL}student-dashboard-shell.html`;
 
@@ -14,10 +15,15 @@ export default function StudentDashboardScreen() {
   const iframeRef = React.useRef<HTMLIFrameElement>(null);
   const { featureKey, requestFeatureAccess, closeFeatureAccess, isOpen } =
     useFeatureAccessDialog();
+  const { isDark, theme } = usePrismColorTheme();
 
   React.useEffect(() => {
     return wireStudentDashboardFeatureAccess(requestFeatureAccess);
   }, [requestFeatureAccess]);
+
+  React.useEffect(() => {
+    iframeRef.current?.contentWindow?.location.reload();
+  }, [theme]);
 
   const syncIframeEntitlements = React.useCallback(() => {
     const iframe = iframeRef.current;
@@ -41,6 +47,7 @@ export default function StudentDashboardScreen() {
         open={isOpen}
         featureKey={featureKey}
         onClose={closeFeatureAccess}
+        preferDarkIllustration={isDark}
       />
     </div>
   );

@@ -1,4 +1,5 @@
 import { NavLink } from "react-router";
+import { usePrismColorTheme } from "@/theme/usePrismColorTheme";
 
 const pages = [
   { path: "/dashboard", label: "Dashboard" },
@@ -21,13 +22,15 @@ const pages = [
 ] as const;
 
 export default function DemoNav() {
+  const { isDark, toggleBlueTheme } = usePrismColorTheme();
+
   return (
     <nav
       aria-label="Demo screens"
-      className="sticky top-0 z-50 border-b border-black/10 bg-white shadow-sm"
+      className="demo-nav sticky top-0 z-50 border-b border-black/10 bg-white shadow-sm"
     >
       <div className="mx-auto flex max-w-[1440px] items-center gap-1 overflow-x-auto px-3 py-2">
-        <span className="mr-2 shrink-0 text-xs font-semibold uppercase tracking-wide text-black/50">
+        <span className="demo-nav__label mr-2 shrink-0 text-xs font-semibold uppercase tracking-wide text-black/50">
           Screens
         </span>
         {pages.map((page) => (
@@ -37,9 +40,9 @@ export default function DemoNav() {
             end
             className={({ isActive }) =>
               [
-                "shrink-0 rounded px-3 py-1.5 text-sm font-medium whitespace-nowrap transition-colors",
+                "demo-nav__link shrink-0 rounded px-3 py-1.5 text-sm font-medium whitespace-nowrap transition-colors",
                 isActive
-                  ? "bg-[#3f51b5] text-white"
+                  ? "demo-nav__link--active bg-[#3f51b5] text-white"
                   : "text-black/70 hover:bg-black/5 hover:text-black",
               ].join(" ")
             }
@@ -47,6 +50,14 @@ export default function DemoNav() {
             {page.label}
           </NavLink>
         ))}
+        <button
+          type="button"
+          className="demo-nav__theme-btn ml-auto shrink-0 rounded border border-black/15 px-3 py-1.5 text-sm font-medium text-black/80 hover:bg-black/5"
+          onClick={() => toggleBlueTheme()}
+          aria-pressed={isDark}
+        >
+          {isDark ? "Light mode" : "Dark mode"}
+        </button>
       </div>
     </nav>
   );

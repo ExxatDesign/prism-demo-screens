@@ -4,6 +4,7 @@
 @import "./h2d-render-fixes.css";
 @import "./manage-licenses-assign-drawer.css";
 @import "./feature-access.css";
+@import "./h2d-theme-dark.css";
 @import "./tailwind.css";
 
 html,

@@ -1,0 +1,355 @@
+/*
+ * Dark mode for H2D captures — complements html.theme-blue-dark on the app shell.
+ * Inline capture styles stay light; these overrides target common STEPS surfaces.
+ */
+
+/* Page canvas — must beat scoped light rules in h2d-render-fixes.css */
+html.dark .h2d-screen,
+html.dark .h2d-screen-root,
+html.dark .h2d-screen-inner,
+html.dark .h2d-screen html,
+html.dark .h2d-screen body,
+html.dark .h2d-screen vertical-layout-1,
+html.dark .h2d-screen #main,
+html.dark .h2d-screen #container-1,
+html.dark .h2d-screen #container-2,
+html.dark .h2d-screen #container-3,
+html.dark .h2d-screen content#app_main_content,
+html.dark .h2d-screen compliance-dashboard,
+html.dark .h2d-screen caas-dashboard {
+  background-color: #121212 !important;
+}
+
+html.dark .h2d-screen:has(main#region) {
+  background-color: #121212 !important;
+  background-image: none !important;
+}
+
+html.dark .h2d-screen .bg-\[\#f8f8f8\] {
+  background-color: #121212 !important;
+}
+
+html.theme-blue-dark body {
+  background: #121212 !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+html.theme-blue-dark #root > div {
+  background: #121212 !important;
+}
+
+html.theme-blue-dark .h2d-screen body {
+  background-color: #121212 !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+html.theme-blue-dark .h2d-screen [style*="background-color: rgb(255, 255, 255)"],
+html.theme-blue-dark .h2d-screen [style*="background-color: rgb(248, 248, 248)"],
+html.theme-blue-dark .h2d-screen [style*="background-color: rgb(250, 250, 250)"],
+html.theme-blue-dark .h2d-screen [style*="background-color: rgb(245, 245, 245)"],
+html.theme-blue-dark .h2d-screen [style*="background-color: rgb(247, 247, 247)"] {
+  background-color: #1e1e1e !important;
+}
+
+html.theme-blue-dark .h2d-screen fuse-sidebar.sidebar,
+html.theme-blue-dark .h2d-screen fuse-sidebar,
+html.theme-blue-dark .h2d-screen .navbar-scroll-container,
+html.theme-blue-dark .h2d-screen toolbar,
+html.theme-blue-dark .h2d-screen .mat-toolbar {
+  background-color: #1a1a1a !important;
+}
+
+html.theme-blue-dark .h2d-screen mat-card.mat-mdc-card,
+html.theme-blue-dark .h2d-screen .mat-mdc-card,
+html.theme-blue-dark .h2d-screen .content-card,
+html.theme-blue-dark .h2d-screen .table-rounded-border {
+  background-color: #1e1e1e !important;
+}
+
+html.theme-blue-dark .h2d-screen .mat-mdc-header-cell,
+html.theme-blue-dark .h2d-screen .mat-mdc-header-row {
+  background-color: #2a2a2a !important;
+}
+
+html.theme-blue-dark .h2d-screen .mat-mdc-row:nth-child(even) .mat-mdc-cell {
+  background-color: #1a1a1a !important;
+}
+
+html.theme-blue-dark .h2d-screen .mat-mdc-row:nth-child(odd) .mat-mdc-cell {
+  background-color: #1e1e1e !important;
+}
+
+html.theme-blue-dark
+  .h2d-screen
+  [style*="-webkit-text-fill-color: rgba(0, 0, 0, 0.87)"],
+html.theme-blue-dark .h2d-screen [style*="color: rgba(0, 0, 0, 0.87)"] {
+  color: rgba(255, 255, 255, 0.87) !important;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.87) !important;
+}
+
+html.theme-blue-dark
+  .h2d-screen
+  [style*="-webkit-text-fill-color: rgba(0, 0, 0, 0.54)"],
+html.theme-blue-dark .h2d-screen [style*="color: rgba(0, 0, 0, 0.54)"],
+html.theme-blue-dark
+  .h2d-screen
+  [style*="-webkit-text-fill-color: rgba(0, 0, 0, 0.6)"],
+html.theme-blue-dark .h2d-screen [style*="color: rgba(0, 0, 0, 0.6)"] {
+  color: rgba(255, 255, 255, 0.6) !important;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.6) !important;
+}
+
+html.theme-blue-dark .h2d-screen .mdc-text-field--outlined .mdc-notched-outline__leading,
+html.theme-blue-dark .h2d-screen .mdc-text-field--outlined .mdc-notched-outline__notch,
+html.theme-blue-dark .h2d-screen .mdc-text-field--outlined .mdc-notched-outline__trailing {
+  border-color: rgba(255, 255, 255, 0.24) !important;
+}
+
+html.theme-blue-dark .h2d-screen .mat-mdc-tab-link.mdc-tab--active .mdc-tab__text-label,
+html.theme-blue-dark .h2d-screen a.mat-mdc-tab-link.mdc-tab--active {
+  color: #90caf9 !important;
+  -webkit-text-fill-color: #90caf9 !important;
+}
+
+html.theme-blue-dark .demo-nav {
+  background: #1e1e1e !important;
+  border-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+html.theme-blue-dark .demo-nav__label {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+html.theme-blue-dark .demo-nav__link {
+  color: rgba(255, 255, 255, 0.72) !important;
+}
+
+html.theme-blue-dark .demo-nav__link:hover {
+  background: rgba(255, 255, 255, 0.08) !important;
+  color: rgba(255, 255, 255, 0.92) !important;
+}
+
+html.theme-blue-dark .demo-nav__link--active {
+  background: #3949ab !important;
+  color: #fff !important;
+}
+
+html.theme-blue-dark .demo-nav__theme-btn {
+  border-color: rgba(255, 255, 255, 0.24) !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+  background: #2a2a2a !important;
+}
+
+html.theme-blue-dark .feature-access-dialog {
+  background: #1e1e1e !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+html.theme-blue-dark .feature-access-dialog__title {
+  color: rgba(255, 255, 255, 0.92) !important;
+}
+
+html.theme-blue-dark .feature-access-dialog__body {
+  color: rgba(255, 255, 255, 0.72) !important;
+}
+
+html.theme-blue-dark .student-dashboard-embed {
+  background: #121212 !important;
+}
+
+html.theme-blue-dark .ml-assign-drawer,
+html.theme-blue-dark .ml-assign-drawer__panel {
+  background: #1e1e1e !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+html.theme-blue-dark .student-compliance-dashboard-screen {
+  background: #121212 !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+html.theme-blue-dark .h2d-screen .h2d-screen-root,
+html.theme-blue-dark .h2d-screen .h2d-screen-inner,
+html.theme-blue-dark .h2d-screen .h2d-dark-canvas,
+html.theme-blue-dark .h2d-screen-root.bg-\[\#f8f8f8\],
+html.theme-blue-dark .h2d-screen .bg-\[\#f8f8f8\] {
+  background-color: #121212 !important;
+}
+
+html.theme-blue-dark .h2d-screen #dashboard-screen-container,
+html.theme-blue-dark .h2d-screen tenant-navigations,
+html.theme-blue-dark .h2d-screen #dashboard-screen-container .center,
+html.theme-blue-dark .h2d-screen #dashboard-screen-container .content {
+  background-color: #121212 !important;
+}
+
+html.theme-blue-dark .h2d-screen .dashboard_card.mat-mdc-card,
+html.theme-blue-dark .h2d-screen .dashboard_card.mdc-card {
+  background-color: #1e1e1e !important;
+}
+
+html.theme-blue-dark .h2d-screen .fuse-white-bg,
+html.theme-blue-dark .h2d-screen .dash_logo_container,
+html.theme-blue-dark .h2d-screen .brand_logo_container {
+  background-color: #1e1e1e !important;
+}
+
+html.theme-blue-dark .h2d-screen .jobs-banner {
+  background-color: #2a2438 !important;
+  border-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+html.theme-blue-dark .h2d-screen .dashboard_nav_item,
+html.theme-blue-dark .h2d-screen .dashboard_nav_item_desc {
+  color: rgba(255, 255, 255, 0.87) !important;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.87) !important;
+}
+
+html.theme-blue-dark .h2d-screen .exxat-one-promo {
+  background-color: #1e1e1e !important;
+  background-image: linear-gradient(
+    180deg,
+    #1e1e1e 0%,
+    rgba(58, 36, 56, 0.55) 55%,
+    rgba(36, 32, 58, 0.75) 100%
+  ) !important;
+  border-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+html.theme-blue-dark .h2d-screen .exxat-one-promo-brand,
+html.theme-blue-dark .h2d-screen .exxat-one-promo-title {
+  color: rgba(255, 255, 255, 0.92) !important;
+}
+
+html.theme-blue-dark .h2d-screen .exxat-one-promo-sub {
+  color: rgba(255, 255, 255, 0.65) !important;
+}
+
+html.theme-blue-dark .h2d-screen .exxat-one-promo-row + .exxat-one-promo-row {
+  border-top-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+html.theme-blue-dark .h2d-screen .exxat-one-promo-btn-outline {
+  background: #2a2a2a !important;
+  border-color: rgba(255, 255, 255, 0.24) !important;
+  color: #90caf9 !important;
+}
+
+html.theme-blue-dark .h2d-screen .announcement-desc,
+html.theme-blue-dark .h2d-screen .announcement-desc p,
+html.theme-blue-dark .h2d-screen .secondary-text,
+html.theme-blue-dark .h2d-screen .nfd-subtitle {
+  color: rgba(255, 255, 255, 0.72) !important;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.72) !important;
+}
+
+html.theme-blue-dark .h2d-screen .white-background:not(.secondary-text):not(.announcement-desc) {
+  background-color: #2a2a2a !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+html.theme-blue-dark .h2d-screen tenant-navigations .mat-mdc-card,
+html.theme-blue-dark .h2d-screen tenant-navigations mat-card {
+  background-color: #1e1e1e !important;
+}
+
+html.theme-blue-dark .h2d-screen .mat-mdc-form-field,
+html.theme-blue-dark .h2d-screen .mdc-text-field {
+  background-color: transparent !important;
+}
+
+html.theme-blue-dark .h2d-screen input.mat-mdc-input-element,
+html.theme-blue-dark .h2d-screen textarea.mat-mdc-input-element {
+  color: rgba(255, 255, 255, 0.87) !important;
+  caret-color: rgba(255, 255, 255, 0.87) !important;
+}
+
+html.theme-blue-dark .h2d-screen .dashboard_nav_item {
+  background-color: #252525 !important;
+}
+
+html.theme-blue-dark .h2d-screen .dashboard_nav_item > div {
+  background-color: transparent !important;
+}
+
+html.theme-blue-dark .h2d-screen .mat-mdc-paginator,
+html.theme-blue-dark .h2d-screen .mat-mdc-paginator-container {
+  background-color: #1e1e1e !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+html.theme-blue-dark .student-compliance-dashboard-screen .bg-white {
+  background-color: #1e1e1e !important;
+}
+
+html.theme-blue-dark .student-compliance-dashboard-screen .text-\[rgba\(0\,0\,0\,0\.87\)\] {
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+html.theme-blue-dark .student-compliance-dashboard-screen .text-\[rgba\(0\,0\,0\,0\.6\)\] {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+html.theme-blue-dark .student-compliance-dashboard-screen .border-\[\#e0e0e0\] {
+  border-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+html.theme-blue-dark .student-compliance-dashboard-screen .bg-\[\#f5f5f5\] {
+  background-color: #2a2a2a !important;
+}
+
+html.theme-blue-dark .student-compliance-dashboard-screen.bg-\[\#f8f8f8\] {
+  background-color: #121212 !important;
+}
+
+html.theme-blue-dark .student-compliance-dashboard-screen .text-black,
+html.theme-blue-dark .student-compliance-dashboard-screen .text-xs.text-black {
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+html.theme-blue-dark .student-compliance-dashboard-screen .border-black\/\[0\.12\] {
+  border-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+html.theme-blue-dark .student-compliance-dashboard-screen .bg-black\/10 {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+html.theme-blue-dark .student-compliance-dashboard-screen .from-\[\#fce7f3\] {
+  --tw-gradient-from: #3d2a35 !important;
+}
+
+html.theme-blue-dark .student-compliance-dashboard-screen .via-\[\#f3e8ff\] {
+  --tw-gradient-via: #2e2a3d !important;
+}
+
+html.theme-blue-dark .student-compliance-dashboard-screen .to-\[\#dbeafe\] {
+  --tw-gradient-to: #1e2a3d !important;
+}
+
+html.theme-blue-dark .ml-assign-drawer__backdrop {
+  background: rgba(0, 0, 0, 0.65) !important;
+}
+
+html.theme-blue-dark .ml-assign-drawer__header,
+html.theme-blue-dark .ml-assign-drawer__body,
+html.theme-blue-dark .ml-assign-drawer__footer {
+  background: #1e1e1e !important;
+  border-color: rgba(255, 255, 255, 0.12) !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+html.theme-blue-dark .ml-assign-card,
+html.theme-blue-dark .ml-assign-review-card {
+  background: #2a2a2a !important;
+  border-color: rgba(255, 255, 255, 0.12) !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+html.theme-blue-dark .ml-assign-step-label {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+html.theme-blue-dark .ml-table-license-cell__title {
+  color: rgba(255, 255, 255, 0.87) !important;
+}

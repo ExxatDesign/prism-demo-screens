@@ -12,7 +12,24 @@
     />
     <script>
       (function () {
-        document.documentElement.classList.add("theme-blue-light");
+        var key = "exxat-prism-color-theme";
+        var valid = [
+          "theme-blue-light",
+          "theme-blue-dark",
+          "theme-purple-light",
+          "theme-purple-dark",
+          "theme-highcontrast-light",
+          "theme-highcontrast-dark",
+        ];
+        var theme = localStorage.getItem(key);
+        if (valid.indexOf(theme) === -1) theme = "theme-blue-light";
+        document.documentElement.classList.add(theme);
+        if (theme.indexOf("-dark") !== -1) {
+          document.documentElement.classList.add("dark");
+          document.documentElement.style.colorScheme = "dark";
+        } else {
+          document.documentElement.style.colorScheme = "light";
+        }
       })();
     </script>
     <!-- Same Pro kit as Exxat Home — required for fa-light / fa-solid icons in STEPS demos. -->

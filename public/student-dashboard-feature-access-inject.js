@@ -142,7 +142,7 @@
       tile.setAttribute("role", "button");
       tile.setAttribute(
         "aria-label",
-        TARGET_NAME + " is locked. Learn how to get access.",
+        TARGET_NAME + " is locked. This feature isn't included for your school.",
       );
 
       insertLockAfterTitle(titleEl);

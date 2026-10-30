@@ -1,4 +1,5 @@
 export {
+  FEATURE_ACCESS_DIALOG_COPY,
   FEATURE_ACCESS_REGISTRY,
   getFeatureAccessDefinition,
   getFeatureAccessDialogCopy,
